@@ -1,0 +1,46 @@
+#scroll_main {
+	margin					:0 auto;
+	display					:none;	
+	overflow				:hidden;
+	position				:relative;
+}
+
+#scroll_frame {
+	position				:relative;
+	top						:0px;
+	left					:0px;
+	z-index					:998;
+}
+
+.scroll_image {
+	cursor					:pointer;
+	float					:left;
+}
+
+
+#scroll_prev, #scroll_next {
+	top						:50%;
+	margin-top				:-20px;	
+	cursor					:pointer;
+	height					:40px;
+	width					:40px;
+	position				:absolute;
+	z-index					:999;
+	background-position		:top;
+	opacity					:0.5;
+}
+
+#scroll_prev:hover, #scroll_next:hover {
+	background-position		:bottom;
+	opacity					:0.8;
+}
+
+#scroll_prev {
+	left					:10px;
+	background-image		:url(images/prev.png);
+}
+
+#scroll_next {
+	right					:10px;
+	background-image		:url(images/next.png);
+}

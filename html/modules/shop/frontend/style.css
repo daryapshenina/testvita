@@ -1,0 +1,61 @@
+.mod_shop_main {
+	overflow				:visible;
+}
+
+.mod_shop_frame{
+	position				:relative;
+	display					:flex;
+	flex-wrap				:wrap;
+	justify-content			:center;
+    margin					:0 auto;
+}
+
+.mod_shop_wrap{
+	display					:flex;
+	justify-content			:center;
+	transition				:0.5s;
+}
+
+.mod_shop_scroll_prev, .mod_shop_scroll_next {
+	top						:50%;
+	margin-top				:-20px;
+	cursor					:pointer;
+	height					:40px;
+	width					:40px;
+	position				:absolute;
+	z-index					:999;
+	background-position		:top;
+	opacity					:0.5;
+}
+
+.mod_shop_scroll_prev:hover, .mod_shop_scroll_next:hover {
+	background-position		:bottom;
+	opacity					:0.8;
+}
+
+.mod_shop_scroll_prev {
+	left					:10px;
+	background-image		:url(images/prev.png);
+}
+
+.mod_shop_scroll_next {
+	right					:10px;
+	background-image		:url(images/next.png);
+}
+
+.mod_shop_link_block {
+	text-align				:center;
+}
+
+@media screen and (max-width: 600px), screen and (max-device-width: 600px) {
+	.section_item_image, .section_item_image img{
+		width				:100%;
+		max-width			:300px;
+		height				:auto
+	}
+
+	.section_item_char, .section_item_title {
+		width				:auto !important;
+		max-width			:300px !important;
+	}
+}

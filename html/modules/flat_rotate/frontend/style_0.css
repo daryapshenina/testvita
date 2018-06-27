@@ -1,0 +1,35 @@
+.mod_flat_rotate_0{
+	display:inline-block;
+	cursor:pointer;
+	position:relative;
+	perspective:800px;
+	word-break:break-all;
+}
+
+.mod_flat_rotate_container_0{
+	position:absolute;
+	transform-style:preserve-3d;
+	transition-duration:0.8s;
+	transition-property:transform;
+}
+
+.mod_flat_rotate_0:hover .mod_flat_rotate_container_0{
+	transform:rotateY(180deg);
+	background-color:#ff0000;
+}
+
+.mod_flat_rotate_front_0,.mod_flat_rotate_back_0{
+	position:absolute;
+	padding:20px;
+	backface-visibility:hidden;
+	background:#ffffff;
+	outline:1px solid #DCDCDC;
+	box-shadow:rgba(54,50,56,0.3) 1px 1px 1px;
+	overflow:hidden;
+}
+
+.mod_flat_rotate_back_0{
+	color:#ffffff;
+	background:#5C5C5C;
+	transform:rotateY(180deg);
+}

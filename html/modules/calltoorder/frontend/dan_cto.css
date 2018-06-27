@@ -1,0 +1,195 @@
+#mod_calltoorder_form {
+	padding					:10px;
+}
+
+#dan_calltoorder_close {
+	display					:block;
+	position				:absolute;
+	z-index					:1010;
+	right					:0px;
+	top						:0px;
+	height					:36px;
+	width					:36px;
+	cursor					:pointer;
+	background-image		:url(images/close.png);
+	opacity					:1;
+}
+
+#calltoorder_title {
+	font-size				:22px;
+	font-weight				:bold;
+	text-align				:left;
+}
+
+.mod_calltoorder_text {
+	padding					:0 0 10px;
+	color					:#6D6D6D;
+}
+
+#mod_calltoorder_form input[type='text'] {
+	width					:100% !important;
+	font-weight				:normal !important;
+	text-align				:left !important;
+	border-top-color		:#F0F0F0 !important;
+	border-right-color		:#F0F0F0 !important;
+	border-bottom-color		:#F0F0F0 !important;
+	background				:#F8F8F8 !important;
+	box-shadow				:0 0 0 !important;
+}
+
+#calltoorder {
+	cursor					:pointer;
+	height					:30px;
+	line-height				:30px;
+	background-color		:#e9e9e9;
+	border					:1px solid #c7c7c7;
+	border-radius			:5px;
+	background				:-webkit-gradient(linear, left top, left bottom, from(#e9e9e9), to(#d9d9d9));
+	background				:-moz-linear-gradient(top, #e9e9e9, #d9d9d9);
+	font-weight				:bold;
+	text-align				:center;
+}
+
+#calltoorder:hover {
+	background				:-webkit-gradient(linear, left top, left bottom, from(#d9d9d9), to(#e9e9e9));
+	background				:-moz-linear-gradient(top, #d9d9d9, #e9e9e9);
+	box-shadow				:1px 1px 5px #a9a9a9;
+}
+
+
+/* --- Circle --- */
+
+
+#mod_calltoorder_circle {
+	z-index					:1100;
+	position				:fixed;
+	opacity					:0.8;
+	border-radius			:100%;
+	cursor					:pointer;
+}
+
+@media screen and (max-width: 600px), screen and (max-device-width: 600px) {
+
+	#mod_calltoorder_circle {
+		display					:none;
+	}
+
+}
+
+.mod_calltoorder_circle {
+	z-index					:1130;
+	top						:25%;
+	left					:25%;
+	position				:absolute;
+	border-radius			:100%;
+	background-image		:url(images/phone.png);
+	background-repeat		:no-repeat;
+	background-position		:center;
+	background-size			:50%;
+}
+
+.mod_calltoorder_circle_wave_out {
+	z-index					:1120;
+	top						:25%;
+	left					:25%;
+	position				:absolute;
+	border-radius			:100%;
+	-webkit-animation		:mod_calltoorder_wave_out 2s infinite linear;
+	animation				:mod_calltoorder_wave_out 2s infinite linear;
+}
+
+.mod_calltoorder_circle_wave_in {
+	z-index					:1110;
+	top						:25%;
+	left					:25%;
+	position				:absolute;
+	border-style			:solid;
+	border-width			:1px;
+	border-radius			:100%;
+	-webkit-animation		:mod_calltoorder_wave_in 2s infinite linear;
+	animation				:mod_calltoorder_wave_in 2s infinite linear;
+}
+
+.mod_calltoorder_p_i {
+	margin 					:0;
+	font-size 				:14px;
+	color					:#6D6D6D;
+}
+
+.mod_calltoorder_p_i a:link, .mod_calltoorder_p_i a:visited {
+	text-decoration			:underline;
+}
+
+.mod_calltoorder_p_i a:hover {
+	text-decoration			:none;
+}
+
+#calltoorder_but {
+	height					:auto !important;
+	line-height				:1 !important;
+	padding					:10px 15px !important;
+	font-size				:14px !important;
+	font-weight				:normal !important;
+	border					:0;
+	border-radius			:1px !important;
+	background-color 		:#CCCCCC;
+}
+
+#mod_calltoorder_form:valid #calltoorder_but{
+	cursor					:pointer !important;
+	background-color 		:#CF0027;
+	color 					:#FFFFFF;
+	transition 				:0.3s;
+}
+
+.calltoorder_submit {
+	text-align 				:left;
+}
+
+@-webkit-keyframes mod_calltoorder_wave_out {
+	0%{
+		-webkit-transform		:scale(1);
+		-webkit-opacity			:0.5;
+	}
+
+	100%{
+		-webkit-transform		:scale(2);
+		-webkit-opacity			:0;
+	}
+}
+
+@keyframes mod_calltoorder_wave_out {
+	0%{
+		transform				:scale(1);
+		opacity					:0.5;
+	}
+
+	100%{
+		transform				:scale(2);
+		opacity					:0;
+	}
+}
+
+@-webkit-keyframes mod_calltoorder_wave_in {
+	0%{
+		-webkit-transform		:scale(2);
+		-webkit-opacity			:0;
+	}
+
+	100%{
+		-webkit-transform		:scale(1);
+		-webkit-opacity			:0.5;
+	}
+}
+
+@keyframes mod_calltoorder_wave_in {
+	0%{
+		transform				:scale(2);
+		opacity					:0;
+	}
+
+	100%{
+		transform				:scale(1);
+		opacity					:0.5;
+	}
+}

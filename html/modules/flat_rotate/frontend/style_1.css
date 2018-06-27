@@ -1,0 +1,30 @@
+.mod_flat_rotate_1 {
+	display				:inline-block;
+	cursor				:pointer;
+	position			:relative;
+	overflow			:hidden;
+}
+
+.mod_flat_rotate_container_1 {
+	position			:absolute;
+}
+
+.mod_flat_rotate_container_1:hover .mod_flat_rotate_back_1 {
+	opacity				:1;
+}
+
+.mod_flat_rotate_front_1, .mod_flat_rotate_back_1 {
+	position			:absolute;
+	padding				:20px;
+	background			:#ffffff;
+	outline				:1px solid #DCDCDC;
+	box-shadow			:rgba(54,50,56,0.3) 1px 1px 1px;
+	overflow			:hidden;
+}
+
+.mod_flat_rotate_back_1 {
+	opacity				:0;
+	color 				:#ffffff;
+	background			:#5C5C5C;
+	transition			:0.3s;
+}

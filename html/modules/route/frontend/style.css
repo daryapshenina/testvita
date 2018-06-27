@@ -1,0 +1,55 @@
+.route {
+	display				:table;
+	width				:100%;
+	color				:#000000;
+	overflow			:hidden;
+	box-sizing			:border-box;
+}
+
+.route > div {
+	display				:table-cell;
+	box-sizing			:border-box;
+	vertical-align		:top;
+}
+
+.route > div:last-child {
+	width				:300px;
+	padding				:30px 20px;
+	border				:1px solid #D6D6D6;
+	background			:#FCFCFC;
+	box-sizing			:border-box;
+}
+
+.route > div:last-child > div > div:first-child {
+	font-size			:22px;
+	font-weight			:normal;
+}
+
+.route > div:last-child > div > div {
+	padding				:0 0 10px 0;
+}
+
+.route > div:last-child label {
+	cursor				:pointer;
+	vertical-align		:middle;
+}
+
+.route > div:last-child textarea {
+	width				:100%;
+}
+
+#route_map > * {
+	width				:100% !important;
+}
+
+@media screen and (max-width: 767px) {
+
+	.route, .route > div {
+		display				:block;
+	}
+
+	.route > div:last-child {
+		width				:100%;
+	}
+
+}

@@ -1,0 +1,90 @@
+
+
+.mod_form_content_2 {
+	width					:100%;
+	display					:block;
+	padding					:20px;
+	box-sizing				:border-box;	
+	border-radius			:5px;
+	box-shadow				:0px 0px 1px rgba(0, 0, 0, 0.4);
+}
+
+.mod_form_text_2 {
+	text-align				:center;
+	color					:#fff;
+	padding					:0px 0px 10px 0px;
+}
+
+.mod_form_i_2 {
+	display					:flex;
+	flex-wrap				:wrap;
+	justify-content			:center;
+	align-items				:center;
+}
+
+.mod_form_i_2 div{
+	margin					:5px 10px;
+}
+
+.mod_form_input_2 {
+	width					:215px;
+}
+
+.mod_form_textarea_2 {
+	margin-top				:4px;
+	width					:200px;
+    height					:33px;
+    line-height				:33px;	
+    padding					:0px 5px 0px 10px;
+    font-family				:arial;
+    font-size				:16px;
+    font-weight				:bold;
+    border-radius			:5px;
+    box-shadow				:0 0 3px rgba(0,0,0,0.1) inset;
+    border					:1px solid #c1c1c1;
+    background-color		:#FFFFFF;
+}
+
+.mod_form_file_2 {
+	width					:100%;
+}
+
+.mod_form_table_2 {
+	border-collapse			:collapse;
+	border					:0px;
+	border-spacing			:0px;
+}
+
+.mod_form_table_2 td {
+	padding					:3px 0px;
+    vertical-align			:middle;
+}
+
+.mod_form_button_2 {
+    cursor					:pointer;
+    display					:inline-block;
+	width					:215px;
+    padding					:7px 25px;
+    font-size				:18px;
+    font-weight				:normal;
+    box-shadow				:1px 1px 5px rgba(0, 0, 0, 0.15);
+	border					:none;
+    border-radius			:4px;
+    text-decoration			:none !important;
+    transition				:background 0.5s;
+}
+
+.mod_form_button_2:hover {
+	-webkit-filter			:brightness(120%);
+    transition				:background 0.5s;
+	box-shadow				:1px 1px 5px rgba(0, 0, 0, 0);
+}
+
+.mod_form_lastname_2 {
+	display					:none;
+}
+
+.mod_form_p_i_2 {
+	text-align 				:center;
+	font-size 				:12px;
+}

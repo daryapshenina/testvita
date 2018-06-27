@@ -1,0 +1,97 @@
+.mod_form_but_modal_3 {
+	margin-top 				:5px;
+    cursor					:pointer;
+    display					:inline-block;
+    padding					:10px 25px;
+    font-size				:18px;
+    font-weight				:normal;
+    box-shadow				:1px 1px 5px rgba(0, 0, 0, 0.15);
+	color					:#fff;
+	border					:none;
+    border-radius			:4px;
+    text-decoration			:none !important;
+    transition				:background 0.5s;
+}
+
+.mod_form_main_3 {
+	overflow				:hidden;
+    text-align				:center;
+}
+
+.mod_form_container_3 {
+	display 				:flex !important;
+	justify-content 		:center;
+	align-items 			:center;
+}
+
+.mod_form_content_3 {
+	text-align				:center;
+}
+
+.mod_form_table_3 {
+	width					:100%;
+	max-width				:360px;
+	border-collapse			:collapse;
+	border					:0px;
+	border-spacing			:0px;
+}
+
+.mod_form_captcha_tr_3 td:nth-child(1) {
+	width					:50%;
+	text-align				:right;
+}
+
+.mod_form_captcha_tr_3 td:nth-child(2) {
+	width					:50%;
+	text-align				:left;
+}
+
+.mod_form_captcha_img_3 {
+	margin-right			:5px;
+}
+
+input.mod_form_input_captcha_3 {
+	padding					:0px 5px 0px 5px;
+}
+
+.mod_form_button_3 {
+    cursor					:pointer;
+    display					:inline-block;
+    padding					:10px 25px;
+    font-size				:18px;
+    font-weight				:normal;
+    box-shadow				:1px 1px 5px rgba(0, 0, 0, 0.15);
+	color					:#fff;
+	border					:none;
+    border-radius			:4px;
+    text-decoration			:none !important;
+    transition				:background 0.5s;
+}
+
+.mod_form_button_3:hover {
+	-webkit-filter			:brightness(120%);
+    transition				:background 0.5s;
+	box-shadow				:1px 1px 5px rgba(0, 0, 0, 0);
+}
+
+
+.mod_form_lastname_3 {
+	display					:none;
+}
+
+.mod_form_p_i_3 {
+	margin 					:10px 0px;
+	text-align 				:center;
+	font-size 				:12px;
+	color 					:#808080;
+}
+
+a.mod_form_p_i_3:link, a.mod_form_p_i_3:visited {
+	color 					:#808080;
+}
+
+.mod_form_content_3 input,
+.mod_form_content_3 textarea.input {
+	width					:100%;
+	box-sizing				:border-box;
+}

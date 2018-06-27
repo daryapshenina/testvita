@@ -1,0 +1,51 @@
+.mod_icon_main {
+	overflow		:hidden;
+}
+
+.mod_icon_content {
+	text-align		:center;
+	color			:#444444;
+	background-color:#fff;
+	box-sizing		:border-box;
+}
+
+.mod_icon_content .mod_title {
+	margin			:0 0 10px 0;
+	font-size		:18px;
+	color			:#000000;
+}
+
+.mod_icon_frame {
+	position		:relative;
+    display			:inline-block;
+    overflow		:hidden;
+    text-align		:center;
+    transition		:0.3s ease-out;
+}
+
+.mod_icon_frame i  {
+    position		:relative;
+	transition		:0.3s ease-out;
+}
+
+.mod_icon_frame b{
+	position		:absolute;
+	left			:0px;
+	display			:inline-block;
+	width			:100%;
+	height			:0px;
+	transition		:0.3s ease-out;
+}
+
+.mod_icon_text {
+	margin-top		:10px;
+}
+
+.mod_icon_content:hover .mod_icon_frame b{
+	height			:100%;
+}
+
+.mod_icon_content:hover .mod_icon_frame i{
+	color			:#fff !important;
+	transition		:0.3s ease-out;
+}

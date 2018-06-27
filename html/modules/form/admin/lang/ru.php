@@ -1,0 +1,36 @@
+<?php
+const LANG_M_FORM_ACCEPT = 'Применить';
+const LANG_M_FORM_CANCEL = 'Отменить';
+const LANG_M_FORM_CAPTCHA = 'Включить капчу';
+const LANG_M_FORM_COMP_D = 'На компьютерах';
+const LANG_M_FORM_COMP_D_T = 'Для устройств с разрешением <br><br>свыше 1341px';
+const LANG_M_FORM_COMP_N = 'На ноутбуках';
+const LANG_M_FORM_COMP_N_T = 'Для устройств с разрешением <br><br>963px - 1340px';
+const LANG_M_FORM_COMP_T = 'На планшетах';
+const LANG_M_FORM_COMP_T_T = 'Для устройств с разрешением <br><br>768px - 962px';
+const LANG_M_FORM_COMP_P = 'На смартфонах';
+const LANG_M_FORM_COMP_P_T = 'Для устройств с разрешением <br><br>до 767px';
+const LANG_M_FORM_DESCRIPTION = 'Описание';
+const LANG_M_FORM_EFFECTS = 'Эффекты';
+const LANG_M_FORM_EFFECTS_APPEARANCE = 'Эффекты появления';
+const LANG_M_FORM_FIELD = 'Поле';
+const LANG_M_FORM_FILE = 'Прикрепить файл';
+const LANG_M_FORM_HELP = 'Помощь';
+const LANG_M_FORM_HELP_1 = '<em>Редактирование</em>Для редактирования - нажмите на текст в синей пунктирной рамке';
+const LANG_M_FORM_MAIN_TITLE = 'Форма обратной связи';
+const LANG_M_FORM_MODULE_OFF = 'Модуль <b>"Форма обратной связи"</b> не подключён';
+const LANG_M_FORM_ORDER = 'Порядок следования';
+const LANG_M_FORM_PUBLIC_TITLE = 'Опубликовать заголовок модуля';
+const LANG_M_FORM_POSITION = 'Позиция вывода, блок';
+const LANG_M_FORM_POSITION_DESCRIPTION = 'Определяет в каком месте (блоке) сайта вывести данный модуль';
+const LANG_M_FORM_REQUIRED = 'обязательное для заполнения';
+const LANG_M_FORM_SAVE = 'Сохранить';
+const LANG_M_FORM_TEXT = 'Текст над формой';
+const LANG_M_FORM_TITLE = 'Заголовок';
+const LANG_M_FORM_VIEW_MODULE = 'Отображать';
+const LANG_M_FORM_VIEW_MODULE_ON = 'Всегда';
+const LANG_M_FORM_VIEW_MODULE_OFF = 'Никогда';
+const LANG_M_FORM_VIEW_MODULE_PC = 'Только на компьютере';
+const LANG_M_FORM_VIEW_MODULE_PHONE = 'Только на телефоне';
+const LANG_M_FORM_WIDTH = 'Ширина';
+?>

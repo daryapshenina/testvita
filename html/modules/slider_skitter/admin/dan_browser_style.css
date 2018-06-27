@@ -1,0 +1,163 @@
+﻿body  {
+	font-family			:Arial;
+	font-size			:12px;
+	margin				:0; 
+	padding				:0;
+	background-color	:#E7E7E7;
+}
+
+.brw-main-tab {
+  	width				:100%;
+	border-collapse		:collapse;
+}
+
+#brw-center {
+	min-height			:300px;
+	padding				:10px;
+	vertical-align		:top;
+	background-color	:#FFFFFF;	
+}
+
+#brw-bottom {
+	height				:50px;
+	padding-left		:10px;	
+	font-size			:14px;
+	font-weight			:bold;	
+	background-color	:#E7E7E7;	
+}
+
+.brw_block {
+	display				:block;
+	float				:left;
+	width				:150px;
+	height				:70px;
+}
+
+.brw_im {
+	line-height			:50px;
+	width				:60px;
+	display				:block;
+	float				:left;
+	text-align			:left;
+}
+
+.brw_txt {
+	line-height			:34px;	
+	width				:90px;	
+	display				:block;
+	float				:left;
+}
+
+.brw_ico {
+	line-height			:16px;	
+	width				:90px;	
+	display				:block;
+	float				:left;
+}
+
+a.ico_link:link, a.ico_link:visited {
+	color				:#09F;
+}
+
+a.hoverrename:hover{
+	border				:1px;
+}
+
+a.ico_link_top:link, a.ico_link_top:visited {
+	color				:#24a801;
+	font-size			:16px;
+	text-decoration		:none;
+}
+
+#newfolder {
+	display				:block;
+	float				:left;
+	width				:50%;
+}
+
+#newfile {
+	display				:block;
+	float				:left;	
+	width				:50%;
+}
+
+/* --- d=2 -------------------------------------------------------------------- */
+.send_title {
+	font-size			:16px;
+	font-weight			:bold;
+}
+
+.rename_file {
+	display				:block;
+	float				:left;
+	cursor				:pointer;
+	padding-right		:2px;
+}
+
+.dialogue {
+	font-size			:14px;
+	font-weight			:bold;
+	width				:50%;
+	display				:block;
+	float				:left;
+}
+
+.dialogue_image {
+	padding-top			:100px;
+}
+
+#fade {
+	display				:none; 
+	background			:#000;
+	position			:fixed; 
+	left				:0; 
+	top					:0;
+	width				:100%; 
+	height				:100%;
+	opacity				:.50;
+	z-index				:9999;
+}
+
+div.overlay {
+	text-align			:center;
+	display				:none;
+	background			:#fff;
+	padding				:20px;
+	border				:10px;
+	float				:left;
+	font-size			:1.2em;
+	position			:fixed;
+	top					:50%; 
+	left				:50%;
+	z-index				:99999;
+
+	-webkit-box-shadow	:0px 0px 50px #000;
+	-moz-box-shadow		:0px 0px 50px #000;
+	box-shadow			:0px 0px 50px #000;
+
+	-webkit-border-radius:10px;
+	-moz-border-radius	:10px;
+	border-radius		:10px;
+}
+
+/* default close button positioned on upper right corner */
+
+.photobig_lightbox {
+	display				:table-cell;
+	height				:526px;
+	width				:656px;
+	vertical-align		:middle;	
+}
+
+
+
+.btn_close {
+	background-image	:url(images/close.png);
+	position			:absolute;
+	right				:-16px;
+	top					:-16px;
+	cursor				:pointer;
+	height				:35px;
+	width				:35px;
+}
+

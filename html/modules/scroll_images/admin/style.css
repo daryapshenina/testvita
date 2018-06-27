@@ -1,0 +1,39 @@
+#width {
+	float				:left;
+}
+
+#width_out {
+	line-height			:25px;
+	margin				:0px 20px 0px 10px;
+	font-size			:24px;
+}
+
+#pause {
+	float				:left;
+}
+
+#pause_out {
+	line-height			:25px;
+	margin-left			:10px;
+	font-size			:24px;
+}
+
+#speed {
+	float				:left;
+}
+
+#speed_out {
+	line-height			:25px;
+	margin-left			:10px;
+	font-size			:24px;
+}
+
+#image_list {
+	margin-top			:10px;
+}
+
+#image_list img{
+	padding				:5px;
+	float				:left;
+	width				:150px;
+}

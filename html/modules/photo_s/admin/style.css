@@ -1,0 +1,45 @@
+.container {
+	position		:relative;
+}
+
+.photo_s_admin_table_2 {
+	width			:48%;
+}
+
+.citcle_td_1 {
+	width			:200px;
+}
+
+.block_text {
+	display			:none;
+}
+
+.photo_s_result_title {
+	font-size		:24px;
+	margin-bottom	:40px;
+}
+
+.photo_s_result_title {
+	position		:absolute;
+	top				:107px;
+	left			:52%;	
+}
+
+.mod_photo_s_container {
+	top				:150px;
+	position		:absolute;
+	left			:52%;
+	border			:1px solid #c1c1c1;
+}
+
+a.mod_photo_s_wrap {
+	border			:none;
+}
+
+#editor1, #editor2 {
+	padding			:10px;
+	text-align		:center;
+    box-shadow		:1px 1px 3px rgba(0,0,0,0.3) inset;
+    border			:1px solid #c1c1c1;
+	background-color:#fff;
+}

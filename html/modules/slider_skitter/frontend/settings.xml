@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<skitter>
+	<slide>
+		<link></link>
+		<image type="directionTop">http://vita-web.ru/files/slider_skitter/s-01.jpg</image>
+		<label>Адаптивный дизайн - под любые разрешения экранов</label>
+	</slide>
+	<slide>
+		<link></link>
+		<image type="directionTop">http://vita-web.ru/files/slider_skitter/s-02.jpg</image>
+		<label>Рост конверсии продаж</label>
+	</slide>
+	<slide>
+		<link></link>
+		<image type="directionTop">http://vita-web.ru/files/slider_skitter/s-03.jpg</image>
+		<label>Современные технологии и тренды</label>
+	</slide>
+</skitter>

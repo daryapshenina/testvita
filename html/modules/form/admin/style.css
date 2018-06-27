@@ -1,0 +1,70 @@
+.devices_type {
+	padding-left		:20px;
+}
+
+.help {
+	padding-left		:0px;
+}
+
+.max_width_360 {
+	width				:100%;
+	max-width			:360px;
+}
+
+.editable_text {
+	padding				:5px 10px;	
+	outline				:#0099ff dashed 1px;
+}
+
+#editor1 {
+	font-size			:18px;
+}
+
+.inactive {
+	opacity				:0.2;
+	transition			:0.3s;
+}
+
+#file {
+	width				:200px;
+    height				:35px;
+    line-height			:35px;
+    padding				:0px 5px 0px 10px;	
+    font-family			:arial;
+    font-size			:16px;
+    font-weight			:bold;
+}
+
+/*
+#form_container {
+	overflow			:hidden;
+	background-color	:#4a4a4a;	
+}
+
+#editable_area {
+	min-height			:16px;
+	border				:solid 1px #cccccc;
+	background-color	:#ffffff;
+}
+*/
+
+.accordion_body.mod_form_ab1.expand {
+	height          	:190px;
+}
+
+.accordion_body.mod_form_ab2.expand {
+	height          	:230px;
+}
+
+/*
+#mod_form_ec {
+	width				:100%;
+	margin-top			:20px;
+}
+
+
+.bg_color_enable_container {
+	width				:100px;
+	float				:left;
+}
+*/

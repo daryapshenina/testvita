@@ -1,0 +1,147 @@
+.devices_type {
+	padding-left		:20px;
+}
+
+.help {
+	padding-left		:0px;
+}
+
+#icon_container {
+	overflow			:hidden;
+	background-color	:#4a4a4a;
+}
+
+#icon_solid {
+	display			:inline-block;
+	width			:100%;
+}
+
+.accordion_body.mod_icon_ab1.expand {
+	height          	:150px;
+}
+
+.accordion_body.mod_icon_ab2.expand {
+	min-height          :700px;
+}
+
+.accordion_body.mod_icon_ab3.expand {
+	height          	:105px;
+}
+
+.accordion_body.mod_icon_ab4.expand {
+	height          	:310px;
+}
+
+.icon_h2 {
+	margin				:20px;
+}
+
+#editor1 {
+	width				:100%;
+	height				:100%;
+}
+
+.bg_color_enable_container {
+	width				:100px;
+	float				:left;
+}
+
+.admin_table_2 tr td:nth-child(1) {
+	width				:200px;
+}
+
+.icon_col {
+	line-height			:25px;
+}
+
+.icon_list {
+	padding				:20px;
+	background-color	:#fff;	
+}
+
+@media screen and (max-width: 767px){
+	.icon_list {
+    -webkit-column-count:1;
+    -moz-column-count	:1;
+    column-count		:1;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 962px) {
+	.icon_list {
+    -webkit-column-count:3;
+    -moz-column-count	:3;
+    column-count		:3;
+	}
+}
+
+@media screen and (min-width: 963px) and (max-width: 1340px) {
+	.icon_list {
+    -webkit-column-count:4;
+    -moz-column-count	:4;
+    column-count		:4;
+	}
+}
+
+@media screen and (min-width: 1341px) {
+	.icon_list {
+    -webkit-column-count:6;
+    -moz-column-count	:6;
+    column-count		:6;
+	}
+}
+
+
+
+
+
+/* === ВЫВОД === */
+/* Стиль иконки - круг */
+.mod_icon_main {
+	text-align		:center;
+	background-color:#fff;
+}
+
+.mod_icon_main:hover .mod_icon_1_frame b, .mod_icon_main:hover .mod_icon_2_frame b  {
+	height			:100%;
+}
+
+.mod_icon_main:hover .mod_icon_1_frame i, .mod_icon_main:hover .mod_icon_2_frame i  {
+	color			:#fff !important;
+	transition		:0.3s ease-out;	
+}
+
+.mod_icon_1_frame {
+	position		:relative;
+	display			:inline-block;
+	overflow		:hidden;
+	text-align		:center;
+	border-radius	:50%;
+	transition		:0.3s ease-out;
+}
+
+.mod_icon_1_frame i , .mod_icon_2_frame i {
+    position		:relative;
+	transition		:0.3s ease-out;
+}
+ 
+.mod_icon_1_frame b , .mod_icon_2_frame b{
+	position		:absolute;
+	left			:0px;
+	display			:inline-block;
+	height			:0px;
+	transition		:0.3s ease-out;
+}
+
+.mod_icon_text {
+	margin-top		:10px;
+}
+
+/* 2 */
+.mod_icon_2_frame {
+	position		:relative;
+	display			:inline-block;
+	overflow		:hidden;
+	text-align		:center;
+	transition		:0.3s ease-out;
+}

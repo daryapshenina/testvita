@@ -1,0 +1,36 @@
+<?php
+const LANG_M_FORM_ACCEPT = 'Accettare';
+const LANG_M_FORM_CANCEL = 'Annullare';
+const LANG_M_FORM_CAPTCHA = 'Abilita CAPTCHA';
+const LANG_M_FORM_COMP_D = 'Sul computer desktop';
+const LANG_M_FORM_COMP_D_T = 'Per i dispositivi con una risoluzione <br><br>superiore a 1341px';
+const LANG_M_FORM_COMP_N = 'Su computer portatili';
+const LANG_M_FORM_COMP_N_T = 'Per i dispositivi con una risoluzione di <br><br>963 px - 1340px';
+const LANG_M_FORM_COMP_T = 'Su tavolette';
+const LANG_M_FORM_COMP_T_T = 'Per i dispositivi con una risoluzione di <br><br> 768px - 962px';
+const LANG_M_FORM_COMP_P = 'Smartphone';
+const LANG_M_FORM_COMP_P_T = 'Per i dispositivi con una risoluzione massima di <br><br>767px';
+const LANG_M_FORM_DESCRIPTION = 'Descrizione';
+const LANG_M_FORM_EFFECTS = 'Effetti';
+const LANG_M_FORM_EFFECTS_APPEARANCE = 'La comparsa di effetti';
+const LANG_M_FORM_FIELD = 'Campo';
+const LANG_M_FORM_FILE = 'Attach file';
+const LANG_M_FORM_HELP = 'Aiutare';
+const LANG_M_FORM_HELP_1 = '<em>Modifica</em> per la modifica, fare clic sul testo in blu cornice punteggiata';
+const LANG_M_FORM_MAIN_TITLE = 'Modulo modificabile';
+const LANG_M_FORM_MODULE_OFF = 'Modulo <b>"Modulo modificabile"</b> note consentono';
+const LANG_M_FORM_ORDER = 'Ordine';
+const LANG_M_FORM_PUBLIC_TITLE = 'Pubblicare titolo di modulo';
+const LANG_M_FORM_POSITION = 'Display posizione';
+const LANG_M_FORM_POSITION_DESCRIPTION = 'Modulo display posto';
+const LANG_M_FORM_REQUIRED = 'tenuti a compilare';
+const LANG_M_FORM_SAVE = 'Salva';
+const LANG_M_FORM_TEXT = 'Testo';
+const LANG_M_FORM_TITLE = 'Testata';
+const LANG_M_FORM_VIEW_MODULE = 'Visualizza';
+const LANG_M_FORM_VIEW_MODULE_ON = 'Sempre';
+const LANG_M_FORM_VIEW_MODULE_OFF = 'Mai';
+const LANG_M_FORM_VIEW_MODULE_PC = 'Solo sul computer';
+const LANG_M_FORM_VIEW_MODULE_PHONE = 'Solo sul telefono';
+const LANG_M_FORM_WIDTH = 'Larghezza';
+?>

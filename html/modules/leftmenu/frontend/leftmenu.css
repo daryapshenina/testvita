@@ -1,0 +1,135 @@
+/* --- extension --- */
+.leftmenu-ext-block {
+	display				:none;
+	position			:absolute;
+	z-index				:1001;
+	padding				:0px;
+	min-width			:200px;	
+	margin				:-35px 0px 0px 135px;
+	border-radius		:5px;
+	background			:#ffffff;
+	border-style		:solid;
+	border-width		:1px;
+	border-color		:#646358;
+	box-shadow			:3px 3px 3px 0px #E4E4E4;
+}
+
+.leftmenu-ext {
+	display				:block;
+	padding				:8px 15px 8px 15px;
+	margin				:2px 0px 2px 0px;
+	line-height			:normal;
+	width				:165px;
+	text-decoration		:none;
+	font-size			:12px;
+	border-bottom-style	:solid;
+	border-bottom-width	:1px;
+	border-bottom-color	:#D8D8D8;
+}
+
+a.leftmenu-ext:link, a.leftmenu-ext:visited {
+	color				:#646358;
+}
+
+a.leftmenu-ext:hover {
+	color				:#ffffff;
+	background-color	:#8D8D8D;
+}
+
+
+.activeleftmenu-ext {
+	display				:block;
+	padding				:8px 15px 8px 15px;
+	margin				:2px 0px 2px 0px;
+	line-height			:normal;
+	width				:165px;
+	text-decoration		:none;
+	font-size			:12px;
+}
+
+a.activeleftmenu-ext:link, a.activeleftmenu-ext:visited {
+	color				:#ffffff;
+	background-color	:#8D8D8D;
+}
+
+a.activeleftmenu-ext:hover {
+	color				:#ffffff;
+	background-color	:#8D8D8D;
+}
+
+
+/* --- list --- */
+.mod_menu_list_container {
+	display					:none;
+    position				:absolute;
+    z-index					:1001;
+	top						:0px;
+    width					:630px;
+	padding					:20px;
+	line-height				:30px;
+    margin					:-20px 0px 20px 239px;
+}
+
+.mod_menu_list {
+	display					:table;
+	width					:100%;
+	padding					:20px 0px 0px 20px;	
+    border-radius			:5px;
+    border-style			:solid;
+    border-width			:1px;
+    border-color			:#cccccc;
+    box-shadow				:3px 3px 3px 0px #E4E4E4;
+	background-color		:#ffffff;
+	text-decoration			:none;	
+}
+
+.mod_menu_list a{
+	text-decoration			:none;	
+}	
+
+.mod_menu_list_1_container {
+	display					:inline-block;
+	float					:left;
+	width					:200px;
+}
+
+.mod_menu_list_1_container {
+	display					:block;
+	font-weight				:bold;	
+}
+
+
+.mod_menu_list_2 {
+	display					:block;	
+	font-weight				:normal;
+	font-size				:13px;
+}
+
+
+@media screen and (max-width: 500px), screen and (max-device-width: 500px) {
+
+	.mod_menu_list_container {
+		z-index			:0 !important;
+		position		:relative !important;
+		margin			:0px !important;
+		width			:100% !important;
+		padding			:0px !important;
+	}
+	
+	.mod_menu_list {
+		padding			:5px 0px 5px 0px !important;
+		margin			:5px 0px 5px 20px !important;
+		border			:0px !important;
+		box-shadow		:none !important;
+		background		:none !important;
+	}
+
+	.mod_menu_list_1 {
+		font-size		:14px !important;
+		font-weight		:normal !important;		
+	}
+	
+	.mod_menu_list_2 {
+		margin			:5px 0px 5px 20px !important;	
+	}	
+}

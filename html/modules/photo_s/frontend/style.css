@@ -1,0 +1,80 @@
+.mod_photo_s_container {
+	display			:block;
+}
+
+.mod_photo_s_content {
+	position		:relative;
+    border			:1px solid #E5E5E5;
+}
+
+.mod_photo_s_hover {
+	position		:absolute;
+	z-index			:1;
+	opacity			:0;
+	width			:80%;
+	height			:80%;
+	top				:10%;
+	left			:10%;
+	overflow		:hidden;
+	border			:1px solid #E2E2E2;
+    box-shadow		:1px 1px 3px rgba(0, 0, 0, 0.5);
+	transition		:all 0.5s ease-in-out;
+}
+
+.mod_photo_s_table {
+	display			:table;
+	height			:100%;
+	width			:100%;
+}
+
+.mod_photo_s_td {
+	display			:table-cell;
+	vertical-align	:middle;
+	text-align		:center;
+}
+
+.mod_photo_s_title {
+	opacity			:0;
+	transition		:all 0.5s ease-in-out;
+}
+
+.mod_photo_s_hr {
+	margin			:40px auto;
+	width			:0%;
+    height			:1px;
+    background		:#ccc;
+	opacity			:0;
+	transition		:all 0.5s ease-in-out;
+}
+
+.mod_photo_s_text {
+	opacity			:0;
+	padding			:0px 15px;
+	transition		:all 0.5s ease-in-out;
+}
+
+.mod_photo_s_container:hover .mod_photo_s_hover {
+	opacity			:0.9;
+
+}
+
+.mod_photo_s_container:hover .mod_photo_s_hr {
+	margin			:7px auto;
+	width			:62%;
+	opacity			:1;
+}
+
+.mod_photo_s_container:hover .mod_photo_s_title {
+	opacity			:1;
+}
+
+.mod_photo_s_container:hover .mod_photo_s_text {
+	opacity			:1;
+}
+
+
+.mod_photo_s_img {
+	display			:block;
+	width			:100%;
+	height			:auto;
+}

@@ -1,0 +1,17 @@
+#mod_jumptotop_main {
+	display				:none;
+	cursor				:pointer;
+	position			:fixed;
+	border-radius		:3px;
+	background-image	:url("/modules/jumptotop/frontend/images/arrow.png");
+	background-position	:center center;
+	background-repeat	:no-repeat;
+	background-size		:70%;
+	z-index				:1000;
+	transition-duration	:0.3s;
+	transition-property	:opacity;
+}
+
+#mod_jumptotop_main:hover {
+	opacity				:0.8 !important;
+}

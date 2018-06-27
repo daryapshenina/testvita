@@ -1,0 +1,14 @@
+.editor_div {
+    border			:1px solid #c1c1c1;
+	padding			:20px;
+}
+
+#editor2 {
+	color			:#ffffff;
+	word-break		:break-all;
+}
+
+.mod_flat_rotate_result_container {
+	border			:1px solid #c1c1c1;	
+	background-color:#ccc;
+}

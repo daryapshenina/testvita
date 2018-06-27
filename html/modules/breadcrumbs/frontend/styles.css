@@ -1,0 +1,15 @@
+.mod_breadcrumbs {
+	margin				:10px 0px 10px 0px;
+}
+
+.mod_breadcrumbs_arrow {
+	height					:21px;
+	width					:21px;
+	background				:url(/modules/breadcrumbs/frontend/img/arrow.png);
+	background-repeat		:no-repeat;
+}
+
+.mod_breadcrumbs, a.mod_breadcrumbs_link {
+	font-size			:13px;
+	color				:#999999 !important;
+}

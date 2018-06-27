@@ -1,0 +1,32 @@
+.mod_flat_rotate_2 {
+	display				:inline-block;
+	cursor				:pointer;
+	position			:relative;
+	overflow			:hidden;
+}
+
+.mod_flat_rotate_container_2 {
+	position			:absolute;
+	overflow			:hidden;
+}
+
+.mod_flat_rotate_container_2:hover .mod_flat_rotate_back_2 {
+	top					:0px;
+}
+
+.mod_flat_rotate_front_2, .mod_flat_rotate_back_2 {
+	position			:absolute;
+	padding				:20px;
+	background			:#ffffff;
+	outline				:1px solid #DCDCDC;
+	box-shadow			:rgba(54,50,56,0.3) 1px 1px 1px;
+	overflow			:hidden;
+}
+
+.mod_flat_rotate_back_2 {
+	top					:100%;	
+	color 				:#ffffff;
+	opacity				:0.62;
+	background			:#5C5C5C;
+	transition			:0.5s;
+}

@@ -1,0 +1,48 @@
+#buttonmanager {
+	display				:block;
+	height				:69px;
+	width				:258px;
+	border				:none;
+	background			:url(/modules/slider_skitter/admin/images/manager.png) no-repeat top;
+}
+
+#buttonmanager:hover {
+	background			:url(/modules/slider_skitter/admin/images/manager.png) no-repeat bottom;
+}
+
+.imglist {
+	padding				:10px;
+	box-shadow			:0px 0px 10px 0px #888;
+	border				:1px solid #ffffff;
+	border-radius		:10px;
+	background			: -moz-linear-gradient(#ededed, #d2d2d2) !important;
+	background			: -ms-linear-gradient(#ededed, #d2d2d2) !important;
+	background			: -o-linear-gradient(#ededed, #d2d2d2) !important;
+	background			: -webkit-linear-gradient(#ededed, #d2d2d2) !important;
+}
+
+/* настройки (аккордион) */
+
+.slider_skitter_settings {
+	border-style		:solid;
+	border-width		:1px;
+	border-color		:#d3d3d3;
+	background-color	:#e5ffb8;
+}
+
+.slider_skitter_settings td {
+	vertical-align		:middle !important;
+}
+
+
+.slider_skitter_head_settings {
+	line-height			:30px;
+	padding-left		:50px;
+	font-weight			:bold;
+	font-size			:14px;
+	background			:url(images/settings.png) no-repeat;	
+}
+
+.slider_skitter_message td {
+	padding				:5px;
+}

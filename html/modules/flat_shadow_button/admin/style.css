@@ -1,0 +1,38 @@
+.editor_div {
+    border			:1px solid #c1c1c1;
+	padding			:20px;
+}
+
+#size_prc, #size_fix {
+	display			:none;
+}
+
+.devices_type {
+	padding-left	:20px;
+}
+
+.help {
+	padding-left	:0px;
+}
+
+#transparent_out {
+    line-height		:25px;
+    margin-left		:10px;
+    font-size		:24px;	
+}
+
+.admin_table_2 {
+	margin-bottom	:50px;
+}
+
+.mod_flat_shadow_button_container  {
+	background-color:#B9C2C4;	
+}
+
+#flat_container {
+	background-color:#4a4a4a;	
+}
+
+#flat_white {
+	padding			:10px;
+}

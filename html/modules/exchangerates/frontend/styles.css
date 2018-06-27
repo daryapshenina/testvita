@@ -1,0 +1,22 @@
+.exchangerates_main .dan_table_div {
+	display				:table;
+	margin				:0 auto;
+	border-collapse		:collapse;
+	border-color		:#cccccc;
+	border-spacing		:0px;
+}
+
+.exchangerates_main .dan_table_cell {
+	display				:table-cell;
+	padding				:5px 0px 5px 0px;
+}
+
+.exchangerates_main_text {
+	width				:35px;
+	font-size			:14px;
+}
+
+.exchangerates_main_money {
+	font-size			:14px;
+	font-weight			:bold;
+}

@@ -1,0 +1,35 @@
+.flat_rotate {
+	display				:inline-block;
+	cursor				:pointer;
+	position			:relative;
+	perspective			:800px;
+	overflow			:hidden;
+}
+
+.flat_rotate_container {
+	position			:absolute;
+	transform-style		:preserve-3d;
+	transition-duration	:0.8s;
+	transition-property	:transform;
+}
+
+.flat_rotate:hover .flat_rotate_container{
+	transform			:rotateY(180deg);
+	background-color	:#ff0000;
+}
+
+.flat_rotate_front, .flat_rotate_back {
+	position			:absolute;
+	padding				:20px;
+	backface-visibility	:hidden;
+	background			:#ffffff;
+	outline				:1px solid #DCDCDC;
+	box-shadow			:rgba(54,50,56,0.3) 1px 1px 1px;
+	overflow			:hidden;
+}
+
+.flat_rotate_back {
+	color 				:#ffffff;
+	background			:#5C5C5C;
+	transform			:rotateY(180deg);
+}

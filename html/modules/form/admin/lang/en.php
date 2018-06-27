@@ -1,0 +1,36 @@
+<?php
+const LANG_M_FORM_ACCEPT = 'Accept';
+const LANG_M_FORM_CANCEL = 'Cancel';
+const LANG_M_FORM_CAPTCHA = 'Enable CAPTCHA';
+const LANG_M_FORM_COMP_D = 'On the desktop computer';
+const LANG_M_FORM_COMP_D_T = 'For devices with a resolution <br><br>of more than 1341px';
+const LANG_M_FORM_COMP_N = 'On laptops';
+const LANG_M_FORM_COMP_N_T = 'For devices with a resolution of <br><br>963px - 1340px';
+const LANG_M_FORM_COMP_T = 'On tablets';
+const LANG_M_FORM_COMP_T_T = 'For devices with a resolution of <br><br>768px - 962px';
+const LANG_M_FORM_COMP_P = 'Smartphones';
+const LANG_M_FORM_COMP_P_T = 'For devices with a resolution of <br><br>up to 767px ';
+const LANG_M_FORM_DESCRIPTION = 'Description';
+const LANG_M_FORM_EFFECTS = 'Effects';
+const LANG_M_FORM_EFFECTS_APPEARANCE = 'The appearance of effects';
+const LANG_M_FORM_FIELD = 'Field';
+const LANG_M_FORM_FILE = 'Attach file';
+const LANG_M_FORM_HELP = 'Help';
+const LANG_M_FORM_HELP_1 = '<em>Edit</em> for editing, click on the text in blue dotted frame';
+const LANG_M_FORM_MAIN_TITLE = 'Editable module';
+const LANG_M_FORM_MODULE_OFF = 'Module <b>"Editable module"</b> is not enable';
+const LANG_M_FORM_ORDER = 'Order';
+const LANG_M_FORM_PUBLIC_TITLE = 'Publish title of module';
+const LANG_M_FORM_POSITION = 'Position display';
+const LANG_M_FORM_POSITION_DESCRIPTION = 'It is where module will be display';
+const LANG_M_FORM_REQUIRED = 'required to fill';
+const LANG_M_FORM_SAVE = 'Save';
+const LANG_M_FORM_TEXT= 'Text';
+const LANG_M_FORM_TITLE = 'Header';
+const LANG_M_FORM_VIEW_MODULE = 'Output';
+const LANG_M_FORM_VIEW_MODULE_ON = 'Always';
+const LANG_M_FORM_VIEW_MODULE_OFF = 'Never';
+const LANG_M_FORM_VIEW_MODULE_PC = 'Only PC';
+const LANG_M_FORM_VIEW_MODULE_PHONE = 'Only phone';
+const LANG_M_FORM_WIDTH = 'Width';
+?>

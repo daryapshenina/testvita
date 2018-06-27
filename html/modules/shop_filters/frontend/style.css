@@ -1,0 +1,114 @@
+.mod-main {
+	overflow			:hidden;
+	box-sizing			:border-box;
+}
+
+.mod-content {
+	box-sizing			:border-box;
+}
+
+/**/
+
+.mod-shop-filters {
+	border				:1px solid #EBEBEB;
+	border-radius		:2px;
+}
+
+.mod-shop-filters-title {
+	padding-bottom		:10px;
+	font-size			:18px;
+	font-weight			:bold;
+}
+
+.mod-shop-filters-section {
+	padding				:20px;
+	border-bottom		:1px solid #EBEBEB;
+}
+
+.mod-shop-filters-section:hover {
+	background			:#F8F8F8;
+}
+
+/**/
+
+.mod-shop-filters-scroll {
+	max-height			:210px;
+	overflow-y			:auto;
+}
+
+.mod-shop-filters-scroll > div {
+	padding				:3px 3px 3px 0;
+}
+
+.mod-shop-filters-scroll::-webkit-scrollbar {
+	width				:8px;
+	background			:#EBEBEB;
+}
+
+.mod-shop-filters-scroll::-webkit-scrollbar-thumb {
+	background			:#D4D4D4;
+}
+
+/**/
+
+.mod-shop-filters-buttons {
+	display				:flex;
+	margin				:10px;
+}
+
+.mod-shop-filters-search, .mod-shop-filters-reset {
+	cursor				:pointer;
+	flex-grow			:1;
+	padding				:8px 15px;
+	margin				:0 5px;
+}
+
+.mod-shop-filters-search {
+	color				:#FFFFFF;
+	background			:#338EFF;
+	border				:1px solid #2F84EE;
+}
+
+.mod-shop-filters-search:hover {
+	background			:#4D9DFF;
+	border				:1px solid #468FE8;
+}
+
+.mod-shop-filters-reset {
+	color				:#434343;
+	background			:#E3E3E3;
+	border				:1px solid #DCDCDC;
+}
+
+.mod-shop-filters-reset:hover {
+	background			:#EEEEEE;
+	border				:1px solid #E8E8E8;
+}
+
+/**/
+
+.mod-shop-filters table {
+	border-width		:0;
+	border-collapse		:collapse;
+	border-spacing		:0;
+}
+
+.mod-shop-filters table td {
+	vertical-align		:middle;
+	padding				:0 5px;
+}
+
+.mod-shop-filters table td:first-child {
+	padding-left		:0;
+}
+
+.mod-shop-filters table td:last-child {
+	padding-right		:0;
+}
+
+/**/
+
+.mod-shop-filters input[type="text"] {
+	height				:30px !important;
+	width				:50px;
+}

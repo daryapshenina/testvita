@@ -1,0 +1,153 @@
+#mod_cart_main {
+	display					:inline-block;
+    vertical-align			:middle;
+	text-decoration			:none;
+}
+
+#mod_cart{
+	cursor					:pointer;
+	height					:40px;
+	max-width				:250px;
+	border					:1px solid #E7E7E7;
+	border-radius			:2px;
+	font-size				:14px;
+	background				:#e3e3e3;
+	box-shadow				:1px 1px 1px #B5B5B5;
+}
+
+#mod_cart:hover {
+    background				:#efefef!important;
+	box-shadow				:none;
+}
+
+#mod_cart_table {
+	border-collapse			:collapse;
+	border					:0px;
+	border-spacing			:0px;
+	width					:100%;
+}
+
+#mod_cart_table table td {
+	padding					:0px;
+    text-align				:center;
+}
+
+
+
+#mod_cart_quantity, #mod_cart_summa {
+	font-size				:14px;
+	font-weight				:bold;
+}
+
+#mod_cart_img {
+	height					:40px;
+	width					:32px;
+	background				:url(img/cartmin.png);
+	background-repeat		:no-repeat;
+	background-position		:center left;
+}
+
+#mod_cart_summa {
+	color					:#ff0000;
+}
+
+#mod_cart_table_popup {
+	border-collapse			:collapse;
+	border-spacing			:0px;
+	border					:0px;
+	width					:100%;
+}
+
+#mod_cart_table_popup tr:hover {
+	background				:#efefef;
+}
+
+#mod_cart_table_popup td {
+	vertical-align			:middle;
+	padding					:5px 0px;
+	border-bottom			:1px solid #ededed !important;
+	font-size				:13px;
+}
+
+#mod_cart_table_popup img{
+	display					:block;
+}
+
+#mod_cart_table_popup a:link, #mod_cart_table_popup a:visited {
+	color					:#0080FF;
+	text-decoration			:none;
+}
+
+#mod_cart_table_popup a:hover {
+	color					:#2693FF;
+}
+
+#mod_cart_table_popup_title {
+	height					:50px;
+	line-height				:20px;
+	font-size				:12px;
+}
+
+#mod_cart_table_popup_title_text, #mod_cart_table_popup_title_itog {
+	font-weight				:bold;
+	font-size				:14px;
+}
+
+.mod_cart_quantity, .mod_cart_price {
+	font-size				:14px;
+	font-weight				:bold;
+}
+
+#mod_cart_panel {
+	width					:100%;
+	height					:50px;
+	margin					:5px 0px 0px 0px;
+}
+
+#mod_cart_panel td {
+	vertical-align			:middle;
+}
+
+#mod_cart_go_cart {
+	display					:block;
+	max-width				:140px;
+	padding					:6px 15px;
+	font-size				:14px;
+	cursor					:pointer;
+	border					:1px solid #00C106;
+	border-radius			:5px;
+	background				:#06D60D;
+	color					:#FFFFFF;
+	text-decoration			:none;
+	text-align				:center;
+	margin					:0 auto;
+	transition				:background 0.5s;
+}
+
+#mod_cart_go_cart:hover {
+	border					:1px solid #00E007;
+	background				:#00F008;
+}
+
+.mod_cart_delete {
+	cursor					:pointer;
+}
+
+@media screen and (max-width: 400px) {
+
+	#dan_framework_popup {
+		width					:auto !important;
+		position				:absolute !important;
+		top						:10px !important;
+		right					:10px !important;
+		left					:10px !important;
+		margin					:auto !important;
+	}
+
+	#dan_framework_popupClose {
+		top						:-5px !important;
+		right					:-5px !important;
+		left					:auto !important;
+	}
+
+}

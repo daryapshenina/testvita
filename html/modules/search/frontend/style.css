@@ -1,0 +1,38 @@
+.mod_search_main {
+}
+
+.mod_search_input {
+	height					:25px;
+	width					:100%;
+	color					:#999999;
+	font-size				:14px;
+	border					:1px solid #BBBBBB;
+	text-indent				:10px;
+	box-shadow				:0px 1px 2px 0px #888888 inset;
+}
+
+.mod_search_submit {
+	height					:27px;
+	width					:40px;
+	border					:1px solid #BBBBBB;
+	background				:url(../../../../components/search/frontend/tmp/images/search.png);	
+	background-repeat		:no-repeat;
+	background-position		:center center;
+	background-color		:#EEEEEE;
+}
+
+.mod_search_submit:hover {
+	cursor					:pointer;
+	background-color		:#DDDDDD;
+}
+
+.mod_search_table_style {
+	width					:100%;
+	border					:0px;
+	border-collapse			:collapse;
+	border-spacing			:0px;
+}
+
+.mod_search_table_style td {
+	padding					:0px;
+}

@@ -1,0 +1,81 @@
+.mod_flat_shadow_button_container {
+	display			:inline-block !important;
+	overflow		:hidden;
+	float			:none;
+	vertical-align	:top;
+	color			:#000000;
+}
+
+.mod_flat_shadow_button_white {
+	position		:relative;
+	display			:block;
+	min-height		:100px;
+	padding			:10px;
+	text-align		:left;
+	text-decoration	:none;
+	overflow		:hidden;
+	outline			:1px solid #DCDCDC;
+    box-shadow		:rgba(54,50,56,0.3) 1px 1px 1px;
+	background		:#fff;
+	box-sizing		:border-box;
+}
+
+a.mod_flat_shadow_button_white{
+	text-decoration	:none;
+    border			:none;
+    color			:inherit;
+}
+
+.mod_flat_shadow_button_white > div {
+	margin			:10px;
+}
+
+.mod_flat_shadow_button_white  img {
+	max-width		:100%;
+	height			:auto !important;
+}
+
+.mod_flat_shadow_button_white > div:nth-child(1) {
+	display			:block;
+	width			:0px;
+    height			:0px;
+	position		:absolute;
+    z-index			:10;
+    top				:0px;
+    bottom			:0px;
+    left			:0px;
+    right			:0px;
+    margin			:auto auto;
+    text-align		:center;
+    overflow		:hidden;
+    transition		:width 0.4s, height 0.4s;
+}
+
+.mod_flat_shadow_button_white:hover > div:nth-child(1) {
+	cursor			:pointer;
+	width			:100%;
+    height			:100%;
+    transition		:width 0.4s, height 0.4s;
+}
+
+.mod_flat_shadow_button_white > div:nth-child(1) > span {
+    position		:relative;
+    top				:50%;
+    margin			:-23px 0px 0px;
+    opacity			:0;
+	cursor			:pointer;
+	display			:inline-block;
+	padding			:10px 25px;
+	font-size		:18px;
+	font-weight		:normal;
+	color			:#fff !important;
+	border-radius	:4px;
+	text-decoration	:none !important;
+	text-shadow		:0px 0px 0px rgba(0, 0, 0, 0);
+    transition		:all 0.2s;
+}
+
+.mod_flat_shadow_button_white:hover > div:nth-child(1) > span {
+	opacity			:1;
+	transition		:all 0.8s 0.2s;
+}

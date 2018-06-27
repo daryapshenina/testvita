@@ -1,0 +1,40 @@
+.devices_type {
+	padding-left		:20px;
+}
+
+.help {
+	padding-left		:0px;
+}
+
+#editor_container {
+	overflow			:hidden;
+	background-color	:#4a4a4a;	
+}
+
+#editable_area {
+	min-height			:16px;
+	border				:solid 1px #cccccc;
+	background-color	:#ffffff;
+}
+
+.accordion_body.mod_editor_ab1.expand {
+	height          	:250px;
+}
+
+.accordion_body.mod_editor_ab2.expand {
+	height          	:250px;
+}
+
+.accordion_body.mod_editor_ab3.expand {
+	height          	:150px;
+}
+
+#mod_editor_ec {
+	width				:100%;
+	margin-top			:20px;
+}
+
+.bg_color_enable_container {
+	width				:100px;
+	float				:left;
+}

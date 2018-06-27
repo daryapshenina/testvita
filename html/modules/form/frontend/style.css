@@ -1,0 +1,103 @@
+.mod_form_main {
+	min-width				:230px;
+	overflow				:hidden;
+}
+
+.mod_form_content {
+	max-width				:360px;
+	margin					:0 auto;
+	padding					:20px;
+	display					:block;
+	border-radius			:2px;
+	box-shadow				:0px 0px 1px rgba(0, 0, 0, 0.4);
+}
+
+.mod_form_table {
+	width					:100%;
+	max-width				:360px;
+	border-collapse			:collapse;
+	border					:0px;
+	border-spacing			:0px;
+}
+
+.mod_form_table td {
+	padding					:3px 0px;
+    vertical-align			:middle;
+}
+
+.mod_form_text {
+	padding					:10px 0px;
+}
+
+.mod_form_input {
+	display					:block;
+	width					:calc(100% - 15px);
+}
+
+.mod_form_textarea {
+	display					:block;
+	width					:calc(100% - 15px);
+	height					:auto;
+}
+
+.mod_form_file {
+	width					:100%;
+}
+
+input.mod_form_captcha {
+	width					:89px;
+	padding					:0px 5px 0px 5px;
+}
+
+.mod_form_button {
+    cursor					:pointer;
+    display					:inline-block;
+    padding					:10px 25px;
+    font-size				:18px;
+    font-weight				:normal;
+    box-shadow				:1px 1px 5px rgba(0, 0, 0, 0.15);
+	color					:#fff;
+	border					:none;
+    border-radius			:4px;
+    text-decoration			:none !important;
+    transition				:background 0.5s;
+}
+
+.mod_form_button:hover {
+	-webkit-filter			:brightness(120%);
+    transition				:background 0.5s;
+	box-shadow				:1px 1px 5px rgba(0, 0, 0, 0);	
+}
+
+.mod_form_lastname {
+	display					:none;
+}
+
+.mod_form_captcha_tr {
+		opacity			:0;	
+	animation				:mod_form_caprtcha_tr_e 1s 5s forwards;
+	-webkit-animation		:mod_form_caprtcha_tr_e 1s 5s forwards;
+}
+
+@-webkit-keyframes mod_form_caprtcha_tr_e {
+    0% {
+		opacity			:0;		
+	}
+    100% {
+		opacity			:1;
+	}
+}
+
+@keyframes mod_form_caprtcha_tr_e {
+    0% {
+		opacity			:0;		
+	}
+    100% {
+		opacity			:1;
+	}
+}
+
+.mod_form_p_i_1 {
+	margin 				:5px 0px;
+	font-size 			:12px;
+}
