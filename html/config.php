@@ -5,8 +5,8 @@ $site = "vita-web.ru";
 $email = "info@5za.ru";
 
 $host = "localhost";
-$user = "vitawebm16";
-$passwd = "Transfer2017";
+$user = "root";
+$passwd = "password";
 $dbname = "vitawebm16";
 
 $allowed_words = "ym_playback";
