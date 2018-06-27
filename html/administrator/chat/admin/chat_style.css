@@ -1,0 +1,149 @@
+/* ОКНО С СООБЩЕНИЯМИ */
+#chat_main {
+	margin				:0px 20px 0px 20px;
+}
+
+#chat_window {
+	margin				:0px 0px 0px 210px;
+	height				:290px;
+	overflow-y			:auto;
+	border				:1px solid #e7e7e7;
+	background-color	:#ffffff;
+}
+
+#chat_window_padding {
+	padding				:5px;
+}
+
+#chatlogs {
+	height				:30px;
+	line-height			:30px;
+	margin				:0px 0px 0px 210px;
+}
+
+#chatlogs {
+	height				:30px;
+	line-height			:30px;
+	margin				:0px 0px 0px 210px;
+}
+
+#chatlogs_left {
+	height				:30px;
+	background-repeat	:no-repeat;
+	margin-right		:16px;
+}
+
+#chatlogs_right {
+	float				:right;
+	width				:16px;
+	height				:16px;
+	background-repeat	:no-repeat;
+	margin-top			:5px;
+}
+
+#chat_list_user {
+	min-height			:400px;
+	width				:200px;
+	float				:left;
+}
+
+#chat_otvet {
+	min-height			:200px;
+	margin				:0px 5px 0px 210px;
+	display				:none;
+}
+
+#chat_otvet_input {
+	height				:50px;
+	width				:100%;
+}
+
+#chat_button_send {
+	cursor				:pointer;
+	height				:22px;
+	line-height			:22px;
+	width				:90px;
+	color				:#000000;
+	text-align			:center;
+	border				:1px solid #88dd26;
+	border-radius		:10px;
+	background-color	:#c2f38a;
+	background-image	:url(images/send.png);	
+	background-repeat	:no-repeat;
+	background-position	:10px center;
+	padding				:0px 0px 0px 30px;
+	box-shadow			:1px 1px 2px #5d5d5d;
+	text-shadow			:1px 1px #ffffff;
+	margin				:10px 0px 0px 0px;
+}
+
+#chat_button_send:hover {
+	color				:#ffffff;
+	background-color	:#5aa604;
+	border				:1px solid #468400;
+	text-shadow			:1px 1px #000000;
+}
+
+/* Кнопки айпи */
+#chat_class_ip_active, .chat_class_ip, .chat_class_ip_lost, .chat_class_ip_new, #chat_delete_all_mess {
+	cursor				:pointer;
+	height				:40px;
+	line-height			:40px;
+	width				:200px;
+	color				:#ffffff;
+	font-weight			:bold;
+	text-align			:center;
+}
+
+#chat_class_ip_active:hover, .chat_class_ip:hover, .chat_class_ip_lost:hover, .chat_class_ip_new:hover, #chat_delete_all_mess:hover {
+	color				:#000000;
+	background-position	:bottom;
+}
+
+#chat_class_ip_active {
+	background-image	:url(images/chat_class_ip_active.png);	
+	background-repeat	:no-repeat;
+}
+
+.chat_class_ip {
+	background-image	:url(images/chat_class_ip.png);	
+	background-repeat	:no-repeat;
+}
+
+.chat_class_ip_lost {
+	background-image	:url(images/chat_class_ip_lost.png);	
+	background-repeat	:no-repeat;
+}
+
+.chat_class_ip_new {
+	color				:#000000;
+	background-image	:url(images/chat_class_ip_new.png);	
+	background-repeat	:no-repeat;
+}
+
+#chat_delete_all_mess {
+	background-image	:url(images/chat_delete_all_mess.png);	
+	background-repeat	:no-repeat;
+}
+
+.chat_delete_all_mess_off {
+	background-image	:url(images/chat_delete_all_mess_off.png) !important;	
+	background-repeat	:no-repeat;
+}
+
+/* Панель управления */
+#chat_panel_upr {
+	margin				:0px 20px 0px 20px;
+	height				:40px;
+}
+
+/* НАСТРОЙКИ */
+.table_theme {
+	border				:0px !important;
+	margin				:10px 0px 10px 0px;
+}
+
+.table_theme td {
+	border				:0px !important;
+	padding				:0px 5px 0px 5px;
+}

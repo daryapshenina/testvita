@@ -1,0 +1,36 @@
+.modules_h1 {
+	margin					:0px 200px 10px 0px;
+	float					:left;
+}
+
+.modules_add {
+	display					:inline-block;
+	float					:right;
+	margin-bottom			:10px;
+    height					:30px;
+    line-height				:30px;
+    padding					:0px 20px 0px 20px;
+    cursor					:pointer;
+    font-size				:13px;
+    border-radius			:5px;
+    font-weight				:bold;
+    font-family				:verdana;
+    text-decoration			:none;
+    color					:#fff;
+    text-shadow				:0 1px rgba(0,0,0,0.1);
+    border					:solid 1px;
+    border-color			:#6FD9FF #008AD3 #005E90;
+    box-shadow				:0 1px 1px rgba(0,0,0,.25), inset 0 1px 0 #00B2DC;
+    background-color		:#0079D0;
+    background-image		:linear-gradient(to top, #00689E, #00B5D5)!important;
+	
+	
+}
+
+.modules_add:hover {
+	color					:#fff;
+    border-color			:#0092C7 #006CA5 #005A89;
+    box-shadow				:0 1px 1px rgba(0,0,0,.25), inset 0 1px 0 #00B2DC;
+    background-color		:#008AED;
+    background-image		:linear-gradient(to top, #0084C8, #00D7FD)!important;	
+}

@@ -1,0 +1,337 @@
+﻿body {
+	margin				:0px;
+	padding				:0px;
+	font-family			:arial;
+	font-size			:12px;
+}
+
+td {
+	font-family			:arial;
+	font-size			:12px;
+}
+
+.brw-main-tab {
+  	width				:100%;
+	border-collapse		:collapse;
+}
+
+#brw-folder {
+	width				:200px;
+	padding				:15px 5px 5px 15px;
+	vertical-align		:top;
+	background-color	:#FFF;	
+}
+
+#brw-sep {
+	width				:5px;
+	background-color	:#E5E5E5;	
+}
+
+#brw-center {
+	height				:530px;
+	padding				:10px;
+	vertical-align		:top;
+	background-color	:#F5F5F5;	
+}
+
+.brw-bottom {
+	height				:50px;
+	padding-left		:10px;	
+	font-size			:14px;
+	font-weight			:bold;	
+	border				:1px solid #eaeaea;
+	background-color	:#edeeef;
+	background			:-webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#e3e3e3));
+	background			:-moz-linear-gradient(top,  #f4f4f4,  #e3e3e3);
+	background			:-o-linear-gradient(top, #f4f4f4, #e3e3e3);
+}
+
+.brw_block {
+	margin				:5px;
+	padding				:10px;
+	display				:block;
+	float				:left;	
+	height				:180px;
+	width				:100px;
+	border-style		:solid;
+	border-width		:1px;
+	border-color		:#dddddd;
+	border-radius		:10px;
+	color				:#777777;
+	text-decoration		:none;
+	background-color	:#ffffff;
+}
+
+.brw_block:hover {
+	border-color		:#73DCFF;
+	color				:#000000;
+	background-color	:#BFEFFF;
+}
+
+.brw_im {
+	height				:100px;
+	width				:100px;
+	text-align			:center;
+}
+
+.brw_txt {
+	margin-top			:5px;
+	line-height			:20px;	
+	display				:block;
+	text-align			:center;
+	overflow			:hidden;
+	white-space			:nowrap;
+	text-overflow		:ellipsis;
+}
+
+.brw_txt_2{
+	margin				:5px 0px 10px 0px;
+	display				:block;
+	text-align			:center;
+	font-size			:10px;
+}
+
+a.ico_link:link, a.ico_link:visited {
+	position			:relative;
+	color				:#09F;
+}
+
+a.hoverrename:hover{
+	border				:1px;
+}
+
+a.ico_link_top:link, a.ico_link_top:visited {
+	color				:#24a801;
+	font-size			:16px;
+	text-decoration		:none;
+}
+
+#newfolder {
+	margin-left			:220px;
+	display				:block;
+	float				:left;
+	width				:350px;	
+}
+
+#newfile {
+	display				:block;
+	float				:left;	
+}
+
+/* --- d=2 -------------------------------------------------------------------- */
+.send_title {
+	text-align			:center;
+	font-size			:16px;
+	font-weight			:bold;
+}
+
+.rename_file {
+	display				:block;
+	float				:left;
+	cursor				:pointer;
+	padding-right		:2px;
+}
+
+.dialogue {
+	font-size			:14px;
+	font-weight			:bold;
+	width				:50%;
+	display				:block;
+	float				:left;
+}
+
+.dialogue_image {
+	padding-top			:20px;
+	text-align			:center;
+}
+
+.text-center {
+	text-align			:center;
+}
+
+#fade {
+	display				:none; 
+	background			:#000;
+	position			:fixed; 
+	left				:0; 
+	top					:0;
+	width				:100%; 
+	height				:100%;
+	opacity				:.50;
+	z-index				:9999;
+}
+
+div.overlay {
+	text-align			:center;
+	display				:none;
+	background			:#fff;
+	padding				:20px;
+	border				:10px;
+	float				:left;
+	font-size			:1.2em;
+	position			:fixed;
+	top					:50%; 
+	left				:50%;
+	z-index				:99999;
+
+	-webkit-box-shadow	:0px 0px 50px #000;
+	-moz-box-shadow		:0px 0px 50px #000;
+	box-shadow			:0px 0px 50px #000;
+
+	-webkit-border-radius:10px;
+	-moz-border-radius	:10px;
+	border-radius		:10px;
+}
+
+/* default close button positioned on upper right corner */
+
+#contextmenu {
+	z-index				:1001;
+	position			:absolute;
+	width				:150px;
+	height				:50px;
+	-webkit-box-shadow	:2px 2px 5px #999;
+	-moz-box-shadow		:2px 2px 5px #999;
+	box-shadow			:2px 2px 5px #999;
+	border-color		:#999;
+	-webkit-border-radius:5px;
+	-moz-border-radius	:5px;
+	border-style		:solid;
+	border-width		:1px;
+	border-radius		:5px;
+	background-color	:#F4F4F4;
+}
+
+.contextmenu_str img {
+	float				:left;
+	margin				:4px 5px 0px 3px;
+}
+
+a.contextmenu_str {
+	display				:block;
+	padding-left		:5px;
+	height				:24px;
+	line-height			:24px;
+	vertical-align		:middle;
+	cursor				:pointer;	
+	border-bottom-style	:solid;
+	border-bottom-color :#DDD;	
+	border-bottom-width :1px;
+}
+
+/* Древовидное меню */
+.tree_menu {
+	display				:block;
+	height				:20px;
+	line-height			:20px;
+	color				:#000;
+	text-decoration		:none;
+}
+
+.level_0 {
+	padding-left		:25px;
+	background			:url(./images/folder_20_0.png) no-repeat;	
+}
+
+.level_0_active {
+	padding-left		:25px;
+	font-weight			:bold;
+	color				:#09F;
+	background			:url(./images/folder_20_0_open.png) no-repeat;	
+}
+
+.level_1 {
+	padding-left		:25px;
+	background			:url(./images/folder_20.png) no-repeat;	
+}
+
+.level_1_active {
+	padding-left		:25px;
+	font-weight			:bold;
+	color				:#09F;
+	background			:url(./images/folder_20_1_open.png) no-repeat;	
+}
+
+.level_2 {
+	margin-left			:15px;
+	padding-left		:25px;	
+	background			:url(./images/folder_20.png) no-repeat;	
+}
+
+.level_2_active {
+	margin-left			:15px;
+	padding-left		:25px;
+	font-weight			:bold;
+	color				:#09F;
+	background			:url(./images/folder_20_1_open.png) no-repeat;	
+}
+
+.level_3 {
+	margin-left			:30px;
+	padding-left		:25px;	
+	background			:url(./images/folder_20.png) no-repeat;	
+}
+
+.level_3_active {
+	margin-left			:30px;
+	padding-left		:25px;
+	font-weight			:bold;
+	color				:#09F;
+	background			:url(./images/folder_20_1_open.png) no-repeat;	
+}
+
+.level_4 {
+	margin-left			:45px;
+	padding-left		:25px;	
+	background			:url(./images/folder_20.png) no-repeat;	
+}
+
+.level_4_active {
+	margin-left			:45px;
+	padding-left		:25px;
+	font-weight			:bold;
+	color				:#09F;
+	background			:url(./images/folder_20_1_open.png) no-repeat;	
+}
+
+.level_5 {
+	margin-left			:60px;
+	padding-left		:25px;	
+	background			:url(./images/folder_20.png) no-repeat;	
+}
+
+.level_5_active {
+	margin-left			:60px;
+	padding-left		:25px;
+	font-weight			:bold;
+	color				:#09F;
+	background			:url(./images/folder_20_1_open.png) no-repeat;	
+}
+
+.level_6 {
+	margin-left			:75px;
+	padding-left		:25px;	
+	background			:url(./images/folder_20.png) no-repeat;	
+}
+
+.level_6_active {
+	margin-left			:75px;
+	padding-left		:25px;
+	font-weight			:bold;
+	color				:#09F;
+	background			:url(./images/folder_20_1_open.png) no-repeat;	
+}
+
+.level_7 {
+	margin-left			:90px;
+	padding-left		:25px;	
+	background			:url(./images/folder_20.png) no-repeat;	
+}
+
+.level_7_active {
+	margin-left			:90px;
+	padding-left		:25px;
+	font-weight			:bold;
+	color				:#09F;
+	background			:url(./images/folder_20_1_open.png) no-repeat;	
+}

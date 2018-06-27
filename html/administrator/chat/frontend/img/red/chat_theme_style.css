@@ -1,0 +1,21 @@
+#chat_close {
+	background			:url(chat_close.png);
+}
+
+#chat_close:hover {
+	background			:url(chat_close.png);
+	background-position	:bottom;
+}
+
+#chat_win {
+	background			:url(chat_win.png);
+}
+
+#chat_open {
+	background			:url(chat_open.png);
+}
+
+.chat_mess_admin {
+	background-color	:#fed6d6;
+	border				:1px solid #ffc6c6;
+}

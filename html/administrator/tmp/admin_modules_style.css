@@ -1,0 +1,371 @@
+﻿#modulesall {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../tmp/images/all.png) no-repeat;
+}
+
+.topmenu-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/topmenu/admin/images/ico.png) no-repeat;
+}
+
+.topmenu-m {
+	background			:url(../../modules/topmenu/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.leftmenu-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/leftmenu/admin/images/ico.png) no-repeat;
+}
+
+.leftmenu-m {
+	background			:url(../../modules/leftmenu/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.tel-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/tel/admin/images/ico.png) no-repeat;
+}
+
+.tel-m {
+	background			:url(../../modules/tel/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.editor-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/editor/admin/images/ico.png) no-repeat;
+}
+
+.editor-m {
+	background			:url(../../modules/editor/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+
+.theme-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/theme/admin/images/ico.png) no-repeat;
+}
+
+.theme-m {
+	background			:url(../../modules/theme/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.slider_skitter-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/slider_skitter/admin/images/ico.png) no-repeat;
+}
+
+.slider_skitter-m {
+	background			:url(../../modules/slider_skitter/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+
+.quote-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/quote/admin/images/ico.png) no-repeat;
+}
+
+.quote-m {
+	background			:url(../../modules/quote/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.authorization-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/authorization/admin/images/ico.png) no-repeat;
+}
+
+.authorization-m {
+	background			:url(../../modules/authorization/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.article-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/article/admin/images/ico.png) no-repeat;
+}
+
+.article-m {
+	background			:url(../../modules/article/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.cart-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/cart/admin/images/ico.png) no-repeat;
+}
+
+.cart-m {
+	background			:url(../../modules/cart/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.form-m {
+	background			:url(../../modules/form/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.form-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/form/admin/images/ico.png) no-repeat;
+}
+
+.calltoorder-m {
+	background			:url(../../modules/calltoorder/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.calltoorder-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/calltoorder/admin/images/ico.png) no-repeat;
+}
+
+.search-m {
+	background			:url(../../modules/search/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.search-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/search/admin/images/ico.png) no-repeat;
+}
+
+.newusers-m {
+	background			:url(../../modules/newusers/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.newusers-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/newusers/admin/images/ico.png) no-repeat;
+}
+
+.newcomments-m {
+	background			:url(../../modules/newcomments/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.newcomments-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/newcomments/admin/images/ico.png) no-repeat;
+}
+
+.subscribe-m {
+	background			:url(../../modules/subscribe/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.subscribe-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/subscribe/admin/images/ico.png) no-repeat;
+}
+
+.shop-m {
+	background			:url(../../modules/shop/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.shop-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/shop/admin/images/ico.png) no-repeat;
+}
+
+/* ОФОРМЛЕНИЕ МОДУЛЯ */
+#chat-new {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:0px;
+	color				:#0000ff;
+	font-weight			:bold;
+}
+
+#chat-onl {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../chat/admin/images/chat.png) no-repeat;
+}
+
+#chat-sett {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../chat/admin/images/chat-s.png) no-repeat;
+}
+
+.breadcrumbs-m {
+	background			:url(../../modules/breadcrumbs/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.breadcrumbs-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/breadcrumbs/admin/images/ico.png) no-repeat;
+}
+
+.scroll_images-m {
+	background			:url(../../modules/scroll_images/admin/images/scroll_images.png) no-repeat;
+	background-position	:center;
+}
+
+.scroll_images-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/scroll_images/admin/images/scroll_images.png) no-repeat;
+}
+
+.exchangerates-m {
+	background			:url(../../modules/exchangerates/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.exchangerates-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(../../modules/exchangerates/admin/images/ico.png) no-repeat;
+}
+
+.timer-m {
+	background			:url(/modules/timer/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.timer-lm {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(/modules/timer/admin/images/ico.png) no-repeat;
+}
+
+.img4r-m {
+	background			:url(/modules/img4r/admin/images/ico.png) no-repeat;
+	background-position	:center;
+}
+
+.img4r-lm  {
+	display				:block;
+	line-height			:25px;
+	padding-bottom		:15px;
+	padding-left		:35px;
+	color				:#0000ff;
+	font-weight			:bold;
+	background			:url(/modules/img4r/admin/images/ico.png) no-repeat;
+}

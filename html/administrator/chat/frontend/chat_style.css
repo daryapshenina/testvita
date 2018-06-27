@@ -1,0 +1,108 @@
+#chat_box {
+	width				:350px;
+	position			:fixed;
+	z-index				:1100;
+	bottom				:0px;
+	left				:10px;
+	background-color	:#ffffff;
+}
+
+#chat_win {
+	height				:371px;
+	width				:350px;
+	background-repeat	:no-repeat;
+	background-position	:top;
+	position			:relative;
+}
+
+/* Button open */
+#chat_open {
+	height				:29px;
+	width				:350px;
+	cursor				:pointer;
+}
+
+/* Button close */
+#chat_close {
+	cursor				:pointer;
+	height				:29px;
+	width				:350px;
+	background-position	:top;
+}
+
+#chat_close:hover {
+	height				:29px;
+	width				:350px;
+	background-position	:bottom;
+}
+
+/* Main win chat */
+#chat {
+	height				:235px;
+	width				:330px;
+	margin				:0px;
+	padding				:0px;
+	overflow			:auto;
+	position			:relative;
+	top					:6px;
+	left				:10px;
+}
+
+#chat-p {
+	padding				:0px 5px 0px 0px;
+	word-break			:break-all;
+}
+
+#mess {
+	height				:58px;
+	width				:325px;
+	border				:0;
+	resize				:none;
+	position			:relative;
+	top					:20px;
+	left				:10px;
+}
+
+#chat_log {
+	position			:absolute;
+	bottom				:16px;
+	left				:10px;
+	color				:#ffffff;
+}
+
+#send {
+	cursor				:pointer;
+	height				:30px;
+	width				:145px;
+	background-image	:url(img/chat_send.png);	
+	background-repeat	:no-repeat;
+	position			:absolute;
+	bottom				:10px;
+	right				:10px;
+}
+
+/* message style */
+.chat_mess_user {
+	min-height			:12px;
+	width				:100%;
+	border				:1px solid #d5d58b;
+	border-radius		:5px;
+	background-color	:#ffffb4;
+	color				:#000000;
+}
+
+.chat_mess_admin {
+	min-height			:12px;
+	width				:100%;
+	color				:#000000;
+	border-radius		:5px;
+}
+
+.chat_mess_raz {
+	height				:5px;
+	width				:100%;
+}
+
+.chat_mess_p {
+	padding				:2px;
+}
