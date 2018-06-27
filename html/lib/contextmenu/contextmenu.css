@@ -1,0 +1,92 @@
+#contextmenu {
+	z-index				:1011;
+	position			:absolute;
+	margin-bottom		:100px;
+	min-width			:100px;
+	min-height			:25px;
+	line-height			:25px;
+	vertical-align		:middle;
+	cursor				:pointer;
+	-webkit-box-shadow	:2px 2px 5px #999;
+	-moz-box-shadow		:2px 2px 5px #999;
+	box-shadow			:2px 2px 5px #999;
+	border-color		:#999;
+	-webkit-border-radius:5px;
+	-moz-border-radius	:5px;
+	border-style		:solid;
+	border-width		:1px;
+	border-radius		:5px;
+	background-color	:#F4F4F4;
+}
+
+#contextmenu a{
+	display				:block;
+	margin				:0px 10px 0px 10px;
+	padding				:0px 0px 0px 23px;
+    font-family			:Arial;
+    font-size			:13px;
+	color				:#000;	
+	text-decoration		:none;
+	border-bottom		:1px solid #e7e7e7;
+
+}
+
+.contextmenu_add {
+	background			:url('/lib/contextmenu/images/add.png') no-repeat left center;
+}
+
+.contextmenu_copy {
+	background			:url('/lib/contextmenu/images/copy.png') no-repeat left center;
+}
+
+.contextmenu_edit {
+	background			:url('/lib/contextmenu/images/edit.png') no-repeat left center;
+}
+
+.contextmenu_help {
+	background			:url('/lib/contextmenu/images/help.png') no-repeat left center;
+}
+
+.contextmenu_up {
+	background			:url('/lib/contextmenu/images/up.png') no-repeat left center;
+}
+
+.contextmenu_down {
+	background			:url('/lib/contextmenu/images/down.png') no-repeat left center;
+}
+
+.contextmenu_pub {
+	background			:url('/lib/contextmenu/images/pub.png') no-repeat left center;
+}
+
+.contextmenu_unpub {
+	background			:url('/lib/contextmenu/images/unpub.png') no-repeat left center;
+}
+
+.contextmenu_block {
+	background			:url('/lib/contextmenu/images/block.png') no-repeat left center;
+}
+
+.contextmenu_unblock {
+	background			:url('/lib/contextmenu/images/unblock.png') no-repeat left center;
+}
+
+.contextmenu_tools{
+	background			:url('/lib/contextmenu/images/tools.png') no-repeat left center;
+}
+
+.contextmenu_orders{
+	background			:url('/lib/contextmenu/images/orders.png') no-repeat left center;
+}
+
+.contextmenu_import {
+	background			:url('/lib/contextmenu/images/import.png') no-repeat left center;
+}
+
+.contextmenu_export {
+	background			:url('/lib/contextmenu/images/export.png') no-repeat left center;
+}
+
+.contextmenu_delete{
+	background			:url('/lib/contextmenu/images/delete.png') no-repeat left center;
+}

@@ -1,0 +1,125 @@
+#image_resize_container {
+	position				:absolute;
+	z-index					:1001;
+	display					:flex;
+	flex-wrap				:wrap;
+	width					:100%;
+	height					:100%;
+	background-color		:#EFEFEF;
+}
+
+#image_resize_left {
+	width					:calc(100% - 320px);
+	height					:100%;
+}
+
+#image_left_title {
+	z-index					:10010;	
+	height					:40px;
+	padding					:0px 20px;
+	line-height				:40px;
+	font-size				:14px;
+	text-align				:center;
+	color					:#E1E8EA;
+	background-color		:#434546;
+}
+
+#image_resize_right{
+	z-index					:10010;
+	width					:320px;
+	height					:100%;
+	background-color		:#434546;
+}
+
+#right_src {
+	min-height				:120px;
+}
+
+#image_src_title {
+	z-index					:10010;	
+	height					:40px;
+	padding					:0px 20px;
+	line-height				:40px;
+	font-size				:14px;
+	text-align				:center;
+	color					:#E1E8EA;
+}
+
+#thumbnail_container {
+	margin					:0px auto 20px auto;
+	text-align				:center;
+	overflow				:hidden;
+}
+
+.image_resize_title_right {
+	margin-bottom			:20px;
+}
+
+#image_resize_big {
+	position				:relative;
+	display					:flex;
+	justify-content			:center;
+	align-items				:center;
+	height					:calc(100% - 40px);
+	overflow				:hidden;
+	/* box-shadow				:0px 0px 10px rgba(0,0,0,0.5);	*/
+}
+
+#image_resize_big_image {
+	/* max-width				:100%; */
+}
+
+.right_container {
+	display					:flex;
+	align-items				:center;
+	margin-bottom			:10px;
+}
+
+.right_container_button {
+	display					:flex;
+	justify-content			:center;
+	margin-bottom			:10px;
+}
+
+.range {
+	margin					:0px 20px;
+}
+
+#range_num {
+    font-size				:13px;
+    display					:inline-block;
+	color					:#E1E8EA;
+}
+
+.right_text_title {
+	margin					:0px 20px 10px 20px;
+    font-size				:13px;
+	color					:#00CE3F;
+}
+
+.right_text {
+	margin-left				:20px;
+    font-size				:13px;
+    display					:inline-block;
+    width					:60px;
+	color					:#E1E8EA;
+}
+
+.source {
+	width					:70px;
+	display					:inline-block;
+    font-size				:13px;	
+	color					:#E1E8EA;	
+}
+
+.number{
+	width 					:70px;
+}
+
+#image_resize_container .button_green, #image_resize_container .button_light {
+	width					:200px;
+}
+
+#image_resize_container .button_green {
+	margin-top				:30px;
+}
