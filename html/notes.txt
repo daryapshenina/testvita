@@ -1,0 +1,53 @@
+// ======= SQL =======
+
+// Настройки - показать фильтры в разделах / показать подразделы
+
+INSERT INTO com_shop_settings (`id`, `name`, `parametr`) VALUES (NULL, 'section_filters', '1'), (NULL, 'sub_sections', '1'), (NULL, 'nds', '1'), (NULL, 'ue', '1');
+INSERT INTO components (`id`, `components`, `title`, `description`, `enabled`) VALUES (NULL, 'account', 'Профиль пользователя.', '', '1');
+UPDATE components SET enabled = 1 WHERE components = 'account' LIMIT 1;
+
+
+CREATE TABLE IF NOT EXISTS `com_account_profile` (
+  `id` int(12) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(12) NOT NULL,
+  `name` varchar(40) NOT NULL,
+  `surname` varchar(40) NOT NULL,
+  `birth_date` date NOT NULL,
+  `company` varchar(255) NOT NULL,
+  `phone` varchar(120) NOT NULL,
+  `image` int(1) NOT NULL,
+  `about` text NOT NULL,
+  `country` varchar(50) NOT NULL,
+  `city` varchar(50) NOT NULL,
+  `address` varchar(255) NOT NULL, 
+  `options` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+
+// ======= ПРОВЕРИТЬ =======
+ИМ >>> admin + frontend
+
+1. Переключение шаблонов вывода
+2. Сортировка товара
+3. Установка валюты
+4. Количество товаров на странице + проверить пагинацию (постраничную навигацию)
+5. Вывод товаров из подразделов (да / нет)
+6. Размер малого изображения
+7. ИМ >>> frontend >>> В отправленном письме - указана общая сумма
+8. ИМ >>> frontend >>> корзина - изображения у товара
+8. ИМ >>> frontend >>> цена в у.е. и в долларах и в рублях на одной странице
+
+
+
+
+
+
+// ======= ТЕКСТ ДЛЯ ОБНОВЛЕНИЯ =======
+
+<div>1. Появилась возможность управлять показом фильтров в верхней части раздела.</div>
+<div>&nbsp;</div>
+<div>2. Появилась возможность управлять показом подразделов в верхней части вывода содержимого раздела.</div>
+<div>&nbsp;</div>
+<div>3. Доступен новый модуль, выводящий фильтры интернет магазина с возможностью множественного выбора.</div>
+<div>&nbsp;</div>

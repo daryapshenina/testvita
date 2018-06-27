@@ -1,0 +1,9 @@
+User-Agent: *
+Sitemap: http://vita-web.ru/sitemap.xml
+Host: vita-web.ru
+Disallow: /admin
+Disallow: /administrator
+Disallow: *utm
+Disallow: *clid=
+Disallow: *openstat
+Disallow: *from

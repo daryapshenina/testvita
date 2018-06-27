@@ -1,0 +1,26 @@
+RewriteRule ^.htaccess$ - [F]
+
+AddDefaultCharset utf-8
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L] On
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+
+# Применять RewriteRule, только если запрашиваемое имя файла не совпадает с именем реального файла на сервере 
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Применять RewriteRule, только если  запрашиваемое имя не совпадает с именем какой-нибудь реальной директории
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Перенаправление с существующих папок на 404.php - флаг [PT]
+RewriteRule ^sitemap.xml index.php?sitemap
+ErrorDocument 404 /404.php
+#RewriteRule ^404.php$1 [PT]
+
+
+# Перенаправление с переменными
+RewriteRule ^([^.]+)$ index.php?$1
+# Sitemap.xml
+Redirect 301 /sitemap.xml /sitemap
