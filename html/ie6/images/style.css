@@ -1,0 +1,17 @@
+HTML {
+	padding				:0px;
+	margin				:0px;
+	font-family			:Verdana;
+}
+
+BODY {
+	background			:url(fon.png) no-repeat;
+	background-position	:center;
+}
+
+H1 {
+	padding-top			:100px;
+	padding-bottom		:50px;	
+	font-size			:24px;
+	color				:#F00;
+}

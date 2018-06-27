@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cms>
+	<cmsversion>1.48</cmsversion>
+	<template>1</template>
+	<creationDate>20.03.2014</creationDate>
+	<components>
+		<component>page</component>
+		<component>shop</component>
+		<component>form</component>
+	<component>article</component><component>article</component><component>article</component></components>
+	<modules>
+		<module>topmenu</module>
+		<module>leftmenu</module>
+		<module>logo</module>
+		<module>slogan</module>
+		<module>tel</module>
+		<module>theme</module>
+		<module>special</module>
+		<module>user1</module>
+		<module>user2</module>
+		<module>user3</module>
+	</modules>
+</cms>

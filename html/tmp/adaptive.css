@@ -1,0 +1,370 @@
+﻿@media screen and (max-width: 1000px), screen and (max-device-width: 1000px) {
+
+	#top #block_two_main {
+		display				:block;
+		width				:100%;
+	}
+
+	#top #block_two_left {
+		width				:100%;
+		display				:block;
+	}
+
+	#top #block_two_left_table {
+		display				:block;
+		width				:100%;
+		float				:none;
+		padding				:0px 0px 0px 0px;
+	}
+
+	#top #block_two_left .mod-main {
+		display				:block;
+		padding				:5px 20px 5px 20px;
+	}
+
+	#top #block_two_right {
+		display				:block;
+		width				:100%;
+	}
+
+	#top #block_two_right_table {
+		display				:block;
+		width				:100%;
+		float				:none;
+		padding				:0px 0px 0px 0px;
+	}
+
+	#top #block_two_right .mod-main {
+		display				:block;
+		padding				:5px 20px 5px 20px;
+	}
+
+	/**/
+
+	#header #block_two_main {
+		display				:block;
+		width				:100%;
+		margin				:0px 0px 10px 0px;
+	}
+
+	#header #block_two_left {
+		display				:block;
+		width				:100%;
+	}
+
+	#header #block_two_left_table {
+		width				:100%;
+		float				:none;
+		padding				:0px 0px 0px 0px;
+	}
+
+	#header #block_two_left .mod-main {
+		padding				:20px 20px 0px 20px;
+	}
+
+	#header #block_two_right {
+		display				:block;
+		width				:100%;
+	}
+
+	#header #block_two_right_table {
+		float				:none;
+		width				:100%;
+		padding				:0px 0px 0px 0px;
+	}
+
+	#header #block_two_right .mod-main {
+		padding				:10px 20px 0px 20px;
+	}
+
+	#topmenu_wrap {
+		display				:block;
+	}
+
+	#topmenu_tab {
+		margin				:10px auto 0px;
+	}
+
+	/**/
+
+	.module_four_table_1, .module_four_table-2 {
+		display				:block;
+	}
+
+	.module_four_1, .module_four_2, .module_four_3, .module_four_4 {
+		display				:block;
+		width				:100%;
+	}
+
+	/**/
+
+	.module_three_table_main {
+		display				:block;
+	}
+
+	.module_three_table_main_cell_1, .module_three_table_main_cell_2 {
+		display				:block;
+		width				:100%;
+	}
+
+	/**/
+
+	.shop_item_r_photo {
+		float				:none !important;
+		width				:100% !important;
+	}
+
+	.shop_item_r_right {
+		margin				:20px 0px 0px 0px !important;
+	}
+
+	.shop_item_r_right .shop-item-title-3 {
+		margin				:0px 0px 0px 0px;
+	}
+
+}
+
+@media screen and (max-width: 740px), screen and (max-device-width: 740px) {
+
+	#topmenu_ico {
+		display				:block !important;
+	}
+
+	#topmenu_wrap {
+		display				:none;
+	}
+
+	.title h1, .section-title, .shop-item-title-2 {
+		font-size			:1.9em !important;
+	}
+
+	/**/
+
+	.module_two_table_main {
+		display				:block;
+	}
+
+	.module_two_1 {
+		width				:100%;
+		display				:block;
+	}
+
+	.module_two_2 {
+		width				:100%;
+		display				:block;
+	}
+
+	/**/
+
+	#topmenu_tab {
+		display				:block;
+		padding				:0px 20px 0px 20px;
+	}
+
+	#topmenu_tab tbody {
+		display				:block;
+	}
+
+	#topmenu_tab tr {
+		display				:block;
+	}
+
+	#topmenu_tab td {
+		display				:block;
+	}
+
+	#topmenu_tab .topmenu-0, #topmenu_tab .activetopmenu-1, #topmenu_tab .activetopmenu-3, #topmenu_tab .topmenu-1, #topmenu_tab .topmenu-3, #topmenu_tab .topmenu-4 {
+		display				:none;
+	}
+
+	#topmenu_tab .activetopmenu, #topmenu_tab .topmenu {
+		display				:block;
+		line-height			:normal;
+		margin				:5px 0px 5px 0px;
+	}
+
+	#topmenu_tab .topmenu {
+		border-bottom		:1px solid #CECECE;
+	}
+
+	#topmenu_tab .activetopmenu, #topmenu_tab .topmenu:hover {
+		border-bottom		:1px solid #F60;
+	}
+
+	.menutop_lvl_2_block {
+		display				:block !important;
+		position			:relative;
+		background			:none;
+		border				:0px;
+	}
+
+	.menutop_lvl_2_block .menutop_sub {
+		line-height			:normal;
+		margin				:10px 20px 10px 20px;
+		padding				:5px 20px 5px 20px;
+		font-size			:0.9em;
+		font-weight			:normal;
+		border-bottom		:1px solid #CECECE;
+		white-space			:normal;
+		color				:#4E4E4E;
+	}
+
+	.menutop_lvl_2_block .menutop_sub:hover {
+		background			:none;
+		text-decoration		:none;
+		font-weight			:normal;
+		color				:#F60;
+		border-bottom		:1px solid #F60;
+	}
+
+	.menutop_lvl_3_block {
+		display				:block !important;
+		position			:relative;
+		background			:none;
+		left				:0%;
+		border				:0px;
+	}
+
+	.menutop_lvl_3_block .menutop_sub {
+		line-height			:normal;
+		margin				:10px 40px 10px 40px;
+		padding				:5px 20px 5px 20px;
+		font-size			:0.9em;
+		font-weight			:normal;
+		border-bottom		:1px solid #CECECE;
+		color				:#4E4E4E;
+	}
+
+	.menutop_lvl_3_block .menutop_sub:hover {
+		background			:none;
+		text-decoration		:none;
+		font-weight			:normal;
+		color				:#F60;
+		border-bottom		:1px solid #F60;
+	}
+
+	/**/
+
+	.shop_section_column {
+		-webkit-column-count:1 !important;
+		-moz-column-count	:1 !important;
+		column-count		:1 !important;
+	}
+
+	.shop_photo_big {
+		width				:100%;
+	}
+
+	.basket-item {
+		margin				:10px 0px 0px 0px !important;
+	}
+
+	.basket-item-title, .basket-item-klv, .basket-item-price, .basket-item-summa, .basket-item-delete {
+		font-size			:0.7em;
+	}
+
+	.basket-item-price {
+		display				:none;
+	}
+
+	.basket-item-klv input {
+		width				:20px !important;
+		text-align			:center;
+	}
+
+	.basket-item-tab td {
+		font-size			:0.7em;
+		vertical-align		:middle;
+	}
+
+	.basket-item-tab td input {
+		width				:100%;
+		-webkit-box-sizing	:border-box;
+		-moz-box-sizing		:border-box;
+		box-sizing			:border-box;
+	}
+
+	.basket-client-text, .basket-client-text .fr_10 {
+		width				:auto !important;
+		line-height			:110% !important;
+		padding				:0px 0px 0px 0px !important;
+		text-align			:center !important;
+		float				:none !important;
+	}
+
+	.shop_section_filter_tab {
+		margin				:40px 0px 10px 0px;
+		font-size			:0.9em;
+	}
+
+	.shop_section_filter_container_sorting {
+		left				:10px;
+	}
+
+	.shop_char_table {
+		margin				:10px 0px 0px 0px;
+	}
+
+}
+
+@media screen and (max-width: 600px), screen and (max-device-width: 600px) {
+	.mod_img4r_cellrow {
+		display				:table-row !important;
+	}
+
+	.module_four_table_main {
+		display				:block;
+	}
+
+	.module_four_table_main_cell_1 {
+		width				:100%;
+		display				:block;
+	}
+
+	.module_four_table_main_cell_2 {
+		width				:100%;
+		display				:block;
+	}
+
+	.module_four_table_1 {
+		display				:block;
+	}
+
+	.module_four_table_2 {
+		display				:block;
+	}
+
+	.module_four_1, .module_four_2, .module_four_3, .module_four_4 {
+		display				:block;
+		width				:100%;
+	}
+
+	/**/
+
+	.module_three_table_1 {
+		display				:block;
+	}
+
+	.module_three_1, .module_three_2 {
+		display				:block;
+		width				:100%;
+	}
+
+	/**/
+
+	.module_single .mod-title {
+		font-size			:1.5em;
+	}
+
+	/**/
+
+	#slider .label_skitter {
+		font-size			:1.2em;
+		padding				:5px 0px 5px 0px;
+	}
+
+}
+
+.topmenu_display {
+	display					:block !important;
+}

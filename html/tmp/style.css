@@ -1,0 +1,31 @@
+﻿a.topmenu:hover {
+	color				:#00C4F5;
+	border-bottom		:2px solid #00C4F5;
+}
+
+.activetopmenu {
+	color				:#00C4F5;
+	border-bottom		:2px solid #00C4F5;
+}
+
+.activetopmenu-2 {
+	color				:#00C4F5;
+}
+
+a.activetopmenu:link {
+	color				:#00C4F5;
+}
+
+a.activetopmenu:visited {
+	color				:#00C4F5;
+}
+
+a.activetopmenu:hover {
+	color				:#00C4F5;
+}
+
+a.menutop_sub:hover {
+	background			:#00C4F5;
+}
+
+/*0055BD*/

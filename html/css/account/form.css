@@ -1,0 +1,105 @@
+#dan_framework_body_lightbox_0 {
+	background			:#E9E9E9;
+}
+
+.auth_form_container {
+	margin				:0 auto;
+	width				:260px;
+}
+
+.input:invalid, .input:out-of-range{
+	border				:1px solid #C4C4C4;
+}
+
+.auth_form_title {
+	font-weight			:normal;
+	text-align			:center;
+	font-size			:18px;
+	padding				:0px;
+	margin				:0px 0px 20px 0px
+}
+
+
+.auth_form_div_email {
+	position			:relative;
+	font				:normal normal bold 14px/1 FontAwesome;	
+	margin-bottom		:10px;
+	text-align			:center;
+}
+
+.auth_form_div_email:before {
+	position			:absolute;
+	font-size			:14px;
+    margin				:11px 0px 0px 14px;
+    color				:#A9A9A9;	
+    content				:"\f003";
+}
+
+.auth_form_email {
+	width				:200px;
+	padding-left		:40px;
+}
+
+
+.auth_form_div_pass {
+	position			:relative;
+	font				:normal normal normal 14px/1 FontAwesome;	
+	margin-bottom		:10px;
+	text-align			:center;
+}
+
+.auth_form_div_pass:before {
+	position			:absolute;
+	font-size			:20px;
+    margin				:9px 0px 0px 15px;
+    color				:#A9A9A9;	
+    content				:"\f023";
+}
+
+.auth_form_pass {
+	width				:200px;
+	padding-left		:40px;
+}
+
+.auth_form_div_captcha {
+	display				:flex;
+	align-items			:center;
+	margin				:0px 0px 10px 10px;
+	text-align			:center;
+}
+
+.registration_img {
+	margin-right		:10px;
+	border				:1px solid #C4C4C4;	
+}
+
+.auth_form_div_but {
+	margin-bottom		:10px;
+	text-align			:center;
+}
+
+.auth_form_but {
+	width				:242px;	
+	border				:1px solid #009705;
+	color				:#FFF;
+    background			:#00A606;
+    cursor				:pointer;
+    display				:inline-block;
+    padding				:7px 0px;
+    font-size			:18px;
+    font-weight			:normal;
+    box-shadow			:1px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius		:4px;
+    text-decoration		:none !important;
+    text-shadow			:0px 0px 0px rgba(0, 0, 0, 0);
+    transition			:background 0.5s;
+}
+
+.auth_form_div_forgot {
+	margin-bottom		:10px;
+	text-align			:center;	
+}
+
+a.auth_form_a_forgot {
+	color				:#757575;
+}

@@ -1,0 +1,87 @@
+#contextmenu {
+	z-index				:1001;
+	position			:absolute;
+	margin-bottom		:100px;
+	min-width			:100px;
+	min-height			:25px;
+	line-height			:25px;
+	vertical-align		:middle;
+	cursor				:pointer;
+	-webkit-box-shadow	:2px 2px 5px #999;
+	-moz-box-shadow		:2px 2px 5px #999;
+	box-shadow			:2px 2px 5px #999;
+	border-color		:#999;
+	-webkit-border-radius:5px;
+	-moz-border-radius	:5px;
+	border-style		:solid;
+	border-width		:1px;
+	border-radius		:5px;
+	background-color	:#F4F4F4;
+}
+
+#contextmenu a{
+	display				:block;
+	margin				:0px 10px 0px 10px;
+	padding				:0px 0px 0px 20px;
+	border-bottom		:1px solid #e7e7e7;
+}
+
+.contextmenu_add {
+	background			:url('/administrator/tmp/images/add.png') no-repeat left center;
+}
+
+.contextmenu_copy {
+	background			:url('/administrator/tmp/images/copy.png') no-repeat left center;
+}
+
+.contextmenu_edit {
+	background			:url('/administrator/tmp/images/edit.png') no-repeat left center;
+}
+
+.contextmenu_info {
+	background			:url('/administrator/tmp/images/info.png') no-repeat left center;
+}
+
+.contextmenu_up {
+	background			:url('/administrator/tmp/images/up.png') no-repeat left center;
+}
+
+.contextmenu_down {
+	background			:url('/administrator/tmp/images/down.png') no-repeat left center;
+}
+
+.contextmenu_pub {
+	background			:url('/administrator/tmp/images/pub.png') no-repeat left center;
+}
+
+.contextmenu_unpub {
+	background			:url('/administrator/tmp/images/unpub.png') no-repeat left center;
+}
+
+.contextmenu_block {
+	background			:url('/administrator/tmp/images/block.png') no-repeat left center;
+}
+
+.contextmenu_unblock {
+	background			:url('/administrator/tmp/images/unblock.png') no-repeat left center;
+}
+
+.contextmenu_tools{
+	background			:url('/administrator/tmp/images/tools.png') no-repeat left center;
+}
+
+.contextmenu_orders{
+	background			:url('/administrator/tmp/images/orders.png') no-repeat left center;
+}
+
+.contextmenu_import {
+	background			:url('/administrator/tmp/images/import.png') no-repeat left center;
+}
+
+.contextmenu_export {
+	background			:url('/administrator/tmp/images/export.png') no-repeat left center;
+}
+
+.contextmenu_delete{
+	background			:url('/administrator/tmp/images/delete.png') no-repeat left center;
+}

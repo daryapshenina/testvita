@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<template>
+	<theme>
+		<name>default</name>
+		<title>Оранжевая</title>
+		<description>Тема установленная по-умолчанию.</description>
+	</theme>
+	<theme>
+		<name>blue</name>
+		<title>Синяя</title>
+		<description>Синяя тема.</description>
+	</theme>
+	<block>
+		<name>top-left</name>
+		<description>Верхний блок - слева</description>
+	</block>
+	<block>
+		<name>top-right</name>
+		<description>Верхний блок - справа</description>
+	</block>
+	<block>
+		<name>header</name>
+		<description>Шапка</description>
+	</block>
+	<block>
+		<name>topmenu</name>
+		<description>Верхнее меню</description>
+	</block>
+	<block>
+		<name>slider</name>
+		<description>Слайдер</description>
+	</block>
+	<block>
+		<name>img4r</name>
+		<description>Блок адаптивных изображений</description>
+	</block>
+	<block>
+		<name>module-single-1</name>
+		<description>Модуль одиночный - 1</description>
+	</block>
+	<block>
+		<name>module-four-1</name>
+		<description>4 модуля вверху - 1</description>
+	</block>
+	<block>
+		<name>module-four-2</name>
+		<description>4 модуля вверху - 2</description>
+	</block>
+	<block>
+		<name>module-four-3</name>
+		<description>4 модуля вверху - 3</description>
+	</block>
+	<block>
+		<name>module-four-4</name>
+		<description>4 модуля вверху - 4</description>
+	</block>
+	<block>
+		<name>module-paralax-1</name>
+		<description>Модуль с паралаксом - 1</description>
+	</block>
+	<block>
+		<name>module-single-2</name>
+		<description>Модуль одиночный - 2</description>
+	</block>
+	<block>
+		<name>module-paralax-2</name>
+		<description>Модуль с паралаксом - 2</description>
+	</block>
+	<block>
+		<name>module-single-3</name>
+		<description>Модуль одиночный - 3</description>
+	</block>
+	<block>
+		<name>module-two-1</name>
+		<description>2 модуля вверху - левый</description>
+	</block>
+	<block>
+		<name>module-two-2</name>
+		<description>2 модуля вверху - правый</description>
+	</block>
+	<block>
+		<name>module-paralax-2</name>
+		<description>Модуль с паралаксом - 2</description>
+	</block>
+	<block>
+		<name>module-single-4</name>
+		<description>Модуль одиночный - 4</description>
+	</block>
+	<block>
+		<name>module-four-bottom-1</name>
+		<description>4 модуля снизу - 1</description>
+	</block>
+	<block>
+		<name>module-four-bottom-2</name>
+		<description>4 модуля снизу - 2</description>
+	</block>
+	<block>
+		<name>module-four-bottom-3</name>
+		<description>4 модуля снизу - 3</description>
+	</block>
+	<block>
+		<name>module-four-bottom-4</name>
+		<description>4 модуля снизу - 4</description>
+	</block>
+	<block>
+		<name>module-two-3</name>
+		<description>2 модуля внизу - левый</description>
+	</block>
+	<block>
+		<name>module-two-4</name>
+		<description>2 модуля внизу - правый</description>
+	</block>
+	<block>
+		<name>breadcrumbs</name>
+		<description>Путь по сайту</description>
+	</block>
+	<block>
+		<name>left</name>
+		<description>Левый блок</description>
+		<width>210</width>
+	</block>
+	<block>
+		<name>right</name>
+		<description>Правый блок</description>
+		<width>210</width>
+	</block>
+</template>

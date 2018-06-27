@@ -1,0 +1,627 @@
+/* framework - lightbox ------------------------------------------------------------- */
+#dan_framework_lightbox_black {
+	position				:fixed;
+	z-index					:1000;
+	top						:0;
+	left					:0;
+	height					:100%;
+	width					:100%;
+	cursor					:pointer;
+	background				:#000000;
+	opacity					:0;
+}
+
+#dan_framework_body_lightbox_0 {
+	display					:block;
+	position				:fixed;
+	z-index					:1001;
+	padding					:20px;
+	-webkit-border-radius	:10px;
+	-moz-border-radius		:10px;
+	border-radius			:10px;
+	background				:#ffffff;
+	-webkit-box-shadow		:0px 0px 50px #000;
+	-moz-box-shadow			:0px 0px 50px #000;
+	box-shadow				:0px 0px 50px #000;
+	-webkit-border-radius	:10px;
+	opacity					:1;
+}
+
+#dan_framework_lightbox_close {
+	display					:block;
+	position				:absolute;
+	z-index					:1010;
+	right					:-16px;
+	top						:-16px;
+	height					:36px;
+	width					:36px;
+	cursor					:pointer;
+	background-image		:url(dan_framework/close.png);
+	opacity					:0;
+}
+
+/* POPUP ------------------------------------------------------------- */
+#dan_framework_popup {
+	position				:absolute;
+	border					:1px solid #EEEEEE;
+	box-shadow				:0px 0px 5px #BBBBBB;
+	border-radius			:5px;
+	background				:#ffffff;
+	z-index					:1001;
+}
+
+#dan_framework_popupClose {
+	cursor					:pointer;
+	height					:36px;
+	width					:36px;
+	background-image		:url(dan_framework/images/close.png);
+	position				:absolute;
+}
+
+#dan_framework_popupContent {
+}
+
+#dan_framework_popupText {
+	padding					:10px;
+}
+
+#dan_framework_popup_body_close {
+	position				:fixed;
+	z-index					:1000;
+	top						:0;
+	left					:0;
+	height					:100%;
+	width					:100%;
+	cursor					:pointer;
+}
+
+/* ------- ВСПЛЫВАЮЩАЯ ПОДСКАЗКА ------------------------------------------------------------------ */
+
+.help {
+	display				:inline-block;
+	height				:25px;
+	width				:25px;
+	cursor				:default;
+	position			:relative;
+	background			:url(dan_framework/images/question-25.png) no-repeat;
+}
+.help span {
+	margin-left			:-999em;
+	position			:absolute;
+}
+
+.help:hover span {
+	z-index				:100;
+	left				:0px;
+	top					:0px;
+	position			:absolute;
+	margin-left			:0;
+	padding				:10px 10px 10px 10px;
+	min-height			:100px;
+	width				:400px;
+	color				:#000000;
+	border-radius		:5px 5px;
+	-moz-border-radius	:5px;
+	-webkit-border-radius:5px;
+	box-shadow			:5px 5px 5px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow	:5px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow		:5px 5px rgba(0, 0, 0, 0.1);
+	font-family			:Arial;
+}
+.help:hover img {
+	border				:0;
+	margin				:-10px 0px 0px -35px;
+	float				:left;
+	position			:absolute;
+}
+
+.help:hover em {
+	padding				:10px 10px 10px 25px;
+	font-size			:16px;
+	font-weight			:bold;
+	font-style			:italic;
+	display				:block;
+	color				:#000000;
+}
+
+.tooltip {
+	border				:1px solid #2BB0D7;
+	background-color	:#9FDAEE;
+}
+
+/* ------- Всплывалка ------------------------------------------------------------------ */
+#dan_framework_imgFloat {
+	position			:absolute;
+	background			:#ffffff;
+	border-radius		:10px;
+	border				:1px solid #cccccc;
+}
+
+#dan_framework_imgFloat img {
+	border-radius		:10px;
+}
+
+#dan_imgFloatLoading {
+	background			:url(dan_framework/loading.gif);
+	background-repeat	:no-repeat;
+	background-position	:center center;
+}
+
+/* ------ Таблицы ------------------------------------------------------------------------ */
+.table0 {
+	border-width		:0px;
+	border-collapse		:collapse;
+	border-spacing		:0px;
+}
+
+.table0 > tbody > tr > td, .table0 > tr > td {
+	vertical-align		:middle;
+	padding				:0px;
+}
+
+.table1 {
+	border-collapse		:collapse;
+	border-color		:#cccccc;
+	border-spacing		:0px;
+	background			:#ffffff;
+}
+
+.table1 > tbody > tr > td, .table1 > tr > td {
+	vertical-align		:middle;
+	padding				:3px;
+	border-color		:#cccccc;
+}
+
+.tableA {
+	display				:block;
+	width				:100%;
+}
+
+.tableA > tbody {
+	display				:block;
+	width				:100%;
+}
+
+.tableA > tbody > tr, .tableA > tr {
+	display				:block;
+	width				:100%;
+	text-align			:center;
+}
+
+.tableA > tbody > tr > td, .tableA > tr > td {
+	display				:inline-block;
+	vertical-align		:middle;
+	text-align			:center;
+	margin				:5px;
+	vertical-align		:top;
+}
+
+/* ------ Кнопки ------------------------------------------------------------------------ */
+
+
+.but1, .but2, .but3, .but4, .but5, .but6, .but7 {
+	display				:inline;
+	cursor				:pointer;
+	text-align			:center;
+	padding				:5px 20px 5px 20px;
+	border-radius		:15px;
+	text-decoration		:none !important;
+	font-size			:16px;
+	font-weight			:bold;
+}
+
+/* Кнопка - Стиль 1 */
+.but1 {
+	background-color	:#e9e9e9;
+	border				:1px solid #c7c7c7;
+	background			:-webkit-gradient(linear, left top, left bottom, from(#e9e9e9), to(#d9d9d9));
+	background			:-moz-linear-gradient(top, #e9e9e9, #d9d9d9);
+	color				:#555555 !important;
+}
+.but1:hover {
+	background			:-webkit-gradient(linear, left top, left bottom, from(#d9d9d9), to(#e9e9e9));
+	background			:-moz-linear-gradient(top, #d9d9d9, #e9e9e9);
+	box-shadow			:1px 1px 5px #a9a9a9;
+	color				:#777777 !important;
+}
+
+/* Кнопка - Стиль 2 */
+.but2 {
+	color				:#000000 !important;
+	border				:1px solid #ffa700;
+	background			:#ffa700;
+	background   		:-webkit-gradient(linear, left top, left bottom, from(#ffa700), to(#fdff47));
+	background   		:-moz-linear-gradient(top,  #ffa700,  #fdff47);
+}
+
+a.but2:hover {
+	color				:#4F4F4F !important;
+	box-shadow			:1px 1px 5px #a9a9a9;
+	background			:#fdff47;
+	background   		:-webkit-gradient(linear, left top, left bottom, from(#fdff47), to(#ffa700));
+	background   		:-moz-linear-gradient(top,  #fdff47,  #ffa700);
+}
+
+/* Кнопка - Стиль 3 */
+.but3 {
+	color				:#ffffff !important;
+	border				:1px solid #2BAC2B;
+	background			:#32cd33;
+	background   		:-webkit-gradient(linear, left top, left bottom, from(#78DE78), to(#2BAC2B));
+	background   		:-moz-linear-gradient(top, #78DE78,  #2BAC2B);
+}
+
+a.but3:hover {
+	color				:#ffffff !important;
+	box-shadow			:1px 1px 5px #a9a9a9;
+	background			:#2BAC2B;
+	background   		:-webkit-gradient(linear, left top, left bottom, from(#2BAC2B), to(#78DE78));
+	background   		:-moz-linear-gradient(top,  #2BAC2B,  #78DE78);
+}
+
+/* Кнопка - Стиль 4 */
+.but4 {
+	color				:#ffffff !important;
+	border				:1px solid #444444;
+	background			:#111111;
+	background   		:-webkit-gradient(linear, left top, left bottom, from(#111111), to(#555555));
+	background   		:-moz-linear-gradient(top,  #111111,  #555555);
+}
+
+a.but4:hover {
+	color				:#ffffff !important;
+	box-shadow			:1px 1px 5px #a9a9a9;
+	background			:#555555;
+	background   		:-webkit-gradient(linear, left top, left bottom, from(#555555), to(#111111));
+	background   		:-moz-linear-gradient(top,  #555555,  #111111);
+}
+
+/* Кнопка - Стиль 5 */
+.but5 {
+	color				:#ffffff;
+	border				:1px solid #ce0000;
+	background			:#FF5959;
+	background   		:-webkit-gradient(linear, left top, left bottom, from(#FF5959), to(#ce0000));
+	background   		:-moz-linear-gradient(top,  #FF5959,  #ce0000);
+}
+
+a.but5:hover {
+	color				:#ffffff !important;
+	box-shadow			:1px 1px 5px #a9a9a9;
+	background			:#ce0000;
+	background   		:-webkit-gradient(linear, left top, left bottom, from(#ce0000), to(#FF5959));
+	background   		:-moz-linear-gradient(top,  #ce0000,  #FF5959);
+}
+
+/* Кнопка - Стиль 6 */
+.but6 {
+	color				:#ffffff !important;
+	border				:1px solid #0078ff;
+	background			:#1a85fd;
+	background   		:-webkit-gradient(linear, left top, left bottom, from(#459dff), to(#1a85fd));
+	background   		:-moz-linear-gradient(top,  #459dff,  #1a85fd);
+}
+
+a.but6:hover {
+	color				:#ffffff !important;
+	box-shadow			:1px 1px 5px #a9a9a9;
+	background			:#459dff;
+	background   		:-webkit-gradient(linear, left top, left bottom, from(#1a85fd), to(#459dff));
+	background   		:-moz-linear-gradient(top,  #1a85fd,  #459dff);
+}
+
+/* Кнопка - Стиль 7 */
+.but7 {
+	color				:#ffffff !important;
+	border				:1px solid #de00ff;
+	background			:#de00ff;
+	background   		:-webkit-gradient(linear, left top, left bottom, from(#e84eff), to(#de00ff));
+	background   		:-moz-linear-gradient(top,  #e84eff,  #de00ff);
+}
+
+a.but7:hover {
+	color				:#ffffff !important;
+	box-shadow			:1px 1px 5px #a9a9a9;
+	background			:#e84eff;
+	background   		:-webkit-gradient(linear, left top, left bottom, from(#de00ff), to(#e84eff));
+	background   		:-moz-linear-gradient(top,  #de00ff,  #e84eff);
+}
+
+/* Телефон ------------------------------------------------------------------------------- */
+a.tel {
+	color				:#535353;
+	text-decoration		:none;
+	border-bottom		:1px dotted #cccccc;
+}
+
+a.tel:hover {
+	border-bottom		:1px dotted rgba(0, 0, 0, 0);
+}
+
+/* Обводки текста ------------------------------------------------------------------------ */
+.dan_textB_1 {
+	background-color	:#dcefff;
+	border				:1px solid #b4ddff;
+	border-radius		:10px;
+	padding				:5px 10px 5px 10px;
+}
+
+.dan_textB_2 {
+	background-color	:#e8e8e8;
+	border				:1px solid #d2d2d2;
+	border-radius		:10px;
+	padding				:5px 10px 5px 10px;
+}
+
+.dan_textB_3 {
+	background-color	:#b1ffad;
+	border				:1px solid #7aff73;
+	border-radius		:10px;
+	padding				:5px 10px 5px 10px;
+}
+
+.dan_textB_4 {
+	background-color	:#f5ffb4;
+	border				:1px solid #e1f847;
+	border-radius		:10px;
+	padding				:5px 10px 5px 10px;
+}
+
+.dan_textB_5 {
+	background-color	:#ffc9c9;
+	border				:1px solid #ff9a9a;
+	border-radius		:10px;
+	padding				:5px 10px 5px 10px;
+}
+
+.dan_textB_6 {
+	background-color 	:#ffffc7;
+    border 				:1px solid #f7f727;
+	border-radius		:10px;
+	padding				:5px 10px 5px 10px;
+}
+
+/* Адаптивные иконки ------------------------------------------------------------- */
+.dan_adap_icon {
+	display				:inline-block;
+	margin				:5px;
+	height				:200px;
+	width				:150px;
+	text-align			:center;
+	vertical-align		:middle;
+}
+
+.dan_adap_a {
+	display				:block;
+	height				:200px;
+	width				:150px;
+	border-style		:solid;
+	border-width		:1px;
+	border-color		:#dddddd;
+	border-radius		:10px;
+	color				:#777777;
+	text-decoration		:none;
+	background-color	:#ffffff;
+	font-size			:14px;
+}
+
+a.dan_adap_a:hover {
+	border-color		:#6DBBE9;
+	color				:#000000;
+	font-size			:14px;
+	font-weight			:bold;
+	background-color	:#b1dbf3;
+}
+
+.dan_adap_a img {
+	padding				:15px 0px 5px 0px;
+}
+
+.iconA {
+	display				:inline-block;
+	margin				:5px;
+	text-align			:center;
+	vertical-align		:top;
+}
+
+/* Иконки ------------------------------------------------------------------------ */
+/* Иконка - Стиль 1 */
+.icon1 {
+	border				:1px solid #d8d8d8;
+	border-radius		:10px;
+	box-shadow			:5px 5px 5px #d8d8d8;
+	padding				:3px;
+}
+.icon1:hover {
+	cursor				:pointer;
+	border				:1px solid #d8d8d8;
+	border-radius		:10px;
+	box-shadow			:5px 5px 5px #d8d8d8;
+	padding				:3px;
+	-webkit-animation-name:icon1_anim;
+	-webkit-animation-duration:1s;
+	animation-name		:icon1_anim;
+	animation-duration	:1s;
+}
+@-webkit-keyframes icon1_anim {
+    from { opacity:1; }
+	50% { opacity:0.5; }
+    to { opacity:1; }
+}
+@keyframes icon1_anim {
+    from { opacity:1; }
+	50% { opacity:0.5; }
+    to { opacity:1; }
+}
+
+/* Иконка - Стиль 2 */
+.icon2 {
+	border				:1px solid #d8d8d8;
+	border-radius		:10px;
+	box-shadow			:0px 0px 5px #d8d8d8;
+	padding				:3px;
+}
+.icon2:hover {
+	cursor				:pointer;
+	border				:1px solid #d8d8d8;
+	border-radius		:10px;
+	box-shadow			:0px 0px 5px #d8d8d8;
+	padding				:3px;
+	-webkit-animation-name:icon2_anim;
+	-webkit-animation-duration:1s;
+	animation-name		:icon2_anim;
+	animation-duration	:1s;
+}
+@-webkit-keyframes icon2_anim {
+    from { box-shadow:0px 0px 5px #d8d8d8; }
+	50% { box-shadow:0px 0px 10px #333333; }
+    to { box-shadow:0px 0px 5px #d8d8d8; }
+}
+@keyframes icon2_anim {
+    from { box-shadow:0px 0px 5px #d8d8d8; }
+	50% { box-shadow:0px 0px 10px #333333; }
+    to { box-shadow:0px 0px 5px #d8d8d8; }
+}
+
+/* Иконка - Стиль 3 */
+.icon3 {
+	border				:1px solid #d8d8d8;
+	border-radius		:10px;
+	box-shadow			:5px 5px 5px #d8d8d8;
+	padding				:3px;
+}
+.icon3:hover {
+	cursor				:pointer;
+	border				:1px solid #d8d8d8;
+	border-radius		:10px;
+	box-shadow			:5px 5px 5px #d8d8d8;
+	padding				:3px;
+	-webkit-animation-name:icon3_anim;
+	-webkit-animation-duration:1s;
+	animation-name		:icon3_anim;
+	animation-duration	:1s;
+}
+@-webkit-keyframes icon3_anim {
+    from { box-shadow:5px 5px 5px #d8d8d8; }
+	50% { box-shadow:-5px -5px 5px #d8d8d8; }
+    to { box-shadow:5px 5px 5px #d8d8d8; }
+}
+@keyframes icon3_anim {
+    from { border-radius:10px; }
+	50% { border-radius:20px; }
+    to { border-radius:10px; }
+}
+
+/* Иконка - Стиль 4 */
+.icon4 {
+	border				:2px dashed #d8d8d8;
+	border-radius		:10px;
+	box-shadow			:5px 5px 5px #d8d8d8;
+	padding				:3px;
+}
+.icon4:hover {
+	cursor				:pointer;
+	border				:2px dashed #d8d8d8;
+	border-radius		:10px;
+	box-shadow			:5px 5px 5px #d8d8d8;
+	padding				:3px;
+	-webkit-animation-name:icon4_anim;
+	-webkit-animation-duration:1s;
+	animation-name		:icon4_anim;
+	animation-duration	:1s;
+
+}
+@-webkit-keyframes icon4_anim {
+    from { -webkit-transform: rotate(360deg); }
+	50% { -webkit-transform: rotate(350deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes icon4_anim {
+    from { -webkit-transform: rotate(360deg); }
+	50% { -webkit-transform: rotate(350deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+/* Иконка - Стиль 5 */
+.icon5 {
+	border				:2px dashed #d8d8d8;
+	border-radius		:10px;
+	box-shadow			:5px 5px 5px #d8d8d8;
+	padding				:3px;
+}
+.icon5:hover {
+	cursor				:pointer;
+	border				:2px dashed #d8d8d8;
+	border-radius		:10px;
+	box-shadow			:5px 5px 5px #d8d8d8;
+	padding				:3px;
+	-webkit-animation-name:icon5_anim;
+	-webkit-animation-duration:2s;
+	animation-name		:icon5_anim;
+	animation-duration	:2s;
+
+}
+@-webkit-keyframes icon5_anim {
+    from { -webkit-transform: rotate(360deg); }
+	30% { -webkit-transform: rotate(380deg); }
+	60% { -webkit-transform: rotate(340deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes icon5_anim {
+    from { -webkit-transform: rotate(360deg); }
+	50% { -webkit-transform: rotate(350deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+/* Иконка - Стиль 6 */
+.icon6 {
+	display				:inline-block;
+	border-width		:5px;
+	border-color		:rgba(204,204,204,1);
+
+	border-radius		:100%;
+	-moz-border-radius	:100%;
+	-webkit-border-radius:100%;
+	border-style		:solid;
+
+	-webkit-box-sizing	:border-box;
+	-moz-box-sizing		:border-box;
+	box-sizing			:border-box;
+
+	-webkit-transition	:0.3s ease;
+	-moz-transition		:0.3s ease;
+	-ms-transition		:0.3s ease;
+	-o-transition		:0.3s ease;
+}
+.icon6:hover {
+	border-width		:0px;
+	border-color		:rgba(0, 0, 0, 0);
+}
+
+/* Иконка - Стиль 7 */
+.icon7 {
+	border				:1px solid #d8d8d8;
+	border-radius		:10px;
+	padding				:5px;
+	background			:#ffffff;
+}
+.icon7:hover {
+	cursor				:pointer;
+	border				:1px solid #d8d8d8;
+	border-radius		:10px;
+	padding				:5px;
+	-webkit-animation-name:icon7_anim;
+	-webkit-animation-duration:1s;
+	animation-name		:icon7_anim;
+	animation-duration	:1s;
+}
+@-webkit-keyframes icon7_anim {
+    from { opacity:1; }
+	50% { opacity:0.7; }
+    to { opacity:1; }
+}
+@keyframes icon7_anim {
+    from { opacity:1; }
+	50% { opacity:0.7; }
+    to { opacity:1; }
+}
