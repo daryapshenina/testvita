@@ -1,0 +1,98 @@
+﻿.main-tab-lg {
+	height				:370px;
+  	width				:500px;
+	background			:url(images/login.gif) no-repeat;
+}
+
+.w30pc-h220px {
+	height				:220px;
+	width				:30%;
+}
+
+.w40pc-h220px {
+	height				:220px;
+	width				:40%;
+}
+
+.w120px-h80px {
+	height				:80px;
+	width				:120px;
+}
+
+.w120px-h120px {
+	height				:80px;
+	width				:120px;
+}
+
+.h40px {
+	height				:40px;
+}
+
+.vhod {
+	font-family			:verdana;
+	font-size			:18px;
+	font-weight			:bold;
+	color				:#000099;
+	vertical-align		:middle;
+	text-align			:left;
+}
+
+.logintext {
+	font-family			:verdana;
+	font-size			:12px;
+	font-weight			:bold;	
+	color				:#000099;
+	text-align			:left;
+}
+
+.cursor-pointer {
+	cursor				:pointer;
+}
+
+.inp {
+	font-family			:verdana;
+	font-size			:12px;
+	background-color	:#FFF;	
+}
+
+.add-top {
+	width				:100%;
+	padding				:10px;
+	border-top-style	:solid;
+	border-top-color	:#CCC;
+	border-top-width	:1px;	
+	border-left-style	:solid;
+	border-left-color	:#CCC;
+	border-left-width	:1px;
+	border-right-style	:solid;
+	border-right-color	:#CCC;
+	border-right-width	:1px;	
+}
+
+.add-cnt {
+	line-height			:20px;
+	width				:100%;
+	padding-left		:10px;	
+	border-left-style	:solid;
+	border-left-color	:#CCC;
+	border-left-width	:1px;
+	border-right-style	:solid;
+	border-right-color	:#CCC;
+	border-right-width	:1px;	
+	color				:#000;	
+}
+
+.add-bt {
+	line-height			:20px;
+	width				:100%;
+	padding-left		:10px;	
+	border-left-style	:solid;
+	border-left-color	:#CCC;
+	border-left-width	:1px;
+	border-right-style	:solid;
+	border-right-color	:#CCC;
+	border-right-width	:1px;	
+	border-bottom-style	:solid;
+	border-bottom-color	:#CCC;
+	border-bottom-width	:1px;	
+}

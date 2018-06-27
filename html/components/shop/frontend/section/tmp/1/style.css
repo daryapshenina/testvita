@@ -1,0 +1,155 @@
+.section_item {
+	position				:relative;
+	margin					:10px;
+	width					:100%;
+	color					:#000000;
+	background				:#ffffff;
+	border-radius			:10px;
+}
+
+.section_item_ramka {
+	border-collapse			:separate;
+	border-spacing			:5px;
+	width					:100%;
+	border-style			:solid;
+	border-width			:1px;
+	border-color			:#dddddd;
+	background-color		:#ffffff;
+}
+
+.section_item_ramka td {
+	vertical-align			:top;
+}
+
+.section_item_discount {
+	height					:80px;
+	width					:80px;
+	position				:absolute;
+	right					:0;
+	z-index					:1;
+	margin					:-12px -6px 0px 0px;
+	background-image		:url(/components/shop/frontend/tmp/images/discount.png);
+	background-repeat		:no-repeat;
+	background-size			:80px 80px;
+}
+
+.section_item_new {
+	display					:block;
+	height					:80px;
+	width					:80px;
+	position				:absolute;
+	left					:0px;
+	z-index					:1;
+	margin					:-12px 0px 0px -12px;
+	background-image		:url(/components/shop/frontend/tmp/images/new.png);
+	background-repeat		:no-repeat;
+	background-size			:80px 80px;
+}
+
+.section_item_hit {
+	display					:block;
+	height					:80px;
+	width					:80px;
+	position				:absolute;
+	z-index					:1;
+    right					:-5px;
+    bottom					:-5px;
+	background-image		:url(/components/shop/frontend/tmp/images/hit.png);
+	background-repeat		:no-repeat;
+	background-size			:80px 80px;
+}
+
+.section_item_rating {
+	font-size				:16px;
+	color					:#ffa802;
+}
+
+.section_item_order {
+	display					:block;
+	height					:80px;
+	width					:80px;
+	position				:absolute;
+	left					:0;
+	bottom					:65px;
+	z-index					:1;
+	margin					:0px 0px -80px -12px;
+	background-image		:url(/components/shop/frontend/tmp/images/custom.png);
+	background-repeat		:no-repeat;
+	background-size			:80px 80px;
+}
+
+.section_item_order_mod {
+	display					:block;
+	height					:80px;
+	width					:80px;
+	position				:absolute;
+	left					:0;
+	bottom					:0;
+	z-index					:1;
+	margin					:0px 0px -12px -12px;
+	background-image		:url(/components/shop/frontend/tmp/images/custom.png);
+	background-repeat		:no-repeat;
+	background-size			:80px 80px;
+}
+
+.section_item_title {
+	padding-bottom			:10px;
+	font-size				:14px;
+	font-weight				:bold;
+}
+
+.section_item_price {
+	line-height				:40px;
+	font-size				:18px;
+    font-weight				:bold;
+}
+
+.section_item_price_old {
+	display					:block;
+	margin-right			:10px;
+	text-align				:center;
+	font-family				:Helvetica, sans-serif;
+	font-size				:24px;
+	color					:#777777;
+	text-decoration			:line-through;
+}
+
+.section_item_price_discount {
+	line-height				:40px;
+	text-align				:center;
+	font-family				:Helvetica, sans-serif;
+	font-size				:24px;
+	font-weight				:bold;
+	color					:#ff0000;
+	background-color		:#ffff00;
+}
+
+.section_item_rub_discount {
+	padding					:0px 10px 0px 5px;
+	font-size				:12px;
+	font-weight				:normal;
+}
+
+.section_item_rub {
+	font-family				:Helvetica, sans-serif !important;
+	font-size				:12px !important;
+	margin-left				:5px;
+}
+
+.section_item_button {
+	padding-top				:10px;
+	text-align				:center;
+}
+
+/* ADAPTIVE */
+
+@media screen and (max-width: 767px) {
+	.shop_section_filter_tab {
+		margin				:40px 0px 10px 0px;
+		font-size			:0.9em;
+	}
+
+	.shop_section_filter_container_sorting {
+		left				:10px;
+	}
+}

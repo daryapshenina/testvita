@@ -1,0 +1,139 @@
+﻿.quote_sections_list {
+	line-height				:25px;
+}
+
+.quote_sections_number {
+	padding-left			:10px;
+	color					:#999;
+}
+
+.quote_block {
+	padding-bottom			:30px;
+	display					:block;
+	width					:710px;
+}
+
+.quote_top {
+	height					:20px;
+	width					:710px;
+	background				:url(../../../../components/quote/frontend/tmp/images/quote_top.png) no-repeat;	
+}
+
+.quote_middle {
+	font-family				:arial;
+	font-size				:18px;
+	padding					:10px 30px 20px 30px;	
+	background				:url(../../../../components/quote/frontend/tmp/images/quote_middle.png);
+	background-repeat		:repeat-y;
+}
+
+.quote_r {
+	font-family				:arial;
+	font-size				:18px;
+	padding					:10px 30px 20px 30px;
+	color					:#0066ff;
+}
+
+.quote_bottom {
+	height					:40px;
+	background				:url(../../../../components/quote/frontend/tmp/images/quote_bottom.png) no-repeat;	
+}
+
+.quote_bottom_left {
+	float					:left;
+	padding-left			:30px;
+	line-height				:35px;
+	width					:300px;
+	text-align				:left;
+}
+
+.quote_bottom_right {
+	float					:right;
+	padding-right			:30px;
+	line-height				:35px;
+	width					:300px;
+	text-align				:right;	
+}
+
+/* ======= ГОЛОСОВАНИЕ ===================================================== */
+
+.quote_prop_2 {
+	float					:left;
+	height					:40px;
+	line-height				:40px;
+}
+
+.quote_prop_2_left {
+	float					:left;
+	height					:40px;
+	line-height				:40px;
+	vertical-align			:middle;
+}
+
+.quote_prop_2_right {
+	float					:left;
+	height					:40px;
+	line-height				:40px;
+}
+
+.quote_prop_rating {
+	width					:40px;
+	padding-left			:7px;
+}
+
+.quote_prop_vb{
+	float					:left;
+	height					:40px;
+	width					:150px;
+	cursor					:help;	
+}
+
+.quote_prop_votingbar {
+	height					:5px;
+	background-color		:#CCC;
+	cursor					:help;	
+}
+
+.quote_vb {
+	float					:left;
+	margin-top				:14px;
+	width					:150px;
+}
+
+.quote_fl {
+	float					:left;
+}
+
+.quote_fr {
+	float					:right;
+}
+
+.quote_vb_plus {
+	height					:5px;
+	border-right			:1px solid white;
+	background				:#00ff00;	
+}
+
+.quote_vb_minus {
+	height					:5px;
+	margin-right			:-1px;
+	background				:#ff0000;
+}
+
+.zp_bt img {
+	display					:block;
+	float					:left;
+	margin					:6px 5px 0px 5px;
+}
+
+.rt_vb {
+	display:block;
+	float					:none;
+	height					:17px;
+	line-height				:17px;
+	text-align				:center;
+}
+
+.loading_img{
+	margin-top				:4px;
+}

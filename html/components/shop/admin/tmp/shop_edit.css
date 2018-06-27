@@ -1,0 +1,123 @@
+.accordion_body.a_1.expand {
+	height:200px;	
+}
+.accordion_body.a_2.expand {
+	min-height:200px;	
+}	
+
+#drag_trg {
+	margin-bottom		:20px;
+}
+
+.drag_drop {
+	width				:100%;
+	border-collapse		:collapse;	
+}
+
+.drag_drop td {
+	vertical-align		:middle;
+}
+
+.drag_drop:nth-child(odd){
+	background-color	:#ffffff;	
+}
+
+.drag_drop:nth-child(even){
+	background-color	:#f3f4f5;	
+}
+
+.drag_drop_over {
+	margin-top			:40px;
+	width				:100%;	
+}
+
+.drag_drop_over td {
+	vertical-align		:middle;
+}
+
+
+.filter_title_tab {
+	margin-bottom		:10px;
+}
+
+.drag_move {
+	font-size			:24px; 
+	cursor				:move;
+}
+
+.filter_dnd {
+	width				:40px;
+	text-align			:center;
+}
+
+.filter_char {
+	width				:250px;
+}
+
+.drag_drop .filter_char {
+	overflow			:hidden;
+}
+
+
+.filter_unit {
+	padding-left		:10px;
+	width				:70px;
+}
+
+.filter_type {
+	width				:100px;
+}
+
+.filer_input_number {
+	width				:70px;
+}
+
+.filer_input_string {
+	width				:200px;
+}
+
+#dan_framework_body_lightbox_0 {
+	background			:#f2f2f2 !important;	
+}
+
+.modal_container {
+	text-align			:center;
+}
+
+.modal_title {
+	margin				:10px 0px 20px 0px;
+	font-size			:14px;
+}
+
+.modal_submit {
+	margin-top			:20px;
+}
+
+.nofloat {
+	float				:none !important;
+}
+
+.section_add {
+	display				:inline-block;
+	height				:25px;
+	line-height			:25px;
+	padding				:0px 0px 0px 30px;
+	background			:url(images/section_add.png) no-repeat;
+	background-position	:left;
+}
+
+.item_add {
+	display				:inline-block;
+	height				:25px;
+	line-height			:25px;
+	padding				:0px 0px 0px 30px;
+	background			:url(images/item_add.png) no-repeat;
+	background-position	:left;
+}
+
+a#contextmenu {
+	display				:block;
+	padding				:0px 0px 0px 25px;
+	border-bottom		:1px solid #e7e7e7;
+	background-position	:5px center;	
+}

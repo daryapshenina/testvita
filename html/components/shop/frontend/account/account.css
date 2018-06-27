@@ -1,0 +1,41 @@
+.account_orders_tab {
+	max-width			:700px;
+	border				:1px solid #E7E7E7;
+	border-spacing		:0;
+	width				:100%;	
+}
+
+.account_orders_tab tr:nth-child(odd) {
+	background-color	:#ffffff;
+}
+
+.account_orders_tab tr:nth-child(even) {
+	background-color	:#f3f3f3;
+}
+
+.account_orders_tab th {
+	width				:25%;
+    height				:50px;	
+    padding				:0px;
+    white-space			:nowrap;
+    vertical-align		:middle;
+    border				:1px solid;
+    border-color		:#E2E5E7 #8F989D #969B9D #EFF0F0;
+    text-shadow			:0 1px rgba(255,255,255,0.7);
+    background-color	:#c2cbcf;
+    background-image	:linear-gradient(to bottom, #c2cbcf, #b2babb);
+}
+
+.account_orders_tab td {
+	padding				:10px;	
+	vertical-align		:middle;
+}
+
+.account_form_container {
+    margin				:0 auto;
+    width				:260px;
+    height				:235px;
+    border-radius		:5px;
+    background			:#E9E9E9;
+    padding				:20px;
+}

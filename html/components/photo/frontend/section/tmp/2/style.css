@@ -1,0 +1,98 @@
+.photo_container {
+	display			:block;
+}
+
+.photo_item {
+	margin			:5px;
+	padding			:3px;
+	position		:relative;
+	display			:inline-block;
+	height			:100%;
+    border			:1px solid #E5E5E5;
+	box-shadow		:none;
+	opacity			:1;
+}
+
+.photo_items_container .show{
+	-webkit-animation-name	:none !important;
+	animation-name			:none !important;
+	border-radius	:0px;
+}
+
+.photo_items_container .show img{
+	border-radius	:0px;
+}
+	
+.photo_img {
+	display			:block;
+	width			:100%;
+	height			:auto;
+}
+
+.photo_hover {
+	position		:absolute;
+	z-index			:1;
+	opacity			:0;
+	width			:80%;
+	height			:80%;
+	top				:10%;
+	left			:10%;
+    overflow		:hidden;
+	text-overflow	:ellipsis;
+	color			:#696969;
+	border			:1px solid #E2E2E2;
+    box-shadow		:1px 1px 3px rgba(0, 0, 0, 0.5);
+	transition		:all 0.5s ease-in-out;
+	background-color:#ffffff;
+}
+
+.photo_table {
+	display			:table;
+	height			:100%;
+	width			:100%;
+}
+
+.photo_td {
+	display			:table-cell;
+	vertical-align	:middle;
+	text-align		:center;
+}
+
+.photo_item_title {
+	opacity			:0;
+	font-size		:20px;
+	transition		:all 0.5s ease-in-out;
+}
+
+.photo_hr {
+	margin			:40px auto;
+	width			:0%;
+    height			:1px;
+    background		:#ccc;
+	opacity			:0;
+	transition		:all 0.5s ease-in-out;
+}
+
+.photo_item_text {
+	opacity			:0;
+	padding			:0px 15px;
+	transition		:all 0.5s ease-in-out;
+}
+
+.photo_item:hover .photo_hover {
+	opacity			:0.9;	
+}
+
+.photo_item:hover .photo_hr {
+	margin			:7px auto;
+	width			:62%;	
+	opacity			:1;	
+}
+
+.photo_item:hover .photo_item_title {
+	opacity			:1;
+}
+
+.photo_item:hover .photo_item_text {
+	opacity			:1;
+}

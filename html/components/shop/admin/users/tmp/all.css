@@ -1,0 +1,8 @@
+.price_type_add {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 0px 0px 30px;
+    background: url(images/add.png) no-repeat;
+    background-position: left;
+}

@@ -1,0 +1,42 @@
+﻿.com_form {
+
+}
+
+.com_form input, .com_form textarea {
+	width				:100% !important;
+}
+
+.com_form input[type="checkbox"] {
+	width				:auto !important;
+}
+
+.com_form_table_main {
+	display				:block;
+	width				:100%;
+	max-width			:360px;
+	margin				:0 auto;
+	display				:block;
+	box-sizing			:border-box;
+}
+
+.form_lastname {
+	display 			:none;
+}
+
+.com_form input[type='text'],
+.com_form input[type='email'],
+.com_form textarea
+ {
+	font-weight				:normal !important;
+	text-align				:left !important;
+	border-top-color		:#F0F0F0 !important;
+	border-right-color		:#F0F0F0 !important;
+	border-bottom-color		:#F0F0F0 !important;
+	background				:#F8F8F8 !important;
+	box-shadow				:0 0 0 !important;
+}
+
+.com_form input[type='file'] {
+	height					:auto;
+	padding					:10px;
+}

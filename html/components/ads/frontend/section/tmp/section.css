@@ -1,0 +1,64 @@
+.ads_item_container {
+	display:flex;
+    flex-wrap:wrap;
+    align-content: center;
+    overflow:hidden;    
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #ccc;
+}
+
+.ads_image_wrap {
+	flex-basis:240px;
+}
+
+.ads_image {
+	display:block;
+}
+
+.ads_text_wrap {
+	flex-basis:300px;
+	max-height:200px;	
+	flex-grow:1;
+	overflow:hidden;
+}
+
+a.ads_text_title {
+	display:block;
+	margin-bottom:10px;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a.ads_text_title:hover {
+	text-decoration:underline;
+}
+
+.ads_text {
+	margin-bottom:10px;
+	max-height:130px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.ads_date_wrap {
+	color:#ccc;
+	font-size:13px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+	.ads_image_wrap {
+		flex-basis:100px;
+	}
+
+	.ads_text_wrap {
+		flex-basis:150px;
+		flex-grow:1;
+		overflow:hidden;
+		max-height:75px;
+		padding-left:20px;
+	}
+}

@@ -1,0 +1,129 @@
+.section_item {
+	position				:relative;
+	display					:inline-block;
+	margin					:10px;
+	padding					:10px;
+	border-style			:solid;
+	border-width			:1px;
+	border-color			:#cccccc;
+	color					:#000000;
+	background				:#ffffff;
+	border-radius			:10px;
+}
+
+.section_item:hover {
+	border-color			:#BBBBBB;
+	background-color		:#EEEEEE;
+}
+
+/* в формате фотогалереи */
+.section_item  a.show {
+	display					:table-cell;
+	border-radius			:0px !important;
+}
+
+.section_item_discount {
+	display					:block;
+	height					:80px;
+	width					:80px;
+	position				:absolute;
+	right					:0;
+	z-index					:1;
+	margin					:-15px -6px 0px 0px;
+	background-image		:url(/components/shop/frontend/tmp/images/discount.png);
+	background-repeat		:no-repeat;
+	background-size			:80px 80px;
+}
+
+.section_item_new {
+	display					:block;
+	height					:80px;
+	width					:80px;
+	position				:absolute;
+	left					:0px;
+	z-index					:1;
+	margin					:-15px 0px 0px -6px;
+	background-image		:url(/components/shop/frontend/tmp/images/new.png);
+	background-repeat		:no-repeat;
+	background-size			:80px 80px;
+}
+
+.section_item_hit {
+	display					:block;
+	height					:80px;
+	width					:80px;
+	position				:absolute;
+	z-index					:1;
+	bottom					:-5px;
+	right					:-5px;
+	background-image		:url(/components/shop/frontend/tmp/images/hit.png);
+	background-repeat		:no-repeat;
+	background-size			:80px 80px;
+}
+
+.section_item_rating {
+	font-size				:16px;
+	color					:#ffa802;
+}
+
+.section_item_order {
+	display					:block;
+	height					:80px;
+	width					:80px;
+	position				:absolute;
+	left					:0;
+	bottom					:0;
+	z-index					:1;
+	margin					:0px 0px -6px -6px;
+	background-image		:url(/components/shop/frontend/tmp/images/custom.png);
+	background-repeat		:no-repeat;
+	background-size			:80px 80px;
+}
+
+.section_item_title {
+	padding-bottom			:10px;
+	font-size				:14px;
+	font-weight				:bold;
+}
+
+.section_item_price {
+	line-height				:40px;
+	font-size				:18px;
+    font-weight				:bold;
+}
+
+.section_item_price_old {
+	text-decoration			:line-through;
+}
+
+.section_item_price_discount {
+	margin-left				:10px;
+	padding					:0px 0px 0px 10px;
+	color					:#ff0000;
+	background-color		:#ffff00;
+}
+
+.section_item_rub_discount {
+	padding					:0px 10px 0px 5px;
+	font-size				:12px;
+	font-weight				:normal;
+}
+
+.section_item_rub {
+	padding					:0px 0px 0px 5px;
+	font-size				:12px;
+	font-weight				:normal;
+}
+
+/* ADAPTIVE */
+
+@media screen and (max-width: 767px) {
+	.shop_section_filter_tab {
+		margin				:40px 0px 10px 0px;
+		font-size			:0.9em;
+	}
+
+	.shop_section_filter_container_sorting {
+		left				:10px;
+	}
+}

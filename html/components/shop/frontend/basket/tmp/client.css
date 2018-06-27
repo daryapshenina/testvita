@@ -1,0 +1,26 @@
+.basket-item-tab {
+	width				:100%;
+}
+
+.basket-client-text {
+	width				:150px;
+}
+
+.input {
+	width				:100%;
+	max-width			:300px;
+}
+
+.fr_10 {
+	line-height			:38px;
+	float				:right;
+	padding-right		:10px;
+}
+
+textarea.input {
+	height				:100px;
+}
+
+.input:invalid, .input:out-of-range {
+    border				:1px solid #FF0000 !important;
+}

@@ -1,0 +1,66 @@
+﻿/* главный пункт */
+.formmain-ico {
+	width				:100%;
+	background			:url(images/form.png) no-repeat;
+	background-position	:center;
+}
+
+.form-section-title {
+	font-size			:14px;
+	font-weight			:bold;
+	height				:30px;
+	padding				:0px 0px 0px 10px;
+}
+
+.form-title {
+	font-size			:14px;
+	font-weight			:bold;
+	height				:30px;
+	padding				:0px 0px 0px 10px;
+}
+
+.form-addsection {
+	width				:110px;
+	font-size			:12px;
+	font-weight			:normal;
+	height				:30px;
+	padding				:0px 0px 0px 30px;
+	background			:url(images/addsection.png) no-repeat;
+	background-position	:left;
+}
+
+.form-addimage {
+	width				:150px;
+	font-size			:12px;
+	font-weight			:normal;
+	height				:30px;
+	padding				:0px 0px 0px 30px;
+	background			:url(images/addimage.png) no-repeat;
+	background-position	:left;
+}
+
+.form-resultimage {
+	line-height			:30px;
+	font-size			:12px;
+	color				:#09F;
+	font-weight			:normal;	
+}
+
+.form-cell-title {
+	width				:250px;
+	line-height			:30px;
+	text-align			:left;
+	padding-left		:10px;
+}
+
+.form-cell-tags {
+	line-height			:30px;
+	text-align			:left;
+	padding-left		:10px;
+}
+
+.recipient {
+	line-height			:30px;
+	vertical-align		:middle;
+	background-color	:#ffc8c8;	
+}

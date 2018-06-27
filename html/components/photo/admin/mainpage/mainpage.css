@@ -1,0 +1,33 @@
+.photo_settings_ico {
+	margin				:5px;
+	float				:left;
+	height				:150px;
+	width				:150px;	
+	text-align			:center;
+	vertical-align		:middle;
+}
+
+.photo_settings_a {
+	display				:block;
+	height				:150px;
+	width				:150px;
+	border-style		:solid;
+	border-width		:1px;
+	border-color		:#dddddd;
+	border-radius		:10px;
+	color				:#777777;
+	text-decoration		:none;
+	background-color	:#ffffff;
+}
+
+a.photo_settings_a:hover {
+	border-color		:#88C2FF;
+	color				:#000000;
+	font-size			:14px;
+	font-weight			:bold;
+	background-color	:#CCE5FF;
+}
+
+.photo_settings_a img {
+	padding				:15px 0px 5px 0px;
+}

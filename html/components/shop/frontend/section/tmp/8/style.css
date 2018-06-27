@@ -1,0 +1,210 @@
+.section-block > div {
+	text-align				:left !important;
+}
+
+.section_item {
+	display					:inline-block;
+	width					:100%;
+	padding					:10px;
+	margin					:0px 0px 10px 0px;
+	text-align				:left;
+	color					:#000000;
+	border					:1px solid #CCCCCC;
+	box-sizing				:border-box;
+	vertical-align			:top;
+}
+
+.section_item > div {
+	display					:table;
+	width					:100%;
+}
+
+.section_item > div > div {
+	display					:table-cell;
+	vertical-align			:top;
+}
+
+.section_item > div > div:nth-child(2) {
+	padding					:0px 0px 0px 10px;
+}
+
+/* image div */
+
+.section_item > div > div:nth-child(1) > div:nth-child(1) {
+	position				:relative;
+}
+
+.section_item > div > div:nth-child(1) > div:nth-child(1) img {
+	display					:block;
+}
+
+/* magnifier */
+
+.section_item_magnifier {
+	cursor					:pointer !important;
+	border					:none !important;
+	border-radius			:0px !important;
+	box-shadow				:none !important;
+	padding					:0px !important;
+	position				:absolute;
+	right					:-10px;
+	bottom					:-10px;
+	z-index					:1;
+	height					:34px;
+	width					:34px;
+	background				:url('/components/shop/frontend/tmp/images/cursor_black.png') no-repeat;
+	opacity					:0.8;
+}
+
+/* new and discount*/
+
+.section_item_float {
+	position				:absolute;
+	top						:0px;
+	left					:0px;
+	width 					:80px;
+}
+
+.section_item_new, .section_item_discount, .section_item_hit, .section_item_order {
+	display					:block;
+	width					:100%;
+	max-width				:80px;
+	padding					:3px 6px 3px 6px;
+	margin					:5px 0px 0px -5px;
+	text-align 				:center;
+	font-size				:14px;
+	color					:#ffffff !important;
+	text-decoration			:none !important;
+}
+
+.section_item_new {
+	background				:#009A0C;
+}
+
+.section_item_discount {
+	color					:#F78000 !important;
+	background				:#F7F200;
+}
+
+.section_item_hit {
+	background				:#FF126B;
+}
+
+.section_item_rating {
+	font-size				:16px;
+	text-align				:left !important;
+	color					:#ffa802;
+}
+
+.section_item_order {
+	background				:#00A2D9;
+}
+
+/* price */
+
+.section_item > div > div:nth-child(1) > div:nth-child(2) {
+	text-align				:center;
+}
+
+.section_item_price, .section_item_price_old {
+	display					:inline-block;
+}
+
+.section_item_price {
+	margin					:5px 0px 0px 0px;
+	text-align				:center;
+}
+
+.section_item_price > span:first-child {
+	font-size				:26px;
+}
+
+.section_item_price_old {
+	margin					:5px 5px 0px;
+	font-size				:12px;
+	color					:#797979;
+	text-decoration			:line-through;
+}
+
+/* Title */
+
+.section_item > div > div:nth-child(2) > div:nth-child(1) {
+	margin					:0px 0px 0px 0px;
+	font-size				:18px;
+	font-weight				:normal;
+}
+
+/* Char */
+
+.section_item > div > div:nth-child(2) > div:nth-child(2) {
+
+}
+
+.section_item_chars {
+	margin				:10px 0px 0px 0px;
+}
+
+.section_item_chars > table {
+	width				:100%;
+	max-width			:500px;
+	border				:0px;
+	border-collapse		:collapse;
+	border-spacing		:0px;
+}
+
+.section_item_chars > table td {
+	vertical-align		:middle;
+	padding				:2px 0px;
+}
+
+.section_item_chars > table > tbody > tr > td:nth-child(1) {
+	height				:25px;
+	padding-left		:10px;
+    text-align			:left;
+}
+
+.section_item_chars > table > tbody > tr > td:nth-child(2) {
+	padding-right		:10px;
+    text-align			:right;
+}
+
+.section_item_chars > table tr:nth-child(odd){
+	background-color	:#eeeeee;
+}
+
+.section_item_chars > table tr:nth-child(even){
+	background-color	:#ffffff;
+}
+
+/* Description */
+
+.section_item > div > div:nth-child(2) > div:nth-child(3) {
+	margin					:10px 0px 0px 0px;
+}
+
+/* PHONE */
+
+@media screen and (max-width: 767px) {
+
+	.section_item > div, .section_item > div > div {
+		display					:block !important;
+		width					:100% !important;
+	}
+
+	.section_item > div > div:nth-child(1) > div:nth-child(1) {
+		margin					:0 auto;
+	}
+
+	.section_item > div > div:nth-child(2) > div:nth-child(1) {
+		text-align				:center;
+	}
+	
+	.shop_section_filter_tab {
+		margin				:40px 0px 10px 0px;
+		font-size			:0.9em;
+	}
+
+	.shop_section_filter_container_sorting {
+		left				:10px;
+	}
+}

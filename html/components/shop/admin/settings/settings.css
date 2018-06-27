@@ -1,0 +1,11 @@
+.admin_table tr:nth-child(odd){
+	background-color	:#ffffff;
+}
+
+.admin_table tr:nth-child(even){
+	background-color	:#f3f4f5;	
+}
+
+.td_sep {
+	background-color	:#dddddd;
+}

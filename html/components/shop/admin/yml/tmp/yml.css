@@ -1,0 +1,79 @@
+#main {
+	padding			:20px;
+}
+
+.shop_settings_ico {
+	margin				:5px;
+	float				:left;
+	height				:150px;
+	width				:150px;	
+	text-align			:center;
+	vertical-align		:middle;
+}
+
+.shop_settings_a {
+	display				:block;
+	height				:150px;
+	width				:150px;
+	border-style		:solid;
+	border-width		:1px;
+	border-color		:#dddddd;
+	border-radius		:10px;
+	color				:#777777;
+	text-decoration		:none;
+	background-color	:#ffffff;
+}
+
+a.shop_settings_a:hover {
+	border-color		:#00dc00;
+	color				:#000000;
+	font-size			:14px;
+	font-weight			:bold;
+	background-color	:#ccffcc;
+}
+
+.shop_settings_a img {
+	padding				:15px 0px 5px 0px;
+}
+
+
+.fa {
+	padding-top 	:15px;
+	font-size 		:100px !important;
+}
+
+.fa-upload {
+	color 			:#099fde;	
+}
+
+.fa-download {
+	color 			:#00bd00;	
+}
+
+.fa-times {
+	color 			:#ff0000;	
+}
+
+/* LOG */
+
+.yml_log_notice, .yml_log_error {
+	padding			:3px 10px;
+}
+
+.yml_log_notice {
+	background		:#EBEBEB;
+	border-bottom	:1px solid #DBDBDB;
+}
+
+.yml_log_error {
+	background		:#F8C4C4;
+	border-bottom	:1px solid #FFB6B6;
+}
+
+#yml_counter_current {
+	padding-right 	:10px;
+}
+
+#yml_counter_sum{
+	padding-left 	:10px;
+}

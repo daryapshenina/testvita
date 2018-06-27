@@ -1,0 +1,36 @@
+.drag_drop {
+	float				:left;
+	border				:1px solid #cccccc;
+	border-radius		:5px;
+	padding				:5px;
+	background-color	:#eeeeee;
+	margin				:5px 0px 5px 10px;
+	cursor				:move;
+}
+
+.drag_last_element {
+	float				:left;
+	border				:0px;
+	opacity				:0;
+}
+
+#contextmenu {
+	z-index				:1001;
+	position			:absolute;
+	width				:100px;
+	height				:25px;
+	line-height			:25px;
+	padding-left		:30px;
+	vertical-align		:middle;
+	cursor				:pointer;	
+	-webkit-box-shadow	:2px 2px 5px #999;
+	-moz-box-shadow		:2px 2px 5px #999;
+	box-shadow			:2px 2px 5px #999;
+	border-color		:#999;
+	-webkit-border-radius:5px;
+	-moz-border-radius	:5px;
+	border-style		:solid;
+	border-width		:1px;
+	border-radius		:5px;
+	background			:url('/administrator/tmp/images/delete.png') no-repeat #F4F4F4 5px center;	
+}

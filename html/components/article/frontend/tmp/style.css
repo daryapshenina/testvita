@@ -1,0 +1,319 @@
+﻿.article_sort_panel {
+	display					:table;
+	border-width			:1px;
+	border-color			:#cccccc;
+	border-style			:solid;
+	border-radius			:5px;
+	height					:40px;
+	background-color		:#ececec;
+}
+
+.sort_button {
+	display					:inline-block;
+	padding					:0px 10px 0px 10px;	
+	height					:40px;
+	line-height				:40px;
+}
+
+a.sort_button {
+	color					:#555;
+	text-decoration			:none;
+}
+
+a.sort_button:hover, a.sort_button_active {
+	color					:#FFF;
+	background-color		:#6f6f6f;
+	text-decoration			:none;
+}
+
+.article_sat {
+	margin-top				:30px;
+    padding					:20px 0px 10px 0px;
+    font-size				:28px;
+}
+
+.article_sat a:link, .article_sat a:visited {
+	color					:#555555;
+}
+
+.article_sat a:hover{
+	text-decoration			:underline;
+}
+
+.article_toolbar {
+	display					:table;
+	margin-top				:50px;
+}
+
+
+
+
+.article_sections_list {
+	line-height				:25px;
+}
+
+.article_sections_number {
+	padding-left			:10px;
+	color					:#999;
+}
+
+.article_section_maintab {
+	width					:100%;
+	border-collapse			:collapse;
+	border-spacing			:0px;
+}
+
+.article_section_maintab td {
+	padding					:0px;
+}
+
+.sort_by {
+	float					:left;
+	width					:105px;
+	line-height				:30px;
+	background				:url(/components/article/frontend/tmp/images/sort_by.png);
+	background-position		:right;
+}
+
+
+
+
+
+
+
+
+
+.article_sab {
+	height					:30px;
+	line-height				:30px;
+	vertical-align			:middle;
+}
+
+.article_prop_panel {
+	height					:30px;
+	margin					:20px 0px 20px 0px;
+	padding					:0px 20px 0px 20px;
+	background-color		:#EEEEEE;	
+}
+
+.article_prop {
+	float					:left;
+	height					:30px;
+	line-height				:30px;
+	vertical-align			:middle;
+	cursor					:help;
+}
+
+.article_prop img {
+	margin-top				:5px;
+}
+
+.article_prop_2 {
+	float					:left;
+	height					:40px;
+	line-height				:40px;
+}
+
+.article_prop_2_left {
+	float					:left;
+	height					:40px;
+	line-height				:40px;
+	vertical-align			:middle;
+}
+
+.article_prop_2_right {
+	float					:left;
+	height					:40px;
+	line-height				:40px;
+}
+
+.article_prop_rating {
+	width					:40px;
+	padding-left			:7px;
+}
+
+.article_prop_vb {
+	float					:left;
+	height					:40px;
+	width					:150px;
+	cursor					:help;	
+}
+
+
+.article_prop_votingbar {
+	height					:5px;
+	background-color		:#CCC;
+	cursor					:help;	
+}
+
+.article_vb {
+	float					:left;
+	margin-top				:14px;
+	width					:150px;
+}
+
+.article_fl {
+	float					:left;
+}
+
+.article_fr {
+	float					:right;
+}
+
+.article_vb_plus {
+	height					:5px;
+	border-right			:1px solid white;
+	background				:#00ff00;	
+}
+
+.article_vb_minus {
+	height					:5px;
+	margin-right			:-1px;
+	background				:#ff0000;
+}
+
+.article_prop_views {
+	margin					:0px 7px 0px 20px;
+}
+
+.article_prop_views img{
+	margin-top				:7px;
+}
+
+.article_prop_date {
+	margin					:0px 7px 0px 20px;
+	color					:#999999;
+}
+
+.article_prop_date img{
+	margin-top				:7px;
+}
+
+.zp_bt img {
+	display					:block;
+	float					:left;
+	margin					:6px 5px 0px 5px;
+}
+
+.rt_vb {
+	display:block;
+	float					:none;
+	height					:17px;
+	line-height				:17px;
+	text-align				:center;
+}
+
+.loading_img{
+	margin-top				:4px;
+}
+
+
+
+/* ------- Комментарии ---------------------------------------------------------------- */
+.article_comments_hr {
+	height					:2px;
+	border-width			:0px;
+	background-color		:#cccccc;
+}
+
+.article_comments_title {
+	padding-bottom			:10px;
+	font-size				:14px;
+	font-weight				:bold;
+}
+
+.sns_comments_item {
+	margin-bottom			:10px;
+	padding					:10px;
+	min-height				:60px;
+	border					:1px solid #b8b8ba;
+	border-radius			:10px;	
+}
+
+.sns_comments_users_photo {
+	float					:left;
+	margin-right			:10px;
+}
+
+.sns_comments_date {
+	margin-left				:10px;
+	color					:#999999;
+}
+
+.sns_comments_item_block {
+	margin-bottom			:10px;
+	padding					:10px;
+	border					:1px solid #b8b8ba;
+	border-radius			:10px;	
+}
+
+
+/* --- модальное окно --------------------------------- */
+
+
+
+#fade {
+	display				:none; 
+	background			:#000;
+	position			:fixed; 
+	left				:0; 
+	top					:0;
+	width				:100%; 
+	height				:100%;
+	opacity				:.80;
+	z-index				:9999;
+}
+
+.sns_overlay {
+	text-align			:center;
+	display				:none;
+	background			:#fff;
+	padding				:20px;
+	border				:10px;
+	float				:left;
+	font-size			:1.2em;
+	position			:fixed;
+	top					:50%; 
+	left				:50%;
+	z-index				:99999;
+	/*--CSS3 Тени для Блока--*/
+	-webkit-box-shadow	:0px 0px 50px #000;
+	-moz-box-shadow		:0px 0px 50px #000;
+	box-shadow			:0px 0px 50px #000;
+	/*--CSS3 Закругленные углы--*/
+	-webkit-border-radius:10px;
+	-moz-border-radius	:10px;
+	border-radius		:10px;
+}
+
+
+.sns_btn_close {
+	background-image	:url(images/close.png);
+	position			:absolute;
+	right				:-16px;
+	top					:-16px;
+	cursor				:pointer;
+	height				:35px;
+	width				:35px;
+}
+
+
+.popup_block{
+	display: none; /*--по умолчанию скрыты--*/
+	background: #fff;
+	padding: 20px;
+	border: 20px solid #ddd;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	/*--CSS3 Тени для Блока--*/
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	box-shadow: 0px 0px 20px #000;
+	/*--CSS3 Закругленные углы--*/
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}

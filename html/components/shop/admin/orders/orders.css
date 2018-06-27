@@ -1,0 +1,47 @@
+.admin_table td{
+	padding				:10px 0px 10px 10px;
+}
+
+.admin_table_2 tr:nth-child(odd){
+	background-color	:#ffffff;	
+}
+
+.admin_table_2 tr:nth-child(even){
+	background-color	:#f3f4f5;	
+}
+
+.order_status_0 {
+	background-color	:#E2DDCE;
+}
+
+.order_status_0 a{
+	color				:#000000;
+	text-decoration		:none;
+}
+
+.order_status_1 {
+	background-color	:rgb(200, 255, 153);
+}
+
+.order_status_1 a{
+	color				:#000000;
+	text-decoration		:none;
+}
+
+.order_status_2 {
+	background-color	:#ffffcc;
+}
+
+.order_status_2 a{
+	color				:#000000;
+	text-decoration		:none;
+}
+
+.order_status_3 {
+	background-color	:#ffcccc;
+}
+
+.order_status_3 a{
+	color				:#000000;
+	text-decoration		:none;
+}

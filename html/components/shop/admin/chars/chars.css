@@ -1,0 +1,41 @@
+.drag_drop:nth-child(odd){
+	background-color	:#ffffff;
+}
+
+.drag_drop:nth-child(even){
+	background-color	:#f3f4f5;	
+}
+
+.drag_drop_over{
+	margin-top			:40px;	
+}
+
+.shop_char_help_table {
+	border-collapse		:collapse;
+}
+
+.shop_char_help_table td {
+	height				:30px;
+	vertical-align		:middle;
+	padding				:0px;
+}
+
+.shop_char_input_50 {
+	margin				:0px 5px 0px 5px;
+	width				:30px;
+}
+
+.char_td {
+	height				:40px;
+	padding				:0px 0px 0px 10px;	
+	vertical-align		:middle;
+}
+
+.drag_move {
+	font-size			:24px; 
+	cursor				:move;
+}
+
+.button_green {
+	float				:left;
+}

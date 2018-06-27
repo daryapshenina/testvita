@@ -1,0 +1,21 @@
+#main {
+	padding			:20px;
+	background		:#ffffff;
+	line-height		:20px;
+}
+
+/* LOG */
+
+.excel_log_notice, .excel_log_error {
+	padding			:3px 10px;
+}
+
+.excel_log_notice {
+	background		:#EBEBEB;
+	border-bottom	:1px solid #DBDBDB;
+}
+
+.excel_log_error {
+	background		:#F8C4C4;
+	border-bottom	:1px solid #FFB6B6;
+}

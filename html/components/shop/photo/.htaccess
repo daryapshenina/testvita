@@ -1,0 +1,4 @@
+RewriteRule ^.htaccess$ - [F]
+
+# Запрещаем исполнение скриптов в данной папке
+#php_flag engine  off

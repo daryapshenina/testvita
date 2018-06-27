@@ -1,0 +1,48 @@
+INSERT INTO `components` (
+
+`id` ,
+`components` ,
+`title` ,
+`description` ,
+`enabled` 
+)
+VALUES (
+'5', 'article', 'Архив статей', '', '1'
+) 
+
+
+
+CREATE TABLE `com_article_section` (
+`id` INT( 10 ) UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`pub` VARCHAR( 1 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`parent` VARCHAR( 3 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`ordering` INT( 10 ) NOT NULL ,
+`title` VARCHAR( 255 ) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`description` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL 
+) ENGINE = InnoDB;
+
+
+
+INSERT INTO `5za`.`menu` (
+`id` ,
+`name` ,
+`description` ,
+`pub` ,
+`parent` ,
+`ordering` ,
+`component` ,
+`main` ,
+`p1` ,
+`p2` ,
+`p3` ,
+`id_com` ,
+`text` 
+)
+VALUES (
+NULL , 'Статьи', 'архив статей', '1', '0', '5', 'article', '1', 'all', '', '', '1', ''
+);
+
+[ Изменить ] [ PHP-код ]
+
+
+

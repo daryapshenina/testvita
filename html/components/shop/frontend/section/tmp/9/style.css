@@ -1,0 +1,163 @@
+.section_item {
+	display					:inline-block;
+	text-align				:center;
+	margin					:5px;
+	padding					:10px;
+	vertical-align			:top;
+	border					:1px solid #E8E8E8;
+	border-radius			:3px;
+	color					:#000000;
+	background				:#FFFFFF;
+	position				:relative;
+	top						:0px;
+	left					:0px;
+}
+
+.section_item_float {
+	position				:absolute;
+	top						:0px;
+	left					:0px;
+	z-index					:2;
+	width					:80px;
+}
+
+a.section_item_new {
+	display					:block;
+	width					:100%;
+	max-width				:120px;
+	padding					:2px 6px 2px 6px;
+	margin					:5px 0px 0px -5px;
+	font-size				:12px;
+	background				:#009A0C;
+	color					:#ffffff;
+	text-decoration			:none;
+}
+
+.section_item_rating {
+	font-size				:16px;
+	color					:#ffa802;
+}
+
+a.section_item_discount {
+	display					:block;
+	width					:100%;
+	max-width				:120px;
+	padding					:2px 6px 2px 6px;
+	margin					:5px 0px 0px -5px;
+	font-size				:12px;
+	background				:#F7F200;
+	color					:#F78000;
+	text-decoration			:none;
+}
+
+.section_item_rub_discount {
+	font-size				:12px;
+	font-weight				:normal;
+}
+
+a.section_item_hit {
+	display					:block;
+	width					:100%;
+	max-width				:120px;
+	padding					:2px 6px 2px 6px;
+	margin					:5px 0px 0px -5px;
+	font-size				:12px;
+	background				:#ff126b;
+	color					:#ffffff;
+	text-decoration			:none;
+}
+
+a.section_item_order {
+	display					:block;
+	width					:100%;
+	max-width				:120px;
+	padding					:2px 6px 2px 6px;
+	margin					:5px 0px 0px -5px;
+	font-size				:12px;
+	background				:#00A2D9;
+	color					:#ffffff;
+	text-decoration			:none;
+}
+
+.section_item_image {
+	display					:block;
+	position				:relative;
+}
+
+.section_item_lupa {
+	cursor					:pointer !important;
+	border					:none !important;
+	border-radius			:0px !important;
+	box-shadow				:none !important;
+	padding					:0px !important;
+	position				:absolute;
+	right					:0px;
+	bottom					:0px;
+	z-index					:1;
+	height					:34px;
+	width					:34px;
+	background				:url(/components/shop/frontend/tmp/images/cursor_black.png) no-repeat;
+	opacity					:0.8;
+}
+
+.section_item_title {
+	display					:block;
+	margin					:10px 0px 0px 0px;
+	padding					:0px 0px 0px 0px;
+	word-wrap				:break-word;
+	text-decoration			:none !important;
+	color					:#4E4E4E !important;
+}
+
+a.section_item_title:hover {
+	color					:#000000 !important;
+}
+
+.section_item_char {
+	color					:#999999;
+	font-size				:13px;
+	margin-top				:10px;
+	font-family				:verdana;
+	overflow				:hidden;
+	white-space				:nowrap;
+	text-overflow			:ellipsis;
+}
+
+.section_item_desc {
+	margin					:0px 0px 0px 0px;
+	display					:table;
+	width					:100%;
+}
+
+.section_item_price {
+	display					:table-cell;
+	vertical-align			:middle;
+	font-size				:16px;
+	font-weight				:bold;
+}
+
+.section_item_rub {
+	font-size				:12px;
+	font-weight				:normal;
+}
+
+.section_item_price_old {
+	font-size				:14px;
+	font-weight				:normal;
+	text-decoration			:line-through;
+	margin					:0px 10px 0px 0px;
+	color					:#828282;
+}
+
+/* ADAPTIVE */
+
+@media screen and (max-width: 767px) {
+	.shop_section_filter_tab {
+		margin				:40px 0px 10px 0px;
+		font-size			:0.9em;
+	}
+
+	.shop_section_filter_container_sorting {
+		left				:10px;
+	}
+}

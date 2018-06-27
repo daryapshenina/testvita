@@ -1,0 +1,1 @@
+DAN_ready(function(){	// Кнопка поиска	document.getElementById('com_search_submit').onclick = fsubmit;	function fsubmit()	{		setTimeout("document.com_form_search.submit()", 10);	}});

@@ -1,0 +1,24 @@
+.section_add {
+	display				:inline-block;
+	height				:25px;
+	line-height			:25px;
+	padding				:0px 0px 0px 30px;
+	background			:url(images/section_add.png) no-repeat;
+	background-position	:left;
+}
+
+.item_add {
+	display				:inline-block;
+	height				:25px;
+	line-height			:25px;
+	padding				:0px 0px 0px 30px;
+	background			:url(images/item_add.png) no-repeat;
+	background-position	:left;
+}
+
+a#contextmenu {
+	display				:block;
+	padding				:0px 0px 0px 25px;
+	border-bottom		:1px solid #e7e7e7;
+	background-position	:5px center;	
+}

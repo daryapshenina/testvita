@@ -1,0 +1,177 @@
+.section_item {
+	position				:relative;
+	display					:inline-block;
+	margin					:4px;
+	padding					:10px;
+	border-style			:solid;
+	border-width			:1px;
+	border-color			:#cccccc;
+	color					:#000000;
+	background				:#ffffff;
+	border-radius			:10px;
+}
+
+.section_item:hover {
+	border-color			:#BBBBBB;
+	background-color		:#EEEEEE;
+}
+
+/* в формате фотогалереи */
+.section_item  a.show {
+	display					:table-cell;
+	border-radius			:0px !important;
+}
+
+.section_item_discount {
+	display					:block;
+	height					:80px;
+	width					:80px;
+	position				:absolute;
+	right					:0;
+	z-index					:1;
+	margin					:-15px -6px 0px 0px;
+	background-image		:url(/components/shop/frontend/tmp/images/discount.png);
+	background-repeat		:no-repeat;
+	background-size			:80px 80px;
+}
+
+.section_item_new {
+	display					:block;
+	height					:80px;
+	width					:80px;
+	position				:absolute;
+	left					:0px;
+	z-index					:1;
+	margin					:-15px 0px 0px -6px;
+	background-image		:url(/components/shop/frontend/tmp/images/new.png);
+	background-repeat		:no-repeat;
+	background-size			:80px 80px;
+}
+
+.section_item_hit {
+	display					:block;
+	height					:80px;
+	width					:80px;
+	position				:absolute;
+	right					:-5px;
+	bottom					:-5px;
+	z-index					:1;
+	background-image		:url(/components/shop/frontend/tmp/images/hit.png);
+	background-repeat		:no-repeat;
+	background-size			:80px 80px;
+}
+
+.section_item_rating {
+	font-size				:16px;
+	color					:#ffa802;
+	margin-bottom			:5px;
+}
+
+.section_item_order {
+	display					:block;
+	height					:80px;
+	width					:80px;
+	position				:absolute;
+	left					:0;
+	bottom					:0;
+	z-index					:1;
+	margin					:0px 0px -6px -6px;
+	background-image		:url(/components/shop/frontend/tmp/images/custom.png);
+	background-repeat		:no-repeat;
+	background-size			:80px 80px;
+}
+
+.section_item_title {
+	padding-bottom			:10px;
+	font-size				:14px;
+	font-weight				:bold;
+}
+
+.section_item_price_old {
+	text-decoration			:line-through;
+}
+
+.section_item_price_discount {
+	margin-left				:10px;
+	padding					:0px 0px 0px 10px;
+	color					:#ff0000;
+	background-color		:#ffff00;
+}
+
+.section_item_rub_discount {
+	padding					:0px 10px 0px 5px;
+	font-size				:12px;
+	font-weight				:normal;
+}
+
+.section_item_rub {
+	padding					:0px 0px 0px 5px;
+	font-size				:12px;
+	font-weight				:normal;
+}
+
+.section_item_but_left {
+	height					:30px;
+	line-height				:30px;
+	text-align				:center;
+    font-size				:18px;
+    font-weight				:bold;
+	background-color		:#DDDDDD;
+	background   			:-webkit-gradient(linear, left top, left bottom, from(#DDDDDD), to(#EEEEEE));
+	background   			:-moz-linear-gradient(top, #DDDDDD,  #EEEEEE);
+	border-top-left-radius	:15px;
+	border-bottom-left-radius:15px;
+	border-top				:1px solid #CCCCCC;
+	border-left				:1px solid #CCCCCC;
+	border-bottom			:1px solid #CCCCCC;
+}
+
+.section_item_but_right {
+	height					:30px;
+	line-height				:30px;
+	width					:40px;
+	background-color		:#00d000;
+	text-align				:center;
+	background   			:-webkit-gradient(linear, left top, left bottom, from(#00d000), to(#007f00));
+	background   			:-moz-linear-gradient(top, #00d000,  #007f00);
+	border-top-right-radius	:15px;
+	border-bottom-right-radius:15px;
+	border-top				:1px solid #CCCCCC;
+	border-right			:1px solid #CCCCCC;
+	border-bottom			:1px solid #CCCCCC;
+}
+
+.section_item_cart_img {
+	padding					:3px 0px 0px 0px;
+}
+
+.section_item_cart_img:hover {
+	-webkit-animation-name:'cart_img';
+	-webkit-animation-duration:2s;
+	animation-name:'cart_img';
+	animation-duration:2s;
+}
+
+@-webkit-keyframes 'cart_img' {
+    from { padding-right:0px; }
+	50% { padding-right:10px; }
+    to { padding-right:0px; }
+}
+@keyframes 'cart_img' {
+    from { padding-right:0px; }
+	50% { padding-right:10px; }
+    to { padding-right:0px; }
+}
+
+/* ADAPTIVE */
+
+@media screen and (max-width: 767px) {
+	.shop_section_filter_tab {
+		margin				:40px 0px 10px 0px;
+		font-size			:0.9em;
+	}
+
+	.shop_section_filter_container_sorting {
+		left				:10px;
+	}
+}

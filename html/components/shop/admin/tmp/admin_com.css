@@ -1,0 +1,185 @@
+﻿/* главный пункт */
+.shopmain-ico {
+	width				:100%;
+	background			:url(images/shop.png) no-repeat;
+	background-position	:center;
+}
+
+.imshop {
+	font-size			:14px;
+	font-weight			:bold;
+	height				:30px;
+	padding				:0px 0px 0px 10px;
+}
+
+.addsection {
+	width				:110px;
+	font-size			:12px;
+	font-weight			:normal;
+	height				:30px;
+	padding				:0px 0px 0px 30px;
+	background			:url(images/addsection.png) no-repeat;
+	background-position	:left;
+}
+
+.additem {
+	width				:100px;
+	font-size			:12px;
+	font-weight			:normal;
+	height				:30px;
+	padding				:0px 0px 0px 30px;
+	background			:url(images/additem.png) no-repeat;
+	background-position	:left;
+}
+
+
+.resulttovar {
+	line-height			:30px;
+	font-size			:12px;
+	color				:#09F;
+	font-weight			:normal;	
+}
+
+.desctitle {
+	display				:table-cell;
+	padding-right		:10px;	
+	font-size			:12px;
+	font-weight			:normal;
+	color				:#aaaaaa;
+}
+
+.sectiontitle {
+	display				:table-cell;
+	padding-right		:50px;		
+}
+
+.settings_payment_systems {
+	margin				:20px;
+	padding				:10px;
+	border-style		:solid;
+	border-radius		:10px;
+	border-width		:1px;
+	border-color		:#dddddd;
+	background-color	:#efefef;
+}
+
+
+
+/* --- ORDER -------------------------------------------- */
+.order_view_input {
+	width				:30px;
+	text-align			:center;
+	margin				:0px 15px 0px 5px;
+	color				:#999999;
+}
+
+.yandex_input_label {
+	float				:left;
+	width				:110px;
+}
+
+.etext_enabled {
+	margin-left			:20px;
+}
+
+#etext {
+	background-color	:#00ff00;
+}
+
+.bg_gray {
+	background-color	:#eeeeee;
+}
+
+.gray {
+	color				:#bbbbbb;
+}
+
+
+.shop-rb {
+	height				:30px;
+	vertical-align		:middle;	
+}
+
+input.shop-rb {
+	margin				:0px 10px 0px 10px;
+}
+
+.shop-rb-checked {
+	height				:30px;
+	vertical-align		:middle;
+	color				:#090;
+}
+
+input.shop-rb-checked  {
+	margin				:0px 10px 0px 10px;
+}
+
+.dn {
+	color				:#FFF;
+}
+
+.vam td {
+	vertical-align		:middle;
+}
+
+.shop-tab-title {
+	color				:#ffffff;
+	background-color	:#434547 !important;
+	font-family			:verdana;
+	font-size			:12px;
+}
+
+#qiwi_number {
+	display				:none;
+}
+
+/* ======= ЗАКАЗЫ ======= */
+
+.basket-item-tab {
+	width				:500px;
+	display				:table;
+	border-collapse		:collapse;
+	border				:solid;
+	border-width		:1px;
+	border-color		:#dedede;	
+	background-color	:#ffffff;
+}
+
+.basket-client-text {
+	width				:200px;	
+	padding				:0px 0px 0px 10px !important ;
+	line-height			:25px;
+}
+
+.basket-client-input {
+	line-height			:25px;
+	padding				:0px 0px 0px 10px !important ;	
+}
+
+/* ====== Список характеристик товара ========== */
+.w100_bs2 {
+	width				:100%;
+	border-collapse		:collapse;
+	border				:1px solid gray;
+}
+
+.w100_bs2 td{	
+	border-style		:solid;
+	border-color		:#DDD;
+	border-width		:1px;		
+}
+
+.cell-v2 {
+	line-height			:30px;
+	vertical-align			:middle;
+	text-align			:center;
+}
+
+.cell-v2t {
+	line-height			:30px;
+	vertical-align		:middle;
+	text-align			:center;
+	font-weight			:bold;
+	color				:#000;
+	background			:url(/administrator/tmp/images/pl_2.png);		
+}

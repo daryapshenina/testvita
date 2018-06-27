@@ -1,0 +1,459 @@
+#item_main {
+	width				:100%;
+	display				:table;
+	text-align			:center;
+}
+
+#item_main h1 {
+	margin				:0px 0px 20px 0px;
+}
+
+/**/
+
+#item_photo_container {
+	display				:table-cell;
+	width				:50%;
+	vertical-align		:top;
+}
+
+.item_photo_container_border {
+	position			:relative;
+	padding				:20px;
+	background			:#ffffff;
+	border				:1px solid #cccccc;
+	border-radius		:3px;
+}
+
+.item_photo_container_content {
+	display				:inline-block;
+}
+
+.item_photo_big {
+	width				:100%;
+}
+
+.item_photo_container_content .show {
+	border				:0px;
+	border-radius		:0px;
+	box-shadow			:0px 0px 0px;
+	padding				:0px;
+}
+
+
+/* --- Img small --- */
+
+.img_small_container {
+	background-color	:#f0f0f0;
+	margin				:10px 0;
+	padding				:10px;
+}
+
+.img_small_title {
+	padding				:0px 0px 5px 0px;
+}
+
+.img_small_item {
+	margin				:2px;
+	overflow			:hidden;
+	display				:inline-block;
+	padding				:2px;
+	cursor				:pointer;
+	border				:1px solid #E8E8E8;
+	background-color	:#fff;
+}
+
+.img_small_item:hover {
+	outline				:solid 3px #ccc;	
+}
+
+.img_small_item_img {
+	display				:block;
+	height				:70px !important;	
+}
+
+.img_small_item_selected {
+	outline				:solid 3px #fd9729;
+}
+
+/**/
+
+#iter_shortdesc_container {
+	display				:table-cell;
+	vertical-align		:top;
+	text-align			:left;
+}
+
+.iter_shortdesc_container_padding {
+	padding				:10px;
+}
+
+.item_intro_text {
+	max-width			:500px;
+	margin				:0px auto 20px;
+}
+
+.item_price_out {
+	margin				:0px 0px 5px 0px;
+	text-align			:center;
+}
+
+.item_price_old {
+	margin-right		:10px;
+	text-align			:center;
+	font-size			:18px;
+	line-height			:18px;
+	text-decoration		:line-through;
+}
+
+.item_price_discount {
+	margin-right		:10px;
+	padding				:0 5px;
+	text-align			:center;
+	font-size			:24px;
+	color				:#ff0000;
+	background-color	:#ffff00;
+}
+
+.item_rub {
+	margin-left			:5px;
+	font-family			:Helvetica, sans-serif !important;
+	font-size			:12px !important;
+}
+
+.item_price {
+	text-align			:center;
+	font-size			:24px;
+	color				:#000000;
+}
+
+.item_block_rub {
+	font-size			:14px;
+}
+
+/**/
+
+.item_photo_container_content_float {
+	position			:absolute;
+	top					:0;
+	left				:0;
+	z-index				:1;
+}
+
+.item_sticker_new, .item_sticker_discount, .item_sticker_hit, .item_sticker_order, a.related_sticker_new, a.related_sticker_sale, a.related_sticker_hit, a.related_sticker_order {
+	display				:block;
+	height				:20px;
+	line-height			:20px;
+	width				:100px;
+	font-size			:12px;
+	margin				:5px 0px 0px -5px;
+	text-decoration		:none;
+}
+
+.item_sticker_new, a.related_sticker_new  {
+	background			:#009A0C;
+	color				:#ffffff;
+}
+
+.item_sticker_discount, a.related_sticker_sale {
+	background			:#F7F200;
+	color				:#F78000;
+}
+
+.item_sticker_hit, a.related_sticker_hit {
+	background			:#FF126B;
+	color				:#FFFFFF;
+}
+
+.item_sticker_order, a.related_sticker_order {
+	background			:#00A2D9;
+	color				:#ffffff;
+}
+
+.item_rating {
+	margin-bottom		:10px;
+	text-align			:center;
+	font-size			:20px;
+	color				:#ffa802;
+}
+
+/**/
+
+.shop_but {
+	padding				:0px;
+	text-align			:center;
+}
+
+.shop_quantity {
+	width				:100%;
+	max-width			:115px;
+	padding				:0px;
+	text-align			:center;
+	margin				:0px auto 5px;
+}
+
+.input_quantity {
+	display				:inline-block;
+	width				:40px;
+	padding				:0px 5px 0px 5px;
+    height				:23px;
+    line-height			:23px;
+	text-align			:center;
+    font-family			:arial;
+    font-size			:16px;
+    font-weight			:bold;
+    border-radius		:5px;
+    -webkit-box-shadow	:0 0 3px rgba(0,0,0,0.1) inset;
+    -moz-box-shadow		:0 0 3px rgba(0,0,0,0.1) inset;
+    box-shadow			:0 0 3px rgba(0,0,0,0.1) inset;
+    border				:1px solid #c1c1c1;
+    background-color	:#FFFFFF;
+}
+
+#quantity_plus, #quantity_minus {
+	cursor				:pointer;
+	margin-top			:2px;
+	display				:inline-block;
+	width				:21px;
+	line-height			:19px;
+    border-radius		:3px;
+	font-size			:18px;
+    color				:#a7a7a7;
+    text-align			:center;
+	border				:1px solid #C1C1C1;
+    background			:#E5E5E5;
+}
+
+#quantity_plus:hover, #quantity_minus:hover {
+    background			:#fff;
+}
+
+#quantity_plus {
+	float				:right;
+}
+
+#quantity_minus {
+	float				:left;
+}
+
+.but_cart {
+	cursor				:pointer;
+	display				:inline-block;
+	width				:100%;
+	max-width			:200px;
+	padding				:8px 30px 8px 30px;
+	margin				:0px auto 5px;
+	text-decoration		:none !important;
+	font-size			:18px;
+	border-radius		:3px;
+	color				:#fff;
+	text-align			:center;
+	border				:1px solid #fd9729;
+	background			:#fd9729;
+	transition-duration	:0.3s;
+	transition-property	:background;
+}
+
+.item_but:hover {
+	background			:#FDC629;
+	border				:1px solid #FDBC29;
+}
+
+/**/
+
+.shop_item_question {
+	width				:200px;
+	padding				:0px;
+	margin				:0px auto 10px;
+	background			:#E5E5E5;
+	color				:#000000 !important;
+	border				:1px solid #DCDCDC;
+	border-radius		:3px;
+	text-decoration		:none !important;
+	padding				:4px 0px;
+	transition-duration	:0.3s;
+	transition-property	:background;
+	font-size			:12px;
+}
+
+.shop_item_question:hover {
+	background			:#EDEDED;
+	border				:1px solid #E9E9E9;
+}
+
+/**/
+
+.shop_item_qs {
+	margin				:0px auto 10px;
+}
+
+/**/
+.item_gallery {
+	margin-top			:10px;
+}
+
+#item_photo_more {
+	display				:flex;
+	flex-wrap			:wrap;
+	padding				:15px 0;
+}
+
+#item_photo_more .show {
+	box-shadow			:0px 0px 0px;
+	border-radius		:3px;
+}
+
+#item_photo_more .show:hover {
+	box-shadow			:0px 0px 0px;
+}
+
+.item_photo_more {
+	display				:block;
+	height				:150px !important;
+	border-radius		:3px;
+	margin				:5px;
+	padding				:5px;
+}
+
+/**/
+
+.item_char_table_padding {
+	margin				:0px 0px 20px 0px;
+}
+
+.item_char_table {
+	margin-bottom		:10px;
+	width				:100%;
+	max-width			:500px;
+	margin				:0 auto;
+	border				:0px;
+	border-collapse		:collapse;
+	border-spacing		:0px;
+}
+
+.item_char_table td {
+	vertical-align		:middle;
+}
+
+.item_char_td_1 {
+    text-align			:left;
+	padding-left		:10px;
+	height				:25px;
+}
+
+.item_char_td_2 {
+	padding-right		:10px;
+    text-align			:right;
+}
+
+.item_char_table tr:nth-child(odd){
+	background-color	:#eeeeee;
+}
+
+.item_char_table tr:nth-child(even){
+	background-color	:#ffffff;
+}
+
+
+
+
+/* ñîïóòñòâóþøèå òîâàðû */
+
+.related_items {
+	margin-top			:50px;
+}
+
+.related_item {
+    display				:inline-block;
+    text-align			:center;
+    margin				:5px;
+    padding				:10px;
+    vertical-align		:top;
+    border				:1px solid #E8E8E8;
+    border-radius		:3px;
+    background			:#FFFFFF;
+    position			:relative;
+    top					:0px;
+    left				:0px;
+}
+
+.related_item_title {
+    margin				:10px 0px 0px 0px;
+    padding				:30px 0px 30px 0px;
+    border-top			:1px solid #E8E8E8;
+}
+
+.related_item_name {
+	display				:block;
+    margin				:10px 0px 0px 0px;
+    padding				:0px 0px 5px 0px;
+    word-wrap			:break-word;
+    text-decoration		:none !important;
+    border-bottom		:1px dotted #E8E8E8;
+    color				:#4E4E4E !important;
+}
+
+.related_item_desc {
+    margin				:10px 0px 0px 0px;
+    display				:table;
+    width				:100%;
+}
+
+.related_item_price {
+	display				:table-cell;
+	vertical-align		:middle;
+	font-size			:16px;
+	font-weight			:bold;
+}
+
+.related_item_rub {
+	font-size			:12px;
+	font-weight			:normal;
+}
+
+.related_item_price_old {
+	font-size			:14px;
+	font-weight			:normal;
+	text-decoration		:line-through;
+	margin				:0px 10px 0px 0px;
+	color				:#828282;
+}
+
+.related_stickers {
+    width				:80px;
+    position			:absolute;
+    top					:0px;
+    left				:0px;
+    z-index				:2;	
+}
+
+.related_item_rub_discount {
+	font-size			:12px;
+	font-weight			:normal;
+}
+
+.related_item_buy {
+	display					:table-cell;
+	vertical-align			:middle;
+}
+
+.related_item_buy_button {
+	cursor					:pointer;
+	text-align				:center;
+	padding					:3px;
+	color					:#4C4C4C;
+	border					:1px solid #E8E8E8;
+	border-radius			:3px;
+}
+
+.related_item_buy_button:hover {
+	color					:#ffffff;
+	background				:#4C4C4C;
+	border					:1px solid #272727;
+}
+
+/* Адаптивность */
+@media screen and (max-width: 767px) {
+	.item_gallery {
+		text-align			:center;
+	}
+}

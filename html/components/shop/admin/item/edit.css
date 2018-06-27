@@ -1,0 +1,298 @@
+.drag_drop {
+	float				:left;
+	border				:1px solid #cccccc;
+	border-radius		:5px;
+	padding				:5px;
+	background-color	:#eeeeee;
+	margin				:5px 0px 5px 10px;
+	cursor				:move;
+	transition			:0.3s;
+}
+
+#drag_trg {
+	margin-right		:20px;
+}
+
+.drag_drop_target {
+	outline				:3px solid #cccccc;
+	margin-right		:100px;
+}
+
+#drag_trg #drag_drop_insert {
+	margin				:5px 0px 5px 10px;
+	width				:100px;
+	height				:100px;
+	float				:left;
+    border				:1px solid #0099ff;
+    border-radius		:5px;
+}
+
+#drag_trg .drag_drop_over_left {
+	margin				:5px 0px 5px 100px;
+}
+
+#drag_trg .drag_drop_over_right {
+}
+
+
+#char_list {
+	margin-bottom		:20px;
+}
+
+#char_list .drag_drop_over{
+	margin-top			:38px;
+}
+
+.char_title_tab {
+  margin-bottom			:10px;
+  border-collapse		:collapse;
+}
+
+.char_tab {
+	width				:100%;
+	border-collapse		:collapse;
+}
+
+.char_tab td {
+	vertical-align		:middle;
+}
+
+.char_tab:nth-child(odd){
+	background-color	:#ffffff;	
+}
+
+.char_tab:nth-child(even){
+	background-color	:#f3f4f5;	
+}
+
+.char_tab_over td {
+	vertical-align		:middle;
+}
+
+.char_dnd {
+	width				:40px;
+	text-align			:center;
+}
+
+.char_move {
+	font-size			:24px;
+	cursor				:move;
+}
+
+.char_name {
+	width				:300px;
+}
+
+.char_tab .char_name {
+	overflow			:hidden;
+}
+
+.char_unit {
+	width				:70px;
+}
+
+.char_type {
+	width				:70px;
+}
+
+.char_input_number {
+	width				:70px;
+}
+
+.char_input_string {
+	width				:300px;
+}
+
+#dan_framework_body_lightbox_0 {
+	background-color	:#E7EEEF;
+}
+
+.modal_container {
+	text-align			:center;
+}
+
+.modal_title {
+	margin				:10px 0px 20px 0px;
+	font-size			:14px;
+}
+
+.modal_submit {
+	margin-top			:20px;
+}
+
+.char_add {
+	display				:inline-block;
+	margin				:0px 20px 20px 0px;
+	height				:30px;
+	line-height			:30px;
+	width				:200px;
+	cursor				:pointer;
+	text-align			:center;
+	border-radius		:5px;
+	font-weight			:bold;
+	font-size			:14px;
+	font-family			:verdana;
+	color				:#fff !important;
+	text-decoration		:none;
+	text-shadow			:0 1px rgba(0,0,0,0.1);
+	border				:solid 1px;
+	border-color		:#6DC004 #57A502 #4C8900;	
+	box-shadow			:0 1px 1px rgba(0,0,0,.25), inset 0 1px 0 #9CDC00;
+	background-color	:#70D008;
+	background-image	:linear-gradient(to top, #529E00, #70D008)!important;	
+}
+
+.char_add:hover {
+	color				:#fff;
+	border-color		:#6DC004 #63BB02 #66B800;
+	box-shadow			:0 1px 1px rgba(0,0,0,.25), inset 0 1px 0 #ADF400;
+	background-color	:#7CE709;
+	background-image	:linear-gradient(to top, #60BA00, #84F708)!important;
+}
+
+.char_add_small {
+	float				:left;
+	margin				:0px 10px 0px 0px;
+	height				:30px;
+	line-height			:30px;
+	width				:30px;
+	cursor				:pointer;
+	text-align			:center;
+	font-size			:20px;
+	border-radius		:5px;
+	font-weight			:bold;
+	font-family			:verdana;
+	text-decoration		:none;
+	color				:#fff;
+	text-shadow			:0 1px rgba(0,0,0,0.1);
+	border				:solid 1px;
+	border-color		:#6FD9FF #008AD3 #005E90;
+	box-shadow			:0 1px 1px rgba(0,0,0,.25), inset 0 1px 0 #00B2DC;
+	background-color	:#0079D0;
+	background-image	:linear-gradient(to top, #00689E, #00B5D5)!important;
+}
+
+.char_add_small:hover {
+	color				:#fff;
+	border-color		:#0092C7 #006CA5 #005A89;
+	box-shadow			:0 1px 1px rgba(0,0,0,.25), inset 0 1px 0 #00B2DC;
+	background-color	:#008AED;
+	background-image	:linear-gradient(to top, #0084C8, #00D7FD)!important;
+}
+
+.admin_table_2_context:nth-child(odd){
+	background-color	:#ffffff;	
+}
+
+.admin_table_2_context:nth-child(even){
+	background-color	:#f3f4f5;	
+}
+
+
+/* Accordion */
+.accordion_body.a_1.expand {
+	min-height			:280px;	
+}
+
+.accordion_body.a_2.expand {
+	min-height			:100px;	
+}
+
+.accordion_body.a_3.expand {
+	height				:100px;
+}
+
+.accordion_body.a_4.expand {
+	height				:175px;
+}
+
+
+.related_container {
+    margin-bottom		:20px;
+    height				:425px;
+    -webkit-column-count:2;
+    -moz-column-count	:2;
+    column-count		:2;
+    padding				:10px 0px;
+    white-space			:nowrap;
+    overflow			:hidden;
+    box-sizing			:border-box;
+    border-radius		:5px;
+    border				:solid 1px #d3d3d3;
+    background-color	:#fff;
+}
+
+.related_list_item {
+	margin				:0px 15px;
+    white-space			:nowrap;
+    overflow			:hidden;
+    text-overflow		:ellipsis;	
+	cursor				:pointer;
+}
+
+.related_list_id {
+	display				:inline-block;
+	width				:40px;	
+	padding-right		:20px;
+	text-align			:right;
+}
+
+#related_items {
+	position			:relative;
+	margin-right		:20px;
+}
+
+.related_item {
+	position			:relative;
+	display				:inline-block;
+	text-align			:center;
+	border				:1px solid #cccccc;
+	border-radius		:5px;
+	padding				:5px;
+	background-color	:#ffffff;
+	margin				:5px 0px 5px 10px;
+	cursor				:move;	
+}
+
+.related_title {
+    white-space			:nowrap;
+    overflow			:hidden;
+    text-overflow		:ellipsis;	
+}
+
+#related_items .drag_drop_over {
+	margin				:5px 0px 5px 60px;
+}
+
+.related_item_price {
+	font-size			:18px;
+}
+
+.related_pagination_num {
+	display				:inline-block;
+	margin				:5px;
+	width				:40px;
+	height				:40px;
+	cursor				:pointer;
+	line-height			:40px;	
+	text-align			:center;
+	border-radius		:5px;
+	border				:solid 1px #d3d3d3;
+	background-color	:#fff;	
+}
+
+.rpn_active {
+	border				:solid 1px #36D1FF;
+	color				:#006573;
+	background			:#8DE5FF;
+}
+
+.no-photo {
+    background-color	:#ffffff;
+    background-image	:url(/components/shop/frontend/tmp/images/no-photo.png);
+    background-repeat	:no-repeat;
+    background-position	:center center;
+    text-align			:center;
+    background-size		:auto 100%;
+    margin				:0 auto;
+}

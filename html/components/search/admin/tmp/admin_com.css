@@ -1,0 +1,134 @@
+﻿/* компонент в списке справа */
+#search-com {
+	display				:block;	
+	line-height			:25px;
+	padding-bottom		:15px;	
+	padding-left		:35px;
+	color				:#0000ff;	
+	font-weight			:bold;
+	background			:url(images/additem.png) no-repeat;
+}
+
+/* главный пункт */
+.quotemain-ico {
+	width				:100%;
+	background			:url(images/quote.png) no-repeat;
+	background-position	:center;
+}
+
+/* строка компонента */
+.quote-bg {
+	width				:100%;
+	background-color	:#ffff00;
+}
+
+.quote_all_title {
+	font-size			:14px;
+	font-weight			:bold;
+	padding				:0px 0px 0px 10px;
+}
+
+.quote_addsection {
+	width				:110px;
+	font-size			:12px;
+	font-weight			:normal;
+	height				:30px;
+	padding				:0px 0px 0px 30px;
+	background			:url(images/addsection.png) no-repeat;
+	background-position	:left;
+}
+
+.quote_additem {
+	width				:100px;
+	font-size			:12px;
+	font-weight			:normal;
+	height				:30px;
+	padding				:0px 5px 0px 30px;
+	background			:url(images/additem.png) no-repeat;
+	background-position	:left;
+}
+
+.quote-desctitle {
+	display				:table-cell;
+	padding-right		:10px;	
+	font-size			:12px;
+	font-weight			:normal;
+	color				:#aaaaaa;
+}
+
+.quote-sectiontitle {
+	display				:table-cell;
+	padding-right		:50px;		
+}
+
+/* настройки (аккордион) */
+
+.section_head_settings {
+	line-height			:30px;
+	padding-left		:50px;
+	font-weight			:bold;
+	font-size			:14px;
+	background			:url(images/settings.png) no-repeat;	
+}
+
+.quote_section_settings {
+	margin				:0px 20px 0px 20px;	
+	border-style		:solid;
+	border-width		:1px;
+	border-color		:#d3d3d3;
+	background-color	:#e5ffb8;
+}
+
+
+
+
+.quote-cell-v {
+	width				:30px;
+	vertical-align		:middle;
+	text-align			:center;
+}
+
+.quote-cell-ico {
+	width				:30px;
+	vertical-align		:middle;
+	text-align			:center;
+}
+
+.quote-cell-title {
+	text-align			:left;
+	padding				:10px;	
+}
+
+.quote-cell-author {
+	width				:200px;
+	padding-left		:10px;
+	vertical-align		:middle;
+	text-align			:left;
+}
+
+
+
+/* рейтинг - бар */
+.votingbar {
+	height				:5px;
+	width				:150px;
+	background-color	:#CCC;
+}
+
+.vote_bar_plus {
+	float				:left;
+	height				:5px;
+	border-right		:1px solid white;
+	background			:#00ff00;
+}
+
+.vote_bar_minus {
+	float				:right;
+	height				:5px;
+	margin-right		:-1px;
+	background			:#ff0000;
+}
+
+.loading_img{
+	margin-top				:4px;
+}

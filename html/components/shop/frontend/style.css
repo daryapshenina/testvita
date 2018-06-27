@@ -1,0 +1,50 @@
+﻿a.topmenu:hover {
+	color				:#028983;
+	border-bottom		:2px solid #028983;
+}
+
+.activetopmenu {
+	color				:#028983;
+	border-bottom		:2px solid #028983;
+}
+
+.activetopmenu-2 {
+	color				:#028983;
+}
+
+a.activetopmenu:link {
+	color				:#028983;
+}
+
+a.activetopmenu:visited {
+	color				:#028983;
+}
+
+a.activetopmenu:hover {
+	color				:#028983;
+}
+
+a.menutop_sub:hover {
+	background			:#028983;
+}
+
+.article_sat a:link, .article_sat a:visited, .article_sat a:hover, .mod-article-title a:link, .mod-article-title a:visited, .mod-article-title a:hover {
+	color				:#028983;
+}
+
+.image_number_select {
+	background			:#028983 !important;
+}
+
+@media screen and (max-width: 740px), screen and (max-device-width: 740px) {
+
+	.menutop_lvl_2_block .menutop_sub:hover, .menutop_lvl_3_block .menutop_sub:hover {
+		color				:#028983;
+		border-bottom		:1px solid #028983;
+	}
+
+}
+
+.section_item_cell_but_right {
+	background			:#028983 !important;
+}

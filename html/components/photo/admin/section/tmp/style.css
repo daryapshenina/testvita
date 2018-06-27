@@ -1,0 +1,55 @@
+.photo_bg {
+	margin-top			:10px;
+	padding				:20px;
+	background-color	:#fff;
+	border				:1px solid #dddddd;
+}
+
+.section_add {
+	display				:inline-block;
+	height				:25px;
+	line-height			:25px;
+	padding				:0px 0px 0px 30px;
+	background			:url(section_add.png) no-repeat;
+	background-position	:left;
+}
+
+.item_add {
+	display				:inline-block;
+	height				:25px;
+	line-height			:25px;
+	padding				:0px 0px 0px 30px;
+	background			:url(item_add.png) no-repeat;
+	background-position	:left;
+}
+
+.photo_item {
+	display				:inline-block;
+	vertical-align		:top;
+	margin				:5px;
+	padding				:10px;
+	cursor				:move;
+	border				:solid 1px #ddd;
+}
+
+#drag_trg .drag_drop_over {
+	margin-left			:50px;
+}
+
+
+.photo_item_title {
+	height				:20px;
+	line-height			:20px;
+	text-overflow		:ellipsis;
+	overflow			:hidden;
+	text-align			:center;
+}
+
+.items_container {
+	margin				:20px 0px;
+}
+
+#images_order_button {
+	opacity				:0;
+	transition			:0.3s;
+}

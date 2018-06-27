@@ -1,0 +1,39 @@
+.shop_basket_yandex_form {
+	margin				:20px 0px 20px 0px;
+	width				:500px;
+	padding				:20px;
+	border-radius		:10px;
+	box-shadow			: 0 1px 10px #999;
+	font-family			:Arial,sans-serif;
+	font-size			:13px;
+/*
+	background			:-webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f0f0f0));
+	background			:-moz-linear-gradient(top, #ffffff, #f0f0f0);
+*/
+}
+
+.shop_basket_yandex_tab {
+	width				:100%;
+	border-collapse		:collapse;
+}
+
+.shop_basket_yandex_tab  td {
+	vertical-align		:middle;
+}
+
+.shop_basket_yandex_tab  hr {
+	height				:1px;
+	background-color	:#cfcfcf;
+	border				:0px;
+}
+
+.shop_basket_yandex_td_1 {
+	width 				:130px;
+	font-size			:16px;
+	font-weight			:bold;	
+	color				:#2265bc;
+}
+
+.shop_basket_yandex_td_2 {
+	font-size			:13px;
+}

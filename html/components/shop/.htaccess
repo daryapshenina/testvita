@@ -1,0 +1,12 @@
+RewriteRule ^.htaccess$ - [F]
+
+AddDefaultCharset utf-8
+
+Options -Indexes
+
+ErrorDocument 404 /404.php
+
+RewriteEngine On
+
+# 1С авторизация
+RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization},L]

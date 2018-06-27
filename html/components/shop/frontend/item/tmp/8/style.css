@@ -1,0 +1,438 @@
+#item_main {
+	width				:100%;
+	display				:table;
+	text-align			:center;
+}
+
+#item_main h1 {
+	margin				:0px 0px 20px 0px;
+}
+
+/**/
+
+#item_photo_container {
+	display				:table-cell;
+	width				:50%;
+	vertical-align		:top;
+}
+
+.item_photo_container_border {
+	position			:relative;
+	padding				:20px;
+	background			:#ffffff;
+	border				:1px solid #cccccc;
+	border-radius		:3px;
+}
+
+.item_photo_container_content {
+	display				:inline-block;
+}
+
+.item_photo_big {
+	width				:100%;
+}
+
+.item_photo_container_content .show {
+	border				:0px;
+	border-radius		:0px;
+	box-shadow			:0px 0px 0px;
+	padding				:0px;
+}
+
+/**/
+
+#iter_shortdesc_container {
+	display				:table-cell;
+	vertical-align		:top;
+	text-align			:left;
+}
+
+.iter_shortdesc_container_padding {
+	padding				:0 20px 10px;
+}
+
+.item_intro_text:not(:empty) {
+	margin				:0px auto 20px;
+}
+
+.item_price_out {
+	margin-top			:5px;
+	margin-bottom		:10px;
+	text-align			:center;
+}
+
+.item_price_old {
+	margin-right		:10px;
+	text-align			:center;
+	vertical-align		:middle;
+	font-size			:18px;
+	text-decoration		:line-through;
+}
+
+.item_price_discount {
+	padding				:0 10px;
+	text-align			:center;
+	vertical-align		:middle;
+	font-size			:28px;
+	color				:#ff0000;
+	background-color	:#ffff00;
+}
+
+.item_price {
+	text-align			:center;
+	vertical-align		:middle;
+	font-size			:28px;
+	color				:#000000;
+}
+
+.item_rub {
+	margin-left			:5px;
+	vertical-align		:middle;
+	font-size			:18px;
+}
+
+.item_block_rub {
+	font-size			:14px;
+}
+
+/**/
+
+.item_photo_container_content_float {
+	position			:absolute;
+	top					:0;
+	left				:0;
+	z-index				:1;
+}
+
+.item_sticker_new, .item_sticker_discount, .item_sticker_hit, .item_sticker_order, a.related_sticker_new, a.related_sticker_sale, a.related_sticker_hit, a.related_sticker_order {
+	display				:block;
+	min-width			:140px;
+	font-size			:14px;
+	padding				:5px 10px;
+	margin				:5px 0px 0px -5px;
+	text-decoration		:none;
+}
+
+.item_sticker_new, a.related_sticker_new  {
+	background			:#009A0C;
+	color				:#ffffff;
+}
+
+.item_sticker_discount, a.related_sticker_sale {
+	background			:#F7F200;
+	color				:#F78000;
+}
+
+.item_sticker_hit, a.related_sticker_hit {
+	background			:#FF126B;
+	color				:#FFFFFF;
+}
+
+.item_sticker_order, a.related_sticker_order {
+	background			:#00A2D9;
+	color				:#ffffff;
+}
+
+.item_rating {
+	margin-bottom		:10px;
+	text-align			:center;
+	font-size			:20px;
+	color				:#ffa802;
+}
+
+/**/
+
+.shop_but {
+	padding				:0px;
+	text-align			:center;
+}
+
+.shop_quantity_8 {
+	padding				:0px;
+	margin-bottom		:5px;
+	text-align			:center !important;
+}
+
+#input_quantity_8 {
+	display				:inline-block;
+	width				:40px;
+	line-height			:26px;
+	padding				:0;
+	vertical-align		:top;
+	text-align			:center;
+	font-family			:arial;
+	font-size			:16px;
+	font-weight			:bold;
+	border				:1px solid #c1c1c1;
+	border-radius		:0;
+	background-color	:#FFFFFF;
+}
+
+#quantity_plus_8, #quantity_minus_8 {
+	cursor				:pointer;
+	display				:inline-block;
+	width				:26px;
+	line-height			:26px;
+	vertical-align		:top;
+	font-size			:18px;
+	color				:#a7a7a7;
+	text-align			:center;
+	border-top			:1px solid #C1C1C1;
+	border-bottom		:1px solid #C1C1C1;
+	background			:#E5E5E5;
+	transition-duration	:0.3s;
+	transition-property	:background;
+}
+
+#quantity_plus_8 {
+	border-right		:1px solid #C1C1C1;
+}
+
+#quantity_minus_8 {
+	border-left			:1px solid #C1C1C1;
+}
+
+#quantity_plus_8:hover, #quantity_minus_8:hover {
+	background			:#F0F0F0;
+}
+
+.but_cart_8 {
+	cursor				:pointer;
+	display				:inline-block;
+	max-width			:200px;
+	padding				:8px 30px;
+	margin				:5px 5px;
+	text-decoration		:none !important;
+	font-size			:18px;
+	border-radius		:3px;
+	color				:#fff;
+	text-align			:center;
+	border				:1px solid #fd9729;
+	background			:#fd9729;
+	transition-duration	:0.3s;
+	transition-property	:background;
+}
+
+.but_cart_8:hover {
+	background			:#FFA849;
+}
+
+.but_cart_8_question {
+	color				:#4D4D4D;
+	border-color		:#DCDCDC;
+	background			:#E5E5E5;
+}
+
+.but_cart_8_question:hover {
+	background			:#F0F0F0;
+}
+
+/**/
+
+.shop_item_qs {
+	margin				:0px auto 10px;
+}
+
+/**/
+
+.item_gallery:not(:empty) {
+	margin-top			:10px;
+}
+
+.item_gallery .show {
+	margin				:5px;
+	box-shadow			:0px 0px 0px;
+	border-radius		:3px;
+}
+
+.item_gallery .show:hover {
+	box-shadow			:0px 0px 0px;
+}
+
+.item_gallery .item_photo_more {
+	display				:block;
+	height				:80px !important;
+	border-radius		:3px;
+	padding				:5px;
+}
+
+/**/
+
+.item_price_main {
+	padding				:20px;
+	margin-top			:10px;
+	margin-bottom		:15px;
+	background			:#F5F5F5;
+}
+
+/**/
+
+.item_char_table_padding {
+	margin				:0px 0px 10px 0px;
+}
+
+.item_char_table {
+	display				:table !important;
+	margin-bottom		:10px;
+	width				:100%;
+	margin				:0 auto;
+	border				:0px;
+	border-collapse		:collapse;
+	border-spacing		:0px;
+}
+
+.item_char_table tbody {
+	display				:table-row-group !important;
+}
+
+.item_char_table td {
+	vertical-align		:middle;
+}
+
+.item_char_td_1 {
+	text-align			:left;
+}
+
+.item_char_td_2 {
+	text-align			:right;
+}
+
+.item_char_td_1,
+.item_char_td_2 {
+	position			:relative;
+}
+
+.item_char_td_1 span,
+.item_char_td_2 span {
+	position			:relative;
+	z-index				:1;
+	background			:#FFFFFF;
+}
+
+.item_char_td_1 span {
+	padding-right		:5px;
+}
+
+.item_char_td_2 span {
+	padding-left		:5px;
+}
+
+.item_char_td_1:after,
+.item_char_td_2:after {
+	content				:'';
+	display				:block;
+	height				:50%;
+	width				:100%;
+	position			:absolute;
+	top					:0;
+	border-bottom		:1px dotted #CFCFCF;
+}
+
+/**/
+
+.related_items {
+	margin-top			:50px;
+}
+
+.related_item {
+    display				:inline-block;
+    text-align			:center;
+    margin				:5px;
+    padding				:10px;
+    vertical-align		:top;
+    border				:1px solid #E8E8E8;
+    border-radius		:3px;
+    background			:#FFFFFF;
+    position			:relative;
+    top					:0px;
+    left				:0px;
+}
+
+.related_item_title {
+    margin				:10px 0px 0px 0px;
+    padding				:30px 0px 30px 0px;
+    border-top			:1px solid #E8E8E8;
+}
+
+.related_item_name {
+	display				:block;
+    margin				:10px 0px 0px 0px;
+    padding				:0px 0px 5px 0px;
+    word-wrap			:break-word;
+    text-decoration		:none !important;
+    border-bottom		:1px dotted #E8E8E8;
+    color				:#4E4E4E !important;
+}
+
+.related_item_desc {
+    margin				:10px 0px 0px 0px;
+    display				:table;
+    width				:100%;
+}
+
+.related_item_price {
+	display				:table-cell;
+	vertical-align		:middle;
+	font-size			:16px;
+	font-weight			:bold;
+}
+
+.related_item_rub {
+	font-size			:12px;
+	font-weight			:normal;
+}
+
+.related_item_price_old {
+	font-size			:14px;
+	font-weight			:normal;
+	text-decoration		:line-through;
+	margin				:0px 10px 0px 0px;
+	color				:#828282;
+}
+
+.related_stickers {
+    width				:80px;
+    position			:absolute;
+    top					:0px;
+    left				:0px;
+    z-index				:2;
+}
+
+.related_item_rub_discount {
+	font-size			:12px;
+	font-weight			:normal;
+}
+
+.related_item_buy {
+	display					:table-cell;
+	vertical-align			:middle;
+}
+
+.related_item_buy_button {
+	cursor					:pointer;
+	text-align				:center;
+	padding					:3px;
+	color					:#4C4C4C;
+	border					:1px solid #E8E8E8;
+	border-radius			:3px;
+}
+
+.related_item_buy_button:hover {
+	color					:#ffffff;
+	background				:#4C4C4C;
+	border					:1px solid #272727;
+}
+
+/* Адаптивность */
+
+@media screen and (max-width: 767px) {
+
+	.item_gallery {
+		text-align			:center;
+	}
+
+	.iter_shortdesc_container_padding {
+		padding				:0 0 10px;
+	}
+
+}
