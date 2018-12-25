@@ -15,5 +15,13 @@ $db_opt = array(
     PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
 );
 
+/*if(!isset($db))
+	$db = new PDO($db_dsn, $db_user, $db_password, $db_opt);*/
 if(!isset($db))
-	$db = new PDO($db_dsn, $db_user, $db_password, $db_opt);
+    try{
+        $db = new PDO($db_dsn, $db_user, $db_password, $db_opt);
+    }
+    catch(Exception $e){
+        echo $e->getMessage();
+        die;
+    }

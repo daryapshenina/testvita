@@ -2,7 +2,7 @@
 #cd %dockerfile_dir%
 #sudo docker build -t gibdd .
 
-#CID_GIBDD=$(docker run -d -p 8080:80 -p 221:22 -v /var/www/gibdd/test:/var/www gibdd) && docker inspect -format '{{ .NetworkSettings.IPAddress }}' ${CID_GIBDD}
+#CID_GIBDD=$(docker run -d -p 8080:80 -p 221:22 -v /var/www/gibdd/test:/var/www gibdd) && docker inspect -format '{{ .NetworkSetting5s.IPAddress }}' ${CID_GIBDD}
 
 #Получить IP адрес контейнера
 #docker inspect -format '{{ .NetworkSettings.IPAddress }}' ${CID_GIBDD}
@@ -38,8 +38,7 @@ RUN apt-get upgrade -qq
 RUN apt-get install -qqy build-essential libaio1
 RUN apt-get install -qqy nodejs
 RUN apt-get install -qqy nginx
-RUN apt-get install -qqy nginx
-RUN apt-get install -qqy sphinxsearch
+RUN apt-get install -qqy apache2
 RUN apt-get install -qqy mongodb-org
 RUN apt-get install -qqy mc nano curl wget
 RUN apt-get install -qqy subversion git mercurial
@@ -191,7 +190,8 @@ RUN apt-get install -y sudo \
 
 
 
-
+RUN ln -s /usr/share/phpmyadmin /var/www/html
+RUN mysqladmin -u root password 'root'
 # Adjust PostgreSQL configuration so that remote connections to the
 # database are possible.
 RUN echo "host all  all    0.0.0.0/0  md5" >> /etc/postgresql/$pgversion/main/pg_hba.conf

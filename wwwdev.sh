@@ -1,10 +1,7 @@
 #!/bin/bash
 
 start() {
-	service memcached start
-	service php5-fpm start
-	chmod 0666 /var/run/php5-fpm.sock
-	nginx
+sudo service apache2 start
 
 
 

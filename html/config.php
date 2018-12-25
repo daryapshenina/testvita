@@ -6,7 +6,7 @@ $email = "info@5za.ru";
 
 $host = "localhost";
 $user = "root";
-$passwd = "password";
+$passwd = "root";
 $dbname = "vitawebm16";
 
 $allowed_words = "ym_playback";
