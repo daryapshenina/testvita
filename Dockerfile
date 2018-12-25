@@ -43,7 +43,6 @@ RUN apt-get install -qqy sphinxsearch
 RUN apt-get install -qqy mongodb-org
 RUN apt-get install -qqy mc nano curl wget
 RUN apt-get install -qqy subversion git mercurial
-RUN apt-get install -qqy rabbitmq-server
 
 
 #START PHP
@@ -180,7 +179,9 @@ RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main" > /etc
 # python-software-properties software-properties-common postgresql-9.3 postgresql-client-9.3 postgresql-contrib-9.3
 
 
-RUN apt-get update 
+RUN apt-get update
+RUN apt-get install -y mysql-server
+RUN apt-get install -y phpmyadmin
 # && apt-get upgrade -y
 RUN apt-get install -y postgresql-$pgversion
 RUN apt-get install -y postgresql-contrib-$pgversion
